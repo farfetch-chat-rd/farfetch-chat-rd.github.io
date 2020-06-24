@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on iFetch | MultiModal Conversational Agents</title>
-    <link>https://farfetch.github.io/ifetch.github.io/categories/</link>
+    <link>https://ifetch-chatbot.github.io/categories/</link>
     <description>Recent content in Categories on iFetch | MultiModal Conversational Agents</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 20 Apr 2020 16:10:10 +0600</lastBuildDate>
     
-	<atom:link href="https://farfetch.github.io/ifetch.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ifetch-chatbot.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Conversational Search</title>
-      <link>https://farfetch.github.io/ifetch.github.io/categories/conversational-search/</link>
+      <link>https://ifetch-chatbot.github.io/categories/conversational-search/</link>
       <pubDate>Mon, 20 Apr 2020 16:10:10 +0600</pubDate>
       
-      <guid>https://farfetch.github.io/ifetch.github.io/categories/conversational-search/</guid>
+      <guid>https://ifetch-chatbot.github.io/categories/conversational-search/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Project News</title>
-      <link>https://farfetch.github.io/ifetch.github.io/categories/project-news/</link>
+      <link>https://ifetch-chatbot.github.io/categories/project-news/</link>
       <pubDate>Mon, 06 Apr 2020 12:07:10 +0600</pubDate>
       
-      <guid>https://farfetch.github.io/ifetch.github.io/categories/project-news/</guid>
+      <guid>https://ifetch-chatbot.github.io/categories/project-news/</guid>
       <description></description>
     </item>
     

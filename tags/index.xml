@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on iFetch | MultiModal Conversational Agents</title>
-    <link>https://farfetch.github.io/ifetch.github.io/tags/</link>
+    <link>https://ifetch-chatbot.github.io/tags/</link>
     <description>Recent content in Tags on iFetch | MultiModal Conversational Agents</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 20 Apr 2020 16:10:10 +0600</lastBuildDate>
     
-	<atom:link href="https://farfetch.github.io/ifetch.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ifetch-chatbot.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Blog</title>
-      <link>https://farfetch.github.io/ifetch.github.io/tags/blog/</link>
+      <link>https://ifetch-chatbot.github.io/tags/blog/</link>
       <pubDate>Mon, 20 Apr 2020 16:10:10 +0600</pubDate>
       
-      <guid>https://farfetch.github.io/ifetch.github.io/tags/blog/</guid>
+      <guid>https://ifetch-chatbot.github.io/tags/blog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Conference</title>
-      <link>https://farfetch.github.io/ifetch.github.io/tags/conference/</link>
+      <link>https://ifetch-chatbot.github.io/tags/conference/</link>
       <pubDate>Mon, 20 Apr 2020 16:10:10 +0600</pubDate>
       
-      <guid>https://farfetch.github.io/ifetch.github.io/tags/conference/</guid>
+      <guid>https://ifetch-chatbot.github.io/tags/conference/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Conversational Search</title>
-      <link>https://farfetch.github.io/ifetch.github.io/tags/conversational-search/</link>
+      <link>https://ifetch-chatbot.github.io/tags/conversational-search/</link>
       <pubDate>Mon, 20 Apr 2020 16:10:10 +0600</pubDate>
       
-      <guid>https://farfetch.github.io/ifetch.github.io/tags/conversational-search/</guid>
+      <guid>https://ifetch-chatbot.github.io/tags/conversational-search/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ECIR</title>
-      <link>https://farfetch.github.io/ifetch.github.io/tags/ecir/</link>
+      <link>https://ifetch-chatbot.github.io/tags/ecir/</link>
       <pubDate>Mon, 20 Apr 2020 16:10:10 +0600</pubDate>
       
-      <guid>https://farfetch.github.io/ifetch.github.io/tags/ecir/</guid>
+      <guid>https://ifetch-chatbot.github.io/tags/ecir/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Technology</title>
-      <link>https://farfetch.github.io/ifetch.github.io/tags/technology/</link>
+      <link>https://ifetch-chatbot.github.io/tags/technology/</link>
       <pubDate>Mon, 06 Apr 2020 12:07:10 +0600</pubDate>
       
-      <guid>https://farfetch.github.io/ifetch.github.io/tags/technology/</guid>
+      <guid>https://ifetch-chatbot.github.io/tags/technology/</guid>
       <description></description>
     </item>
     

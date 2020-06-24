@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Latest News on iFetch | MultiModal Conversational Agents</title>
-    <link>https://farfetch.github.io/ifetch.github.io/blog/</link>
+    <link>https://ifetch-chatbot.github.io/blog/</link>
     <description>Recent content in Latest News on iFetch | MultiModal Conversational Agents</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 20 Apr 2020 16:10:10 +0600</lastBuildDate>
     
-	<atom:link href="https://farfetch.github.io/ifetch.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ifetch-chatbot.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Participation in the Conversational Search Panel @ ECIR 2020</title>
-      <link>https://farfetch.github.io/ifetch.github.io/blog/blog-post-20200420/</link>
+      <link>https://ifetch-chatbot.github.io/blog/blog-post-20200420/</link>
       <pubDate>Mon, 20 Apr 2020 16:10:10 +0600</pubDate>
       
-      <guid>https://farfetch.github.io/ifetch.github.io/blog/blog-post-20200420/</guid>
+      <guid>https://ifetch-chatbot.github.io/blog/blog-post-20200420/</guid>
       <description>Last week we were part of the conversational search panel at the European Conference on Information Retrieval #ECIR2020!
 This was a remarkable experience! We have covered topics from the landscape of Information Retrieval (IR), how it can impact the user experience to user modelling.</description>
     </item>
     
     <item>
       <title>iFetch website</title>
-      <link>https://farfetch.github.io/ifetch.github.io/blog/blog-post-20200406/</link>
+      <link>https://ifetch-chatbot.github.io/blog/blog-post-20200406/</link>
       <pubDate>Mon, 06 Apr 2020 12:07:10 +0600</pubDate>
       
-      <guid>https://farfetch.github.io/ifetch.github.io/blog/blog-post-20200406/</guid>
+      <guid>https://ifetch-chatbot.github.io/blog/blog-post-20200406/</guid>
       <description>website project is live!</description>
     </item>
     
