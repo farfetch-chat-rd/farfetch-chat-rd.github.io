@@ -1,5 +1,5 @@
 ################################# Default configuration ###################
-baseURL = "https://farfetch.github.io/ifetch.github.io/"
+baseURL = "https://ifetch-chatbot.github.io/"
 title = "iFetch | MultiModal Conversational Agents"
 theme = "airspace"
 # post pagination
@@ -13,7 +13,7 @@ disableLanguages = []
 
 
 categories = ["Research"]
-project_url = "https://farfetch.github.io/ifetch.github.io/"
+project_url = "https://ifetch-chatbot.github.io/"
 # series = ["Go Web Dev"]
 slug = "iFetch"
 tags = ["Research", "Development", "conversational agents", "computer vision", "nlp"]
@@ -163,6 +163,6 @@ languageCode = "en-us"
 contentDir = "content/english"
 weight = 1
 home = "Home"
-image = "https://farfetch.github.io/ifetch.github.io/images/sponsor/sponsor.png"
+image = "https://ifetch-chatbot.github.io/images/sponsor/sponsor.png"
 # copyright
 # copyright = "Copyright &copy; 2019 [Themefisher](https://themefisher.com) All Rights Reserved"
