@@ -96,7 +96,7 @@ description = "iFetch | iFetch is a multimodal conversational agents for the onl
 author = "Farfetch"
 # Contact Information
 mobile = ""
-email = "demo@farfetch.com"
+email = "ifetch@farfetch.com"
 location = "Portugal"
 # contact form action
 contact_form_action = "#" # contact form works with : https://formspree.io
