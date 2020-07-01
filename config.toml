@@ -92,7 +92,7 @@ weight = 3
 [params]
 logo = "images/logo.png"
 # Meta data
-description = "iFetch | iFetch is a multimodal conversational agents for the online fashion marketplace. Co-promotion initiative with CMU, UNL and IST. "
+description = "iFetch | iFetch is a multimodal conversational agents for the online fashion marketplace. Co-promotion initiative with CMU, UNL and IST."
 author = "Farfetch"
 # Contact Information
 mobile = ""
@@ -165,4 +165,4 @@ weight = 1
 home = "Home"
 image = "https://ifetch-chatbot.github.io/images/sponsor/sponsor.png"
 # copyright
-# copyright = "Copyright &copy; 2019 [Themefisher](https://themefisher.com) All Rights Reserved"
+copyright = "Copyright &copy; 2019 [Themefisher](https://themefisher.com) All Rights Reserved"
