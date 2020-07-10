@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; 2019 [Themefisher](https://themefisher.com) All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 02 Jul 2020 07:20:10 +0600</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jul 2020 21:15:00 +0100</lastBuildDate>
     
 	<atom:link href="https://ifetch-chatbot.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,9 +15,27 @@
     <item>
       <title>Blog</title>
       <link>https://ifetch-chatbot.github.io/tags/blog/</link>
-      <pubDate>Thu, 02 Jul 2020 07:20:10 +0600</pubDate>
+      <pubDate>Fri, 10 Jul 2020 21:15:00 +0100</pubDate>
       
       <guid>https://ifetch-chatbot.github.io/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conversational Search</title>
+      <link>https://ifetch-chatbot.github.io/tags/conversational-search/</link>
+      <pubDate>Fri, 10 Jul 2020 21:15:00 +0100</pubDate>
+      
+      <guid>https://ifetch-chatbot.github.io/tags/conversational-search/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scholarships</title>
+      <link>https://ifetch-chatbot.github.io/tags/scholarships/</link>
+      <pubDate>Fri, 10 Jul 2020 21:15:00 +0100</pubDate>
+      
+      <guid>https://ifetch-chatbot.github.io/tags/scholarships/</guid>
       <description></description>
     </item>
     
@@ -27,15 +45,6 @@
       <pubDate>Thu, 02 Jul 2020 07:20:10 +0600</pubDate>
       
       <guid>https://ifetch-chatbot.github.io/tags/computer-vision/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Conversational Search</title>
-      <link>https://ifetch-chatbot.github.io/tags/conversational-search/</link>
-      <pubDate>Thu, 02 Jul 2020 07:20:10 +0600</pubDate>
-      
-      <guid>https://ifetch-chatbot.github.io/tags/conversational-search/</guid>
       <description></description>
     </item>
     
