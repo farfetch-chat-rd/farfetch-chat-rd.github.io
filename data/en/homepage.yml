@@ -40,6 +40,37 @@ portfolio:
   #   link : "project"
 
 
+################################ feature #####################################
+features:
+  enable : true
+  title : "THE CONSORTIUM"
+
+  feature_item:
+    # feature item loop
+    - image : "images/cmu.png"
+      name : ""
+      content : ""
+
+    # feature item loop
+    - image : "images/ist.png"
+      name : ""
+      content : ""
+
+    # feature item loop
+    - image : "images/unl.png"
+      name : ""
+      content : ""
+
+    # feature item loop
+    - icon : ""
+      name : ""
+      content : ""
+
+    # feature item loop
+    - image : "images/farfetch.png"
+      name : ""
+      content : ""
+
 # ############################# Service ############################
 # service:
 #   enable : true
