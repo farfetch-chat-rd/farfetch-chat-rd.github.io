@@ -1,0 +1,28 @@
+{{ define "main" }}
+
+{{ partial "page-title.html" . }}
+
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+<!--
+ -->
+<!-- {{ if $data.data.data.enable }} -->
+<!--
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+</section> -->
+
+
+<!-- Call to action -->
+{{ if $data.about.cta.enable }}
+{{ partial "cta.html" . }}
+{{ end }}
+<!-- /Call to action -->
+
+{{ end }}

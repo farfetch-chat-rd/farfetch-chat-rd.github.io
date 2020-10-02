@@ -49,7 +49,7 @@ link = "plugins/google-map/gmap.js"
 
 # main menu
 [[menu.main]]
-name = "About"
+name = "VISION"
 URL = "about"
 weight = 1
 
@@ -78,13 +78,23 @@ weight = 2
 #  name = "FAQ"
 #  URL = "faq"
 
-#  [[menu.main]]
-#  parent = "Pages"
-#  name = "Pricing"
-#  URL = "pricing"
+ [[menu.main]]
+ parent = "Downloads"
+ name = "Data"
+ URL = "data"
+
+ [[menu.main]]
+ parent = "Downloads"
+ name = "Papers"
+ URL = "papers"
+
+ [[menu.main]]
+ parent = "Downloads"
+ name = "Software"
+ URL = "software"
 
 [[menu.main]]
-name = "Contact"
+name = "PARTNERS"
 URL = "contact"
 weight = 3
 
@@ -130,29 +140,29 @@ link = "contact"
 
 
 ############################# social site ########################
-[[params.social]]
-icon = "ion-social-googleplus-outline" #ionicon pack v2 : https://ionicons.com/v2/
-link = "#"
-
-[[params.social]]
-icon = "ion-social-linkedin-outline" #ionicon pack v2 : https://ionicons.com/v2/
-link = "#"
-
-[[params.social]]
-icon = "ion-social-pinterest-outline" #ionicon pack v2 : https://ionicons.com/v2/
-link = "#"
-
-[[params.social]]
-icon = "ion-social-dribbble-outline" #ionicon pack v2 : https://ionicons.com/v2/
-link = "#"
-
-[[params.social]]
-icon = "ion-social-twitter-outline" #ionicon pack v2 : https://ionicons.com/v2/
-link = "#"
-
-[[params.social]]
-icon = "ion-social-facebook-outline" #ionicon pack v2 : https://ionicons.com/v2/
-link = "#"
+# [[params.social]]
+# icon = "ion-social-googleplus-outline" #ionicon pack v2 : https://ionicons.com/v2/
+# link = "#"
+#
+# [[params.social]]
+# icon = "ion-social-linkedin-outline" #ionicon pack v2 : https://ionicons.com/v2/
+# link = "#"
+#
+# [[params.social]]
+# icon = "ion-social-pinterest-outline" #ionicon pack v2 : https://ionicons.com/v2/
+# link = "#"
+#
+# [[params.social]]
+# icon = "ion-social-dribbble-outline" #ionicon pack v2 : https://ionicons.com/v2/
+# link = "#"
+#
+# [[params.social]]
+# icon = "ion-social-twitter-outline" #ionicon pack v2 : https://ionicons.com/v2/
+# link = "#"
+#
+# [[params.social]]
+# icon = "ion-social-facebook-outline" #ionicon pack v2 : https://ionicons.com/v2/
+# link = "#"
 
 
 
