@@ -43,40 +43,37 @@ about:
   #     name : "Awards Winner"
   #     count : "20"
 #
-# ################################ feature #####################################
-# features:
-#   enable : true
-#   title : "We are indepented Design & Development Agency"
-#   feature_item:
-#     # feature item loop
-#     - icon : "ion-ios-color-filter-outline" #ionicon pack v2 : https://ionicons.com/v2/
-#       name : "IOS App Development"
-#       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
-#
-#     # feature item loop
-#     - icon : "ion-ios-unlocked-outline" #ionicon pack v2 : https://ionicons.com/v2/
-#       name : "App Secutity"
-#       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
-#
-#     # feature item loop
-#     - icon : "ion-ios-game-controller-b-outline" #ionicon pack v2 : https://ionicons.com/v2/
-#       name : "Games Development"
-#       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
-#
-#     # feature item loop
-#     - icon : "ion-ios-mic-outline" #ionicon pack v2 : https://ionicons.com/v2/
-#       name : "Animation and Editing"
-#       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
-#
-#     # feature item loop
-#     - icon : "ion-ios-lightbulb-outline" #ionicon pack v2 : https://ionicons.com/v2/
-#       name : "UI/UX Design"
-#       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
-#
-#     # feature item loop
-#     - icon : "ion-ios-star-outline" #ionicon pack v2 : https://ionicons.com/v2/
-#       name : "Branding"
-#       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+################################ feature #####################################
+features:
+  enable : true
+  title : "THE CONSORTIUM"
+
+  feature_item:
+    # feature item loop
+    - image : "images/cmu.png"
+      name : ""
+      content : ""
+
+    # feature item loop
+    - image : "images/ist.png"
+      name : ""
+      content : ""
+
+    # feature item loop
+    - image : "images/unl.png"
+      name : ""
+      content : ""
+
+    # feature item loop
+    - icon : ""
+      name : ""
+      content : ""
+
+
+    # feature item loop
+    - image : "images/farfetch.png"
+      name : ""
+      content : ""
 
 #
 # #################################### testimonial & mission vision #######################################

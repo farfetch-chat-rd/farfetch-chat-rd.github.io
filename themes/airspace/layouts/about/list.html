@@ -57,7 +57,7 @@
       {{ range .feature_item }}
       <div class="col-md-4">
         <div class="service-item">
-          <i class="{{ .icon }}"></i>
+          <img src="{{ .image | relURL }}" alt="logo" onerror="this.style.display='none'"/>  
           <h4>{{ .name | markdownify }}</h4>
           <p>{{ .content | markdownify }}</p>
         </div>
