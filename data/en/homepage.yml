@@ -18,13 +18,13 @@ about:
                   iFetch will leverage Farfetch’s unique and rich product knowledge base, massive (multimodal)
                   training data and experience in deploying and maintaining large AI systems ensuring a successful research program."
   content : ""
-  image : "images/wrapper-img.png"
+  image : "images/project-600px.png"
 
 
 ######################### Portfolio ###############################
 portfolio:
   enable : true
-  bg_image : "images/featue-bg3.jpg"
+  bg_image : "images/ambition.png"
   title : "OUR AMBITION"
   content : "
   **iFetch** ambition is to research conversational technology and algorithms that will make an impact. We are addressing two critical challenges with high-impact:
