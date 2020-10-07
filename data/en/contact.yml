@@ -1,0 +1,45 @@
+################################## About #####################################
+contact:
+  enable : true
+  image : "images/company/about.jpg"
+  title : "In the near future most of the interaction between large organizations and their users will be mediated by AI agents."
+  content : "This perception is becoming undisputed as online shopping is dominating entire market segments and the new \"digitally-native\" generations become consumers.
+
+            **iFetch** proposes to research and deliver a new generation of task-oriented conversational agents that interact with users using verbal and visual information in a seamless manner. Through the conversation, iFetch must provide targeted advice and “physical store-like” experience while maintaining user engagement."
+
+################################ feature #####################################
+features:
+  enable : true
+  title : "THE CONSORTIUM"
+
+  feature_item:
+    # feature item loop
+    - image : "images/cmu.png"
+      name : ""
+      content : ""
+
+    # feature item loop
+    - image : "images/ist.png"
+      name : ""
+      content : ""
+
+    # feature item loop
+    - image : "images/unl.png"
+      name : ""
+      content : ""
+
+    # feature item loop
+    - icon : ""
+      name : ""
+      content : ""
+
+
+    # feature item loop
+    - image : "images/farfetch.png"
+      name : ""
+      content : ""
+
+############################# call to action #################################
+# cta:
+#   enable : true
+  # call to action content comes from "data/*/homepage.yml"

@@ -4,6 +4,37 @@
 
 {{ $data := index .Site.Data .Site.Language.Lang }}
 
+
+{{ if $data.contact.features.enable }}
+{{ with $data.contact.features }}
+<section class="about-feature bg-dark section dark-service">
+  <div class="container">
+    {{ with .title }}
+    <div class="row">
+      <div class="col-md-12">
+        <div class="title">
+          <h2>{{ . | markdownify }}</h2>
+        </div>
+      </div>
+    </div>
+    {{ end }}
+    <div class="row">
+      {{ range .feature_item }}
+      <div class="col-md-4">
+        <div class="service-item">
+          <img src="{{ .image | relURL }}" alt="logo" onerror="this.style.display='none'"/>
+          <h4>{{ .name | markdownify }}</h4>
+          <p>{{ .content | markdownify }}</p>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+
 <section class="contact-form">
   <div class="container">
     <div class="row">
