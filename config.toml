@@ -68,30 +68,39 @@ name = "Blog"
 URL = "blog"
 weight = 2
 
-#[[menu.main]]
-#weight = 5
-#name = "Pages"
-#hasChildren = true
+##################################################################
+[[menu.main]]
+weight = 5
+name = "Pages"
+hasChildren = true
 
-# [[menu.main]]
-#  parent = "Pages"
-#  name = "FAQ"
-#  URL = "faq"
+[[menu.main]]
+ parent = "Pages"
+ name = "FAQ"
+ URL = "faq"
+
+ ##################################################################
+ [[menu.main]]
+ weight = 6
+ name = "Downloads"
+ hasChildren = true
 
  [[menu.main]]
  parent = "Downloads"
- name = "Data"
+ name = "DATA"
  URL = "data"
 
  [[menu.main]]
  parent = "Downloads"
- name = "Papers"
+ name = "PAPERS"
  URL = "papers"
 
  [[menu.main]]
  parent = "Downloads"
- name = "Software"
+ name = "SOFTWARE"
  URL = "software"
+
+ ##################################################################
 
 [[menu.main]]
 name = "PARTNERS"
