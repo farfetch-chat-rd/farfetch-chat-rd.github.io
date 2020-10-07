@@ -1,8 +1,0 @@
-################################ software ################################
-papers:
-  enable : true
-
-############################# call to action #################################
-cta:
-  enable : true
-  # call to action content comes from "data/*/homepage.yml"
