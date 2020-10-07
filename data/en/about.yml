@@ -7,42 +7,6 @@ about:
 
             **iFetch** proposes to research and deliver a new generation of task-oriented conversational agents that interact with users using verbal and visual information in a seamless manner. Through the conversation, iFetch must provide targeted advice and “physical store-like” experience while maintaining user engagement."
 
-  # button:
-  #   enable : true
-  #   label : "Download Company Profile"
-  #   link : "#"
-  #
-  # funfacts:
-  #   # funfacts loop
-  #   - icon : "ion-ios-flask-outline" #ionicon pack v2 : https://ionicons.com/v2/
-  #     name : "Completed Projects"
-  #     count : "349"
-  #
-  #   # funfacts loop
-  #   - icon : "ion-ios-flame-outline" #ionicon pack v2 : https://ionicons.com/v2/
-  #     name : "Lines Of Code"
-  #     count : "35000"
-  #
-  #   # funfacts loop
-  #   - icon : "ion-ios-pint-outline" #ionicon pack v2 : https://ionicons.com/v2/
-  #     name : "Satisfied Customer"
-  #     count : "70"
-  #
-  #   # funfacts loop
-  #   - icon : "ion-ios-wineglass-outline" #ionicon pack v2 : https://ionicons.com/v2/
-  #     name : "Awards Winner"
-  #     count : "10"
-  #
-  #   # funfacts loop
-  #   - icon : "ion-ios-chatboxes-outline" #ionicon pack v2 : https://ionicons.com/v2/
-  #     name : "Satisfied Customer"
-  #     count : "75"
-  #
-  #   # funfacts loop
-  #   - icon : "ion-ios-body-outline" #ionicon pack v2 : https://ionicons.com/v2/
-  #     name : "Awards Winner"
-  #     count : "20"
-#
 ################################ feature #####################################
 features:
   enable : true
