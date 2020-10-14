@@ -182,6 +182,6 @@ languageCode = "en-us"
 contentDir = "content/english"
 weight = 1
 home = "Home"
-image = "https://ifetch-chatbot.github.io/images/sponsor/sponsor.png"
+image = "images/sponsor/sponsor.png"
 # copyright
 copyright = "Copyright &copy; 2019 [Themefisher](https://themefisher.com) All Rights Reserved"
