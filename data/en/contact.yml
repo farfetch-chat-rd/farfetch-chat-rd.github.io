@@ -7,6 +7,53 @@ contact:
 
             **iFetch** proposes to research and deliver a new generation of task-oriented conversational agents that interact with users using verbal and visual information in a seamless manner. Through the conversation, iFetch must provide targeted advice and “physical store-like” experience while maintaining user engagement."
 
+################################ partners #####################################
+partners:
+  enable: true
+  title: "Team Description"
+
+  partner_item:
+    # feature item loop
+    - image : "images/cmu-color.png"
+      name : "Carnegie Mellon University"
+      content : "
+      **Carnegie Mellon University (CMU)** is a global research university with more than 100 research centres and institutes, addressing a broad range of interests and industries. The Language Technologies Institute (LTI) is a division of the School of Computer Science faculty at CMU in Pittsburgh, Pennsylvania, United States, and focuses on the area of language together with multimedia technologies. LTI was established in 1986 and until 1996, the institute existed as the Center for Machine Translation. Subsequently, from 1996 onwards, it started awarding degrees and the name was changed to The Language Technologies Institute. LTI’s mission is to perform ground-breaking research that will change how everyone interacts in the world. Its dedicated resources focus on the investigation of more than 20 primary areas of language technologies such as Natural Language Processing, Computational Linguistics, Information Extraction, Summarization & Question Answering, Information Retrieval, Text Mining & Analytics, Knowledge Representation, Reasoning & Acquisition, Language Technologies for Education, Machine Learning, Machine Translation, Multimodal Computing and Interaction, Speech Processing, and Spoken Interfaces & Dialogue Processing.
+      "
+
+    - image: "images/unl-color.png"
+      name : "Universidade Nova de Lisboa"
+      content: "
+      The **Universidade Nova de Lisboa (NOVA)** hosts nine schools, including the Faculty of Sciences and Technology (FCT NOVA). FCT NOVA is a major science and engineering school in Portugal, hosting 8000 undergraduate students, 600 PhD students, and 500 faculty (see (http://www.fct.unl.pt/en). Between 2007 and 2014 FCT NOVA participated as partner or coordinator in more than 70 FP7 projects, and hosts 6 ERC Grants. FCT NOVA participation in this application is led by the Multimodal Systems research group, part of the NOVA Laboratory for Computer Science and Informatics, hosted at the Department of Informatics, FCT NOVA.
+
+
+      **NOVA-LINCS**
+      NOVA LINCS is a recently (2014) launched unit of the Portuguese Science & Technology network, awarded a top-ranking grade of “Excellent” in the field of Computer Science and Engineering by the last FCT evaluation exercise. NOVA LINCS currently engages 31 faculty, 5 postdocs, and 66 PhD students and is associated to FCT NOVA’s Computer Science and Informatics Department, a leading research and academic department in Portugal. NOVA LINCS mission is to develop cutting edge scientific research in key areas of Computer Science and Informatics, in cooperation with the international research community; knowledge and technology user communities; and local academic/industrial partners and other public institutions.
+
+
+      **NOVA-LINCS Multimodal Systems Group**
+      With 11 researchers and more than 20 PhD students the Multimodal Systems research group (http://nova-lincs.di.fct.unl.pt/research/multimodal-systems) is focused in methods and tools “to create, access, and interact with all forms of digital content in any device or scenario”. We work on algorithms to “model, analyse, and visualise vast amounts of data from which to extract more value, to make an intelligent use of data coming from different sources”. The multimodal systems group targets three areas of activity in digital content information access and interaction:
+      Multimodal and natural computer interaction: This line of research pursues novel interaction mechanisms based on computer vision (e.g., gestures), surface devices and other mechanical devices to augment user interaction. We also research methods to assess user behaviour to enrich the feedback provided to users.
+
+
+
+      *Multimedia information retrieval*: this line of research targets search over diverse information sources and the scalability of large-scale multimedia information retrieval systems. More specifically, we research information analysis algorithms over multiple information sources, and algorithms to effectively index multimedia information.
+      Tools for creative, media and health industry: This line of research is focused in bridging the research conducted in the above topics with real world problems. This interaction goes both ways: the principled methods, tools and algorithms are turned into prototypes to provide solutions, and the research for novel principled methods are also inspired by problems arising from this interaction with the society.
+      The group publishes at major conferences and journals such as ACM Multimedia, IFIP Interact, ACM CIVR, ACM CHI, ACE, MobileHCI, ACM ITS, Computer & Graphics, Multimedia Tools and Applications, ACM Transactions on Information Systems and Multimedia Systems journal.
+      Participation in relevant projects: VideoFlow (industry collaboration), ImTV (collaboration with industry and the University of Texas at Austin), ARIA (assisted reading and learning for the aging), TKB (dance learning), DEAP (environmental education) and InStory (monuments tourist).
+      "
+
+    - image: "images/ist-color.png"
+      name : "Instituto Superior Tecnico"
+      content: "
+      **Instituto Superior Técnico** (IST, https://tecnico.ulisboa.pt/en/), founded in 1911 is a premium engineering, science, and technology school in Portugal, part of the Univ. Lisbon, Portugal since 2013. IST integrates competences from all fields of engineering and fundamental sciences. IST is home to 11,500 students and 853 faculty members, a member of the CLUSTER Network of leading universities of science and technology in Europe. IST offers doctoral degrees with MIT, Univ. Texas at Austin, and dual degrees with Carnegie Mellon University and EPFL. IST in turn hosts the Institute for Systems and Robotics (ISR/IST) a Center of Excellence that promotes advanced multidisciplinary R&D in the areas of image processing, computer vision, autonomous systems and biomedical engineering, with a strong emphasis on experimental field work. The Institute for Systems and Robotics (ISR/IST - http://www.isr.ist.utl.pt ) is one of IST’s R&D units, home to more than 40 PhDs and part of the LARSyS (Laboratory for Robotics and Engineering Systems - http://www.larsys.pt) rated “Excellent” in the last FCT national evaluation. ISR/IST develops advanced multidisciplinary research in the areas of Robotic Systems and Information Processing. The team participating in iFetch belongs to the Signal and Image Processing group (SIPg) and has expertise in large scale optimization, computer vision and machine learning. In the last 5 years the SIPg alone graduated 25 PhD’s 12 of them with dual degrees with CMU, merited with 2 A.G. Milnes Awards for the Best ECE Thesis, one IBM-Portugal Science Prize and the Young Author Best Paper Award 2015 of the IEEE Signal Proc. Society. As a result of joint research ISR/IST holds one US patent (US 9361695 B2) with Honda and CMU in visual recognition and another one under review.
+      "
+    - image: "images/farfetch-color.png"
+      name : "Farfetch"
+      content: "
+      **Farfetch Group** is redefining how consumers engage with luxury fashion by facilitating the discovery of new brands, providing tools to allow consumers to find the items they are looking for, providing a unique and personalized experience based on a deep understanding of its consumers and globally inspiring lovers of fashion around the world. Farfetch Portugal (hereinafter referred to as “Farfetch” or “Company”) is part of Farfetch Group and develops, in national territory, among others and in accordance with the globally defined policies, maintenance and support services to the technology platform, concentrating also the back office services, namely in the financial and human resources aspects. Those services are accordingly rendered and
+      invoiced to Farfetch UK Limited, its Parent company, located in the UK."
+
+
 ################################ feature #####################################
 features:
   enable : true
@@ -42,4 +89,4 @@ features:
 ############################# call to action #################################
 # cta:
 #   enable : true
-  # call to action content comes from "data/*/homepage.yml"
+# call to action content comes from "data/*/homepage.yml"

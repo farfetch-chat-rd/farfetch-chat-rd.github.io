@@ -4,6 +4,33 @@
 
 {{ $data := index .Site.Data .Site.Language.Lang }}
 
+{{ if $data.contact.partners.enable }}
+{{ with $data.contact.partners }}
+<section class="page-wrapper">
+
+  {{ range .partner_item }}
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h2>{{ .name }}</h2>
+        <p align="center">
+        <img src="{{ .image | relURL }}" alt="logo" onerror="this.style.display='none'"/>
+        </p>
+      </div>
+      <div class="col-md-8">
+        <p>{{ .content | markdownify }}</p>
+        <hr/>
+      </div>
+    </div>
+  </div>
+
+  {{ end }}
+
+</section>
+{{ end }}
+{{ end }}
+
 
 {{ if $data.contact.features.enable }}
 {{ with $data.contact.features }}
