@@ -1,5 +1,5 @@
 ---
-title: "Papers"
+title: "Publications"
 description: ""
 date: 2020-10-15T13:05:29+06:00
 draft: false
