@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; 2019 [Themefisher](https://themefisher.com) All Rights Reserved</copyright>
-    <lastBuildDate>Fri, 02 Oct 2020 11:23:05 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2020 10:45:05 +0100</lastBuildDate>
     
 	<atom:link href="https://ifetch-chatbot.github.io/tags/conference/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>New Publication at ACM MM 2020</title>
+      <link>https://ifetch-chatbot.github.io/blog/blog-post-20201022/</link>
+      <pubDate>Thu, 22 Oct 2020 10:45:05 +0100</pubDate>
+      
+      <guid>https://ifetch-chatbot.github.io/blog/blog-post-20201022/</guid>
+      <description>We are happy to announce that our recent publication is now available at ACM digital library.
+Title: Adaptive temporal triplet-loss for cross-modal embedding learning.
+Abstract: &amp;ldquo;There are many domains where the temporal dimension is critical to unveil how different modalities, such as images and texts, are correlated.</description>
+    </item>
     
     <item>
       <title>Multimodal Conversational AI - ACM Multimedia 2020 workshop</title>
