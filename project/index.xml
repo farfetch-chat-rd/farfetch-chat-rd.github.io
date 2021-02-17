@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Our Project on iFetch | MultiModal Conversational Agents</title>
+    <link>https://ifetch-chatbot.github.io/project/</link>
+    <description>Recent content in Our Project on iFetch | MultiModal Conversational Agents</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; 2019 [Themefisher](https://themefisher.com) All Rights Reserved</copyright><atom:link href="https://ifetch-chatbot.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project Information</title>
+      <link>https://ifetch-chatbot.github.io/project/info/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ifetch-chatbot.github.io/project/info/</guid>
+      <description>Project Information iFetch proposes to research and deliver a new generation of task-oriented conversational agents that interact with users using verbal and visual information in a seamless manner. Through the conversation, iFetch must provide targeted advice and &amp;ldquo;physical store-like&amp;rdquo; experience while maintaining user engagement.</description>
+    </item>
+    
+  </channel>
+</rss>
