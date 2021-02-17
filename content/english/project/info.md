@@ -1,6 +1,6 @@
 ---
 title: "Project Information"
-description: ""
+description: "Acknowledgements"
 draft: false
 image : "images/portfolio/info.png"
 bg_image: "images/featue-bg.jpg"
