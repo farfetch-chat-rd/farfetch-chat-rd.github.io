@@ -2,15 +2,31 @@
 title: "Project Information"
 description: "Acknowledgements"
 draft: false
-image : "images/portfolio/info_full.png"
+image : "images/sponsors_announcement.png"
 bg_image: "images/featue-bg.jpg"
 category: "info"
 information:
   - label : "Portfolio"
     info : "Website"
+  - label: "Project designation" 
+    info: "iFetch - Multimodal conversational agents for the online fashion marketplace"
+  - label : "Project Code"
+    info: "POCI-01-0247-FEDER-045920"
+  - label : "Intervention region"
+    info: "NUTS II Norte"
+  - label : "Beneficiary entity"
+    info : "Farfetch Portugal - Unipessoal Lda."
+  - label : "Start date"
+    info :  "01-04-2020"
+  - label : "End date"    
+    info : "30-06-2023"
+  - label : "Total eligible cost"    
+    info : "1.725.620,44 EUR"
+  - label : "European Union financial support"
+    info : "FEDER – 823.496,59 EUR"
 ---
 
-## Project Information
+## Objectives 
 
 [iFetch](images/portfolio/ifetch_info.pdf) proposes to research and deliver a new generation of task-oriented conversational agents that
 interact with users using verbal and visual information in a seamless manner. Through the conversation,
@@ -19,6 +35,6 @@ engagement.
 
 This entails the following key components:
 
-1. Disrupt the E-Commerce High-End Fashion Marketplace
-1. Foundations for a Communication, Education and Knowledge Network
-1. Scientific Breakthroughs on Multimodal Conversational AI Agents
+- Disrupt the E-Commerce High-End Fashion Marketplace
+- Foundations for a Communication, Education and Knowledge Network
+- Scientific Breakthroughs on Multimodal Conversational AI Agents
