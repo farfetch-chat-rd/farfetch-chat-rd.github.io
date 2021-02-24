@@ -2,7 +2,7 @@
 title: "Project Information"
 description: "Acknowledgements"
 draft: false
-image : "images/portfolio/info.png"
+image : "images/portfolio/info_full.png"
 bg_image: "images/featue-bg.jpg"
 category: "info"
 information:
