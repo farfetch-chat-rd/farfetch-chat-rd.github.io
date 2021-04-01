@@ -58,10 +58,24 @@ name = "Project"
 URL = "project"
 weight = 2
 
-#[[menu.main]]
-#name = "Service"
-#URL = "service"
-#weight = 3
+##################################################################
+
+[[menu.main]]
+parent="Project"
+name = "Project Portfolio"
+URL = "project"
+
+[[menu.main]]
+parent="Project"
+name = "Overview"
+URL = "overview"
+
+[[menu.main]]
+parent="Project"
+name = "Use Cases"
+URL = "usecases"
+
+##################################################################
 
 [[menu.main]]
 name = "Blog"

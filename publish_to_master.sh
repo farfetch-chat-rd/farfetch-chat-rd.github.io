@@ -22,5 +22,5 @@ echo "Generating site"
 hugo
 
 echo "Updating gh-pages branch"
-cd public && git add --all && git commit -m "feat: Publishing to master."
+cd public && git add --all && git commit -m "feat: Publishing to master: PR #16"
 
