@@ -19,6 +19,8 @@ The challenge addressed by iFetch is to mimic a fashion specialist that understa
 
 ![Early Preview](/images/ifetch-preview.png)
 
+Figure: An early version of the iFetch visualizer.
+
 
 For an e-commerce marketplace, task-oriented multimodal conversational agents (MCA) have the potential to make a groundbreaking shift in the way users do their online shopping.
 
