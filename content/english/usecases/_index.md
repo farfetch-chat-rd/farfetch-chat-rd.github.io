@@ -154,7 +154,7 @@ In a nutshell:
 To support our customers throughout their journey and allow them to access a reliable set of products that most resembles their tastes, one surveys their preferences such as:
 
 1. *Designers that the customer is more interested in based on their style;*
-2. *Fashion colour, based not only on yearly trend reports but as well as customer usage frequency;*
+2. *Fashion colour, based not only on yearly [trend reports](https://www.pantone.com/articles/fashion-color-trend-report/new-york-fashion-week-spring-summer-2021) but as well as customer usage frequency;*
 3. *Information regarding sizes and fitting styles.*
 
 
