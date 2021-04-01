@@ -7,13 +7,31 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; 2019 [Themefisher](https://themefisher.com) All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 22 Oct 2020 10:45:05 +0100</lastBuildDate><atom:link href="https://ifetch-chatbot.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Apr 2021 10:45:05 +0100</lastBuildDate><atom:link href="https://ifetch-chatbot.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blog</title>
       <link>https://ifetch-chatbot.github.io/tags/blog/</link>
-      <pubDate>Thu, 22 Oct 2020 10:45:05 +0100</pubDate>
+      <pubDate>Thu, 01 Apr 2021 10:45:05 +0100</pubDate>
       
       <guid>https://ifetch-chatbot.github.io/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conversational Commerce</title>
+      <link>https://ifetch-chatbot.github.io/tags/conversational-commerce/</link>
+      <pubDate>Thu, 01 Apr 2021 10:45:05 +0100</pubDate>
+      
+      <guid>https://ifetch-chatbot.github.io/tags/conversational-commerce/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Summer School</title>
+      <link>https://ifetch-chatbot.github.io/tags/summer-school/</link>
+      <pubDate>Thu, 01 Apr 2021 10:45:05 +0100</pubDate>
+      
+      <guid>https://ifetch-chatbot.github.io/tags/summer-school/</guid>
       <description></description>
     </item>
     
@@ -23,15 +41,6 @@
       <pubDate>Thu, 22 Oct 2020 10:45:05 +0100</pubDate>
       
       <guid>https://ifetch-chatbot.github.io/tags/conference/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Conversational Commerce</title>
-      <link>https://ifetch-chatbot.github.io/tags/conversational-commerce/</link>
-      <pubDate>Thu, 22 Oct 2020 10:45:05 +0100</pubDate>
-      
-      <guid>https://ifetch-chatbot.github.io/tags/conversational-commerce/</guid>
       <description></description>
     </item>
     

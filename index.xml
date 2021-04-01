@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; 2019 [Themefisher](https://themefisher.com) All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 22 Oct 2020 10:45:05 +0100</lastBuildDate><atom:link href="https://ifetch-chatbot.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Apr 2021 10:45:05 +0100</lastBuildDate><atom:link href="https://ifetch-chatbot.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FARFETCH is Sponsor of VISUM Summer School</title>
+      <link>https://ifetch-chatbot.github.io/blog/blog-post-20210401/</link>
+      <pubDate>Thu, 01 Apr 2021 10:45:05 +0100</pubDate>
+      
+      <guid>https://ifetch-chatbot.github.io/blog/blog-post-20210401/</guid>
+      <description>FARFETCH is sponsoring VISUM summer school. iFetch team is happy to take part in this initiate by proposing a new project under the umbrella of information retrieval (with application on conversational agents) that VISUM applicants will need to address throughout the summer school.</description>
+    </item>
+    
     <item>
       <title>New Publication at ACM MM 2020</title>
       <link>https://ifetch-chatbot.github.io/blog/blog-post-20201022/</link>
@@ -30,7 +39,7 @@ Conversational agents are now becoming a commodity as a number of companies push
     </item>
     
     <item>
-      <title>New Job Offer @ Applied Scientist Lead</title>
+      <title>New Job Offer @ Senior Applied Scientist</title>
       <link>https://ifetch-chatbot.github.io/blog/blog-post-20200713/</link>
       <pubDate>Mon, 13 Jul 2020 22:20:10 +0600</pubDate>
       
