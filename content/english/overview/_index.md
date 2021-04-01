@@ -14,12 +14,11 @@ So it is without surprise that scaling up FARFETCH business to our ambition whil
 
 We are currently witnessing an enormous paradigm shift from the traditional search and click search thanks to conversational assistants in online shopping and other social media-related tasks, especially in the younger generations. WeChat, the largest social network in China, and WhatsApp, now a core service in Facebook, are the most clear signals of this paradigm shift by closing the gap between consumers and brands.
 
-The challenge addressed by iFetch is to mimic a fashion specialist that understands the customer needs and provides fashion advice leveraging the vast textual and visual data together with knowledge accumulated by past experiences with a massive number of users. Our vision is to make a step-change in the online high-fashion marketplace by advancing conversational AI technology with multimodal capabilities, see Figure below.
+The challenge addressed by iFetch is to mimic a fashion specialist that understands the customer needs and provides fashion advice leveraging the vast textual and visual data together with knowledge accumulated by past experiences with a massive number of users. Our vision is to make a step-change in the online high-fashion marketplace by advancing conversational AI technology with multimodal capabilities, see Figure below of a mockup.
 
+![iFetch mockup](/images/project-300px.png)
 
-![Early Preview](/images/ifetch-preview.png)
-
-Figure: An early version of the iFetch visualizer.
+Figure: A mockup version of iFetch.
 
 
 For an e-commerce marketplace, task-oriented multimodal conversational agents (MCA) have the potential to make a groundbreaking shift in the way users do their online shopping.
