@@ -7,13 +7,67 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; 2019 [Themefisher](https://themefisher.com) All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 01 Apr 2021 10:45:05 +0100</lastBuildDate><atom:link href="https://ifetch-chatbot.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Apr 2021 15:00:05 +0100</lastBuildDate><atom:link href="https://ifetch-chatbot.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Answer Generation</title>
+      <link>https://ifetch-chatbot.github.io/tags/answer-generation/</link>
+      <pubDate>Tue, 27 Apr 2021 15:00:05 +0100</pubDate>
+      
+      <guid>https://ifetch-chatbot.github.io/tags/answer-generation/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Blog</title>
       <link>https://ifetch-chatbot.github.io/tags/blog/</link>
-      <pubDate>Thu, 01 Apr 2021 10:45:05 +0100</pubDate>
+      <pubDate>Tue, 27 Apr 2021 15:00:05 +0100</pubDate>
       
       <guid>https://ifetch-chatbot.github.io/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conference</title>
+      <link>https://ifetch-chatbot.github.io/tags/conference/</link>
+      <pubDate>Tue, 27 Apr 2021 15:00:05 +0100</pubDate>
+      
+      <guid>https://ifetch-chatbot.github.io/tags/conference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conversational Search</title>
+      <link>https://ifetch-chatbot.github.io/tags/conversational-search/</link>
+      <pubDate>Tue, 27 Apr 2021 15:00:05 +0100</pubDate>
+      
+      <guid>https://ifetch-chatbot.github.io/tags/conversational-search/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Query Rewriting</title>
+      <link>https://ifetch-chatbot.github.io/tags/query-rewriting/</link>
+      <pubDate>Tue, 27 Apr 2021 15:00:05 +0100</pubDate>
+      
+      <guid>https://ifetch-chatbot.github.io/tags/query-rewriting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Re-ranking</title>
+      <link>https://ifetch-chatbot.github.io/tags/re-ranking/</link>
+      <pubDate>Tue, 27 Apr 2021 15:00:05 +0100</pubDate>
+      
+      <guid>https://ifetch-chatbot.github.io/tags/re-ranking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Transformers</title>
+      <link>https://ifetch-chatbot.github.io/tags/transformers/</link>
+      <pubDate>Tue, 27 Apr 2021 15:00:05 +0100</pubDate>
+      
+      <guid>https://ifetch-chatbot.github.io/tags/transformers/</guid>
       <description></description>
     </item>
     
@@ -32,15 +86,6 @@
       <pubDate>Thu, 01 Apr 2021 10:45:05 +0100</pubDate>
       
       <guid>https://ifetch-chatbot.github.io/tags/summer-school/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Conference</title>
-      <link>https://ifetch-chatbot.github.io/tags/conference/</link>
-      <pubDate>Thu, 22 Oct 2020 10:45:05 +0100</pubDate>
-      
-      <guid>https://ifetch-chatbot.github.io/tags/conference/</guid>
       <description></description>
     </item>
     
@@ -68,15 +113,6 @@
       <pubDate>Mon, 13 Jul 2020 22:20:10 +0600</pubDate>
       
       <guid>https://ifetch-chatbot.github.io/tags/applied-scientist/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Conversational Search</title>
-      <link>https://ifetch-chatbot.github.io/tags/conversational-search/</link>
-      <pubDate>Mon, 13 Jul 2020 22:20:10 +0600</pubDate>
-      
-      <guid>https://ifetch-chatbot.github.io/tags/conversational-search/</guid>
       <description></description>
     </item>
     
