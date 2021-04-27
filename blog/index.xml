@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; 2019 [Themefisher](https://themefisher.com) All Rights Reserved</copyright>
-    <lastBuildDate>Tue, 27 Apr 2021 15:00:05 +0100</lastBuildDate><atom:link href="https://ifetch-chatbot.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Apr 2021 14:00:05 +0100</lastBuildDate><atom:link href="https://ifetch-chatbot.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>iFetch with a publication accepted at ECIR 2021</title>
       <link>https://ifetch-chatbot.github.io/blog/blog-post-20210427/</link>
-      <pubDate>Tue, 27 Apr 2021 15:00:05 +0100</pubDate>
+      <pubDate>Tue, 27 Apr 2021 14:00:05 +0100</pubDate>
       
       <guid>https://ifetch-chatbot.github.io/blog/blog-post-20210427/</guid>
       <description>We are pleased to inform that we have a new publication in the 43rd European Conference on Information Retrieval (ECIR 2021). The publication presents a complete conversational search pipeline that includes various state-of-the-art approaches to rewrite queries, re-rank results, and summarize retrieved answers.</description>
