@@ -3,27 +3,52 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://ifetch-chatbot.github.io/tags/answer-generation/</loc>
-    <lastmod>2021-04-27T14:00:05+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ifetch-chatbot.github.io/tags/blog/</loc>
-    <lastmod>2021-04-27T14:00:05+01:00</lastmod>
+    <lastmod>2021-05-04T08:00:05+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://ifetch-chatbot.github.io/categories/</loc>
-    <lastmod>2021-04-27T14:00:05+01:00</lastmod>
+    <lastmod>2021-05-04T08:00:05+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://ifetch-chatbot.github.io/tags/conference/</loc>
-    <lastmod>2021-04-27T14:00:05+01:00</lastmod>
+    <lastmod>2021-05-04T08:00:05+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://ifetch-chatbot.github.io/categories/conference/</loc>
+    <lastmod>2021-05-04T08:00:05+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ifetch-chatbot.github.io/</loc>
+    <lastmod>2021-05-04T08:00:05+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ifetch-chatbot.github.io/blog/</loc>
+    <lastmod>2021-05-04T08:00:05+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ifetch-chatbot.github.io/tags/</loc>
+    <lastmod>2021-05-04T08:00:05+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ifetch-chatbot.github.io/tags/workshop/</loc>
+    <lastmod>2021-05-04T08:00:05+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ifetch-chatbot.github.io/blog/blog-post-20210505/</loc>
+    <lastmod>2021-05-04T08:00:05+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ifetch-chatbot.github.io/tags/answer-generation/</loc>
     <lastmod>2021-04-27T14:00:05+01:00</lastmod>
   </url>
   
@@ -38,27 +63,12 @@
   </url>
   
   <url>
-    <loc>https://ifetch-chatbot.github.io/</loc>
-    <lastmod>2021-04-27T14:00:05+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ifetch-chatbot.github.io/blog/</loc>
-    <lastmod>2021-04-27T14:00:05+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ifetch-chatbot.github.io/tags/query-rewriting/</loc>
     <lastmod>2021-04-27T14:00:05+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://ifetch-chatbot.github.io/tags/re-ranking/</loc>
-    <lastmod>2021-04-27T14:00:05+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ifetch-chatbot.github.io/tags/</loc>
     <lastmod>2021-04-27T14:00:05+01:00</lastmod>
   </url>
   
@@ -124,11 +134,6 @@
   
   <url>
     <loc>https://ifetch-chatbot.github.io/blog/blog-post-20201002/</loc>
-    <lastmod>2020-10-02T11:23:05+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ifetch-chatbot.github.io/tags/workshop/</loc>
     <lastmod>2020-10-02T11:23:05+01:00</lastmod>
   </url>
   
