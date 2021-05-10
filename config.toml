@@ -82,6 +82,11 @@ name = "Blog"
 URL = "blog"
 weight = 3
 
+[[menu.main]]
+name = "Opportunities"
+URL = "opportunities"
+weight = 4
+
 ##################################################################
 [[menu.main]]
 weight = 5
