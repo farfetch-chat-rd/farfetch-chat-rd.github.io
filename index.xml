@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; 2019 [Themefisher](https://themefisher.com) All Rights Reserved</copyright>
-    <lastBuildDate>Mon, 10 May 2021 13:05:29 +0600</lastBuildDate><atom:link href="https://ifetch-chatbot.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 18 May 2021 08:19:05 +0100</lastBuildDate><atom:link href="https://ifetch-chatbot.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>iFetch at CVPR</title>
+      <link>https://ifetch-chatbot.github.io/blog/blog-post-20210518/</link>
+      <pubDate>Tue, 18 May 2021 08:19:05 +0100</pubDate>
+      
+      <guid>https://ifetch-chatbot.github.io/blog/blog-post-20210518/</guid>
+      <description>In online shopping applications, the daily insertion of new products requires an overwhelming annotation effort. Usually done by humans, it comes at a huge cost and yet generates high rates of noisy/missing labels that seriously hinder the effectiveness of CNNs in multi-label classification.</description>
+    </item>
+    
     <item>
       <title>Workshop on Multimodal Conversational AI (MuCAI) @ ACM Multimedia 2021</title>
       <link>https://ifetch-chatbot.github.io/blog/blog-post-20210504/</link>
