@@ -24,7 +24,7 @@ about:
 ######################### Portfolio ###############################
 portfolio:
   enable : true
-  bg_image : "images/ambition.png"
+  bg_image : "images/vision.jpeg"
   title : "OUR AMBITION"
   content : "
   **iFetch** ambition is to research conversational technology and algorithms that will make an impact. We are addressing two critical challenges with high-impact:
