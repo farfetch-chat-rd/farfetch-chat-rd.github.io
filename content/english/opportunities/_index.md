@@ -28,7 +28,14 @@ This job offer has been listed in our [blog](https://ifetch-chatbot.github.io/bl
 
 #### Internships BSc/MSc students
 
-More information soon.
+Follows a possible list of topics that we are keen to explore as part of the iFetch project:
+
+- Contributions to the iFetch Platform backbone following golden-standard development patterns;
+- UI improvements to support iFetch customer journey and narrative of the conversational agent;
+- Multimedia Content to support iFetch promotional information and dissemination activities;
+- Dataset for Multimodal Dialogues based on customer impressions 
+
+This is not a comphreensive list.
 
 ### IST
 
