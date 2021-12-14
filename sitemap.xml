@@ -3,8 +3,38 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ifetch-chatbot.github.io/tags/blog/</loc>
+    <lastmod>2021-12-14T12:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/categories/</loc>
-    <lastmod>2021-07-23T11:30:00+01:00</lastmod>
+    <lastmod>2021-12-14T12:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ifetch-chatbot.github.io/categories/complementary-retrieval/</loc>
+    <lastmod>2021-12-14T12:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ifetch-chatbot.github.io/blog/blog-post-20211214/</loc>
+    <lastmod>2021-12-14T12:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ifetch-chatbot.github.io/</loc>
+    <lastmod>2021-12-14T12:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ifetch-chatbot.github.io/blog/</loc>
+    <lastmod>2021-12-14T12:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ifetch-chatbot.github.io/tags/</loc>
+    <lastmod>2021-12-14T12:00:00+01:00</lastmod>
   </url>
   
   <url>
@@ -18,22 +48,7 @@
   </url>
   
   <url>
-    <loc>https://ifetch-chatbot.github.io/</loc>
-    <lastmod>2021-07-23T11:30:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ifetch-chatbot.github.io/blog/</loc>
-    <lastmod>2021-07-23T11:30:00+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ifetch-chatbot.github.io/blog/blog-post-20210723/</loc>
-    <lastmod>2021-07-23T11:30:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ifetch-chatbot.github.io/tags/</loc>
     <lastmod>2021-07-23T11:30:00+01:00</lastmod>
   </url>
   
@@ -60,11 +75,6 @@
   <url>
     <loc>https://ifetch-chatbot.github.io/blog/blog-post-20210518/</loc>
     <lastmod>2021-05-18T08:19:05+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ifetch-chatbot.github.io/tags/blog/</loc>
-    <lastmod>2021-05-04T08:00:05+01:00</lastmod>
   </url>
   
   <url>
