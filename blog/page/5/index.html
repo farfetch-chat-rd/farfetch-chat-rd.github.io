@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en-us"><head>
   <meta charset="utf-8">
-  <title>iFetch at CVPR</title>
+  <title>Latest News</title>
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="iFetch | iFetch is a multimodal conversational agents for the online fashion marketplace. Co-promotion initiative with CMU, UNL and IST.">
+  <meta name="description" content="news about iFetch - MultiModal Conversational Agents For the Online Fashion Marketplace">
   <meta name="author" content="FARFETCH">
   <meta name="generator" content="Hugo 0.85.0" />
 
@@ -138,72 +138,145 @@
     <div class="row">
       <div class="col-md-12">
         <div class="block">
-          <h1>iFetch at CVPR</h1>
-          <p></p>
+          <h1>Latest News</h1>
+          <p>news about iFetch - MultiModal Conversational Agents For the Online Fashion Marketplace</p>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<section class="page-wrapper">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-8">
-				<div class="post post-single">
-					<h2 class="post-title">iFetch at CVPR</h2>
-					<div class="post-meta">
-						<ul>
-              <li><i class="ion-calendar"></i> May 18, 2021</li>
+<div class="page-wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        
+        
+        <div class="post">
+          <div class="post-media post-thumb">
+            <a href="https://ifetch-chatbot.github.io/blog/blog-post-20200406/">
+              <img src="/images/sponsors_announcement.png" alt="iFetch Project Website">
+            </a>
+          </div>
+          <h3 class="post-title"><a href="https://ifetch-chatbot.github.io/blog/blog-post-20200406/">iFetch Project Website</a></h3>
+          <div class="post-meta">
+            <ul>
+              <li><i class="ion-calendar"></i> April 6, 2020</li>
               <li><i class="ion-android-people"></i>
                 Posted By
                 
-                <a class="text-primary" href="/author/beatriz-quintino-ferreira">Beatriz Quintino Ferreira</a>
+                <a class="text-primary" href="/author/ricardo-g.-sousa">Ricardo G. Sousa</a>
                 
               </li>
               <li><i class="ion-pricetags"></i>
                 
-                <a href="/tags/conference">conference</a>
+                <a href="/tags/blog">blog</a>
 								
-                , <a href="/tags/publications">publications</a>
+                , <a href="/tags/technology">technology</a>
 								
               </li>
             </ul>
-					</div>
-					<div class="post-thumb">
-						<img class="img-responsive" src="/images/blog/team.png" alt="iFetch at CVPR">
-					</div>
-					<div class="post-content post-excerpt">
-						<p>In online shopping applications, the daily insertion of new products requires an overwhelming annotation effort. Usually done by humans, it comes at a huge cost and yet generates high rates of noisy/missing labels that seriously hinder the effectiveness of CNNs in multi-label classification. We propose SELF-ML, a classification framework that exploits the relation between visual attributes and appearance together with the “low-rank” nature of the feature space. It learns a sparse reconstruction of image features as a convex combination of very few images - a basis - that are correctly annotated. Building on this representation, SELF-ML has a module that relabels noisy annotations from the derived combination of the clean data. Due to such structured reconstruction, SELF-ML gives an explanation of its label-flipping decisions. Experiments on a real-world shopping dataset show that SELF-ML significantly increases the number of correct labels even with few clean annotations.</p>
-<h1 id="explainable-noisy-label-flipping-for-multi-label-fashion-image-classification">“Explainable Noisy Label Flipping for Multi-Label Fashion Image Classification”</h1>
-<p><em>Abstract Paper - Workshop Computer Vision for Fashion, Art and Design, CVPR 2021</em></p>
-<p>Image classification is a classical and fundamental Computer Vision problem. Among the possible settings, multi-label image classification appears among the most challenging ones as a single image can be associated with large dozens or even hundreds of concepts.</p>
-<p>Multi-label arises more frequently than the single-label (multi-class) setting as real-world images are naturally associated with multiple labels describing, for instance, objects or attributes. Although less frequent in the literature, obtaining rich visual descriptions through multi-label classification is a more challenging supervised learning task. This is due to the diverse and complex image contents that, on the one hand, require intense annotation effort and, on the other hand, produce entangled feature representations.</p>
-<p>When considering large-scale visual datasets this simply becomes intractable to be performed by humans and, even when attempted, it usually originates incorrect and inconsistent annotations. This is why devising mechanisms to perform this task in an automatic manner becomes of paramount importance.</p>
-<p>Multi-label datasets are specifically affected by label noise, which can be either close to random or be systematic. CNNs based classification methods are able to deal relatively well with small amounts of the first type of noise due to their high dimensionality and generalization ability, yet their performance is severely affected by the second as they “memorize” wrongly given labels, especially if they are consistently wrong. We find both types of errors in fashion datasets, predominantly for multi-label classification tasks. Despite this fact, and perhaps due to its higher complexity, there are much fewer works in the literature addressing classification with noisy labels on multi-label settings than on multi-class.</p>
-<p><img src="/images/blog/cvpr2021/tsne_cis_dresses_convex_hull_dresses_labels.png" alt="Overview"></p>
-<h3 id="contributions">Contributions</h3>
-<p>In this paper we tackle the noisy labels issue by introducing Self Explainable Noisy Label Flipping for Multi-Label (SELF-ML) for image classification, a deep learning framework that is able to correct noisy labels from very few annotated training examples. SELF-ML is based on the assumptions that visually similar images have similar visual attributes and that the feature space learned by CNNs is low-rank to learn a sparse reconstruction of image features (with noisy annotations) as a convex combination of a very limited number of images (which form a basis) that are correctly annotated. Using the previous sparse representation, a noisy label flipping module is able to correct the noisy training labels from the clean set of labels. Experiments on a fashion dataset show that SELF-ML substantially increases the number of correct labels even with very few clean annotations as supervision and outperforms popular approaches using the same clean labels. Contrary to previous label correcting methods, SELF-ML is also able to provide an explanation for all its label flipping decisions.</p>
-<p><img src="/images/blog/cvpr2021/Scheme_introduction.png" alt="Approach"></p>
-<p>Our contributions are three-fold:</p>
-<ol>
-<li>
-<p>We propose the SELF- ML framework that integrates 4 modules: feature extraction, classifier, self-explainable reconstruction, and noisy label flipping. The explainable reconstruction module learns to reconstruct image features, previously learned by the feature extractor and classifier, from a sparse “basis”. If the attributes of the images of this basis are “cleaned”, the noisy label flipping module learns to correct the noisy labels during model training, leading to remarkable classification gains. SELF-ML is also much less prone to overfitting than fine-tuning.</p>
-</li>
-<li>
-<p>By training SELF-ML to obtain a reconstruction of the input image features based on the set of basis images, our flipping mechanism will be interpretable and explainable.</p>
-</li>
-<li>
-<p>We show SELF-ML effectiveness on a multi-label fashion dataset with label imbalance and noise.</p>
-</li>
-</ol>
+          </div>
+          <div class="post-content">
+            <p>iFetch proposes to research and deliver a new generation of task-oriented conversational agents that interact with users using verbal and visual information in a seamless manner. Through the conversation, iFetch must provide targeted advice and &ldquo;physical store-like&rdquo; experience while maintaining user engagement.</p>
+            <a href="https://ifetch-chatbot.github.io/blog/blog-post-20200406/" class="btn btn-main">Continue Reading</a>
+          </div>
+        </div>
+        
 
-					</div>
-					<div class="post-comments">
+				
+				
+				
+				
+				
+				
+				
+				<nav class="text-center">
+					<ul class="pagination post-pagination">
 						
-					</div>
-				</div>
-			</div>
+						
+						<li>
+							<a href="/blog/page/4/" class="page-link">Prev</a>
+            </li>
+            
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						<li class="">
+							<a href="/blog/">
+								1
+							</a>
+						</li>
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						<li class="">
+							<a href="/blog/page/2/">
+								2
+							</a>
+						</li>
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						<li class="">
+							<a href="/blog/page/3/">
+								3
+							</a>
+						</li>
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						<li class="">
+							<a href="/blog/page/4/">
+								4
+							</a>
+						</li>
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						<li class=" active ">
+							<a href="/blog/page/5/">
+								5
+							</a>
+						</li>
+						
+						
+						
+						
+					</ul>
+				</nav>
+				
+      </div>
       <div class="col-md-4">
         <aside class="sidebar">
   
@@ -294,9 +367,9 @@
 </aside>
 
       </div>
-		</div>
-	</div>
-</section>
+    </div>
+  </div>
+</div>
 
 <footer class="footer">
 	<div class="container">
