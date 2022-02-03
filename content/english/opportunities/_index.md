@@ -34,9 +34,9 @@ Send your CV through our recruitment [platform (soon)](). Reach out our PI via (
 
   * Make scientific and technical publications in reference conferences and journals.
 
-If you are interested or keen to learn more, send your resume through our recruitment [platform](https://jobs.lever.co/farfetch/446c5b61-6cdd-4ea4-b18e-873948614321) or contact us directly by dropping us a line [contacts](https://ifetch-chatbot.github.io/contact/).
+If you are interested or keen to learn more, send your resume through our recruitment [platform (soon)]().
 
-This job offer has been listed in our [blog](https://ifetch-chatbot.github.io/blog/blog-post-20200713/).
+This job offer has been listed in our [blog](https://ifetch-chatbot.github.io/blog/blog-post-20200713/). Reach out our PI via ([LinkedIn](https://www.linkedin.com/in/rjgsousa/)/[Twitter](https://twitter.com/rjgsousa)).
 
 #### Internships BSc/MSc students
 
