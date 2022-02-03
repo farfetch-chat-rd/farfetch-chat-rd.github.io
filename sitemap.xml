@@ -2,10 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ifetch-chatbot.github.io/categories/</loc>
-    <lastmod>2022-02-02T13:05:00+01:00</lastmod>
-  </url><url>
     <loc>https://ifetch-chatbot.github.io/</loc>
+    <lastmod>2022-02-03T14:40:29+06:00</lastmod>
+  </url><url>
+    <loc>https://ifetch-chatbot.github.io/opportunities/</loc>
+    <lastmod>2022-02-03T14:40:29+06:00</lastmod>
+  </url><url>
+    <loc>https://ifetch-chatbot.github.io/categories/</loc>
     <lastmod>2022-02-02T13:05:00+01:00</lastmod>
   </url><url>
     <loc>https://ifetch-chatbot.github.io/blog/</loc>
@@ -66,9 +69,6 @@
     <lastmod>2021-07-15T15:15:00+01:00</lastmod>
   </url><url>
     <loc>https://ifetch-chatbot.github.io/activities/</loc>
-    <lastmod>2021-06-01T10:05:29+06:00</lastmod>
-  </url><url>
-    <loc>https://ifetch-chatbot.github.io/opportunities/</loc>
     <lastmod>2021-06-01T10:05:29+06:00</lastmod>
   </url><url>
     <loc>https://ifetch-chatbot.github.io/blog/blog-post-20210518/</loc>
