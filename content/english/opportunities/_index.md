@@ -1,7 +1,7 @@
 ---
 title: "Opportunities"
 description: "Job opportunities at iFetch"
-date: 2022-02-03T14:40:29+06:00
+date: 2022-02-25T14:40:29+06:00
 draft: false
 bg_image: "images/featue-bg.jpg"
 ---
@@ -22,7 +22,7 @@ bg_image: "images/featue-bg.jpg"
   * Contribute to scientific and technical publications in reference conferences and journals.
 
 
-Send your CV through our recruitment [platform (soon)](). Reach out our PI via ([LinkedIn](https://www.linkedin.com/in/rjgsousa/)/[Twitter](https://twitter.com/rjgsousa)).
+Send your CV through our recruitment [platform](https://jobs.lever.co/farfetch/2393293e-8161-4f09-9970-41869bf2062f). Reach out our PI via ([LinkedIn](https://www.linkedin.com/in/rjgsousa/)/[Twitter](https://twitter.com/rjgsousa)).
 
 
 * **Senior Applied Scientist**
