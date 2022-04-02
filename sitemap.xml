@@ -1,198 +1,357 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
   <url>
     <loc>https://ifetch-chatbot.github.io/categories/</loc>
-    <lastmod>2022-03-24T08:55:00+01:00</lastmod>
-  </url><url>
+    <lastmod>2022-04-02T21:45:01+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ifetch-chatbot.github.io/tags/communication/</loc>
+    <lastmod>2022-04-02T21:45:01+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ifetch-chatbot.github.io/blog/blog-post-20220402/</loc>
+    <lastmod>2022-04-02T21:45:01+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ifetch-chatbot.github.io/categories/dissemination/</loc>
+    <lastmod>2022-04-02T21:45:01+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ifetch-chatbot.github.io/</loc>
+    <lastmod>2022-04-02T21:45:01+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ifetch-chatbot.github.io/blog/</loc>
+    <lastmod>2022-04-02T21:45:01+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ifetch-chatbot.github.io/tags/mailing-list/</loc>
+    <lastmod>2022-04-02T21:45:01+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ifetch-chatbot.github.io/tags/share/</loc>
+    <lastmod>2022-04-02T21:45:01+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ifetch-chatbot.github.io/tags/</loc>
+    <lastmod>2022-04-02T21:45:01+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/tags/conference/</loc>
     <lastmod>2022-03-24T08:55:00+01:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/blog/blog-post-20220323/</loc>
     <lastmod>2022-03-24T08:55:00+01:00</lastmod>
-  </url><url>
-    <loc>https://ifetch-chatbot.github.io/</loc>
-    <lastmod>2022-03-24T08:55:00+01:00</lastmod>
-  </url><url>
-    <loc>https://ifetch-chatbot.github.io/blog/</loc>
-    <lastmod>2022-03-24T08:55:00+01:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/tags/seminars/</loc>
     <lastmod>2022-03-24T08:55:00+01:00</lastmod>
-  </url><url>
-    <loc>https://ifetch-chatbot.github.io/tags/</loc>
-    <lastmod>2022-03-24T08:55:00+01:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/categories/talks/</loc>
     <lastmod>2022-03-24T08:55:00+01:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/opportunities/</loc>
     <lastmod>2022-02-25T14:40:29+06:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/tags/mentorship/</loc>
     <lastmod>2022-02-02T13:05:00+01:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/categories/mentorship/</loc>
     <lastmod>2022-02-02T13:05:00+01:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/blog/blog-post-20220202/</loc>
     <lastmod>2022-02-02T13:05:00+01:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/blog/blog-post-20220127/</loc>
     <lastmod>2022-01-27T18:20:00+01:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/categories/conference/</loc>
     <lastmod>2022-01-27T18:20:00+01:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/tags/talent/</loc>
     <lastmod>2022-01-27T18:20:00+01:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/blog/blog-post-20220106/</loc>
     <lastmod>2022-01-06T11:00:00+01:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/blog/blog-post-20211217/</loc>
     <lastmod>2021-12-17T16:00:00+01:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/tags/project-update/</loc>
     <lastmod>2021-12-17T16:00:00+01:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/categories/report/</loc>
     <lastmod>2021-12-17T16:00:00+01:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/tags/blog/</loc>
     <lastmod>2021-12-14T12:00:00+01:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/categories/complementary-retrieval/</loc>
     <lastmod>2021-12-14T12:00:00+01:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/blog/blog-post-20211214/</loc>
     <lastmod>2021-12-14T12:00:00+01:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/blog/blog-post-20210723/</loc>
     <lastmod>2021-07-23T11:30:00+01:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/blog/blog-post-20210715/</loc>
     <lastmod>2021-07-15T15:15:00+01:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/tags/publications/</loc>
     <lastmod>2021-07-15T15:15:00+01:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/activities/</loc>
     <lastmod>2021-06-01T10:05:29+06:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/blog/blog-post-20210518/</loc>
     <lastmod>2021-05-18T08:19:05+01:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/tags/workshop/</loc>
     <lastmod>2021-05-04T08:00:05+01:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/blog/blog-post-20210504/</loc>
     <lastmod>2021-05-04T08:00:05+01:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/tags/answer-generation/</loc>
     <lastmod>2021-04-27T14:00:05+01:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/tags/conversational-search/</loc>
     <lastmod>2021-04-27T14:00:05+01:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/blog/blog-post-20210427/</loc>
     <lastmod>2021-04-27T14:00:05+01:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/tags/query-rewriting/</loc>
     <lastmod>2021-04-27T14:00:05+01:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/tags/re-ranking/</loc>
     <lastmod>2021-04-27T14:00:05+01:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/tags/transformers/</loc>
     <lastmod>2021-04-27T14:00:05+01:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/tags/conversational-commerce/</loc>
     <lastmod>2021-04-01T10:45:05+01:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/blog/blog-post-20210401/</loc>
     <lastmod>2021-04-01T10:45:05+01:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/tags/summer-school/</loc>
     <lastmod>2021-04-01T10:45:05+01:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/faq/</loc>
     <lastmod>2021-04-01T15:05:29+06:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/papers/</loc>
     <lastmod>2021-04-01T15:05:29+06:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/overview/</loc>
     <lastmod>2021-03-30T10:05:29+06:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/usecases/</loc>
     <lastmod>2021-03-30T10:05:29+06:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/blog/blog-post-20201022/</loc>
     <lastmod>2020-10-22T10:45:05+01:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/data/</loc>
     <lastmod>2020-10-07T13:05:29+06:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/software/</loc>
     <lastmod>2020-10-07T13:05:29+06:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/blog/blog-post-20201002/</loc>
     <lastmod>2020-10-02T11:23:05+01:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/tags/applied-scientist/</loc>
     <lastmod>2020-07-13T22:20:10+06:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/categories/conversational-search/</loc>
     <lastmod>2020-07-13T22:20:10+06:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/tags/job/</loc>
     <lastmod>2020-07-13T22:20:10+06:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/blog/blog-post-20200713/</loc>
     <lastmod>2020-07-13T22:20:10+06:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/tags/scholarships/</loc>
     <lastmod>2020-07-10T21:15:00+01:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/blog/blog-post-20200710/</loc>
     <lastmod>2020-07-10T21:15:00+01:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/tags/computer-vision/</loc>
     <lastmod>2020-07-02T07:20:10+06:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/blog/blog-post-20200702/</loc>
     <lastmod>2020-07-02T07:20:10+06:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/tags/ecir/</loc>
     <lastmod>2020-04-20T16:10:10+06:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/blog/blog-post-20200420/</loc>
     <lastmod>2020-04-20T16:10:10+06:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/blog/blog-post-20200406/</loc>
     <lastmod>2020-04-06T12:07:10+06:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/categories/project-news/</loc>
     <lastmod>2020-04-06T12:07:10+06:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/tags/technology/</loc>
     <lastmod>2020-04-06T12:07:10+06:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/about/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/author/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/author/john-doe/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/author/mark-dinn/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/project/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/contact/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/project/info/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ifetch-chatbot.github.io/service/</loc>
   </url>
+  
 </urlset>
