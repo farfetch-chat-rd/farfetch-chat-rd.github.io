@@ -11,20 +11,6 @@ bg_image: "images/featue-bg.jpg"
 
 ### FARFETCH
 
-* **Lead Data Scientist**
-
-  * You will lead a multidisciplinary team of Scientists by contributing to the design, development and integration of AI/ML solutions;
-
-  * Study, experiment, research and develop algorithms and techniques in the artificial intelligence field;
-
-  * Be the promoter and driver of iFetch business integration;
-
-  * Contribute to scientific and technical publications in reference conferences and journals.
-
-
-Send your CV through our recruitment [platform](https://jobs.lever.co/farfetch/2393293e-8161-4f09-9970-41869bf2062f). Reach out our PI via ([LinkedIn](https://www.linkedin.com/in/rjgsousa/)/[Twitter](https://twitter.com/rjgsousa)).
-
-
 * **Senior Applied Scientist**
   * You will be part of and report to a business-inspired team of Scientists in the design of model serving solutions and develop scalable machine learning applications;
 
