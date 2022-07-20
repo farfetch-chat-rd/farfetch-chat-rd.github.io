@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+  <meta charset="utf-8">
+  <title>Natural Language Understanding for Conversational AI </title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="iFetch | iFetch is a multimodal conversational agents for the online fashion marketplace. Co-promotion initiative with CMU, UNL and IST.">
+  <meta name="author" content="FARFETCH">
+  <meta name="generator" content="Hugo 0.92.2" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://ifetch-chatbot.github.io/plugins/bootstrap/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="https://ifetch-chatbot.github.io/plugins/Ionicons/css/ionicons.min.css">
+  
+  <link rel="stylesheet" href="https://ifetch-chatbot.github.io/plugins/magnific-popup/magnific-popup.css">
+  
+  <link rel="stylesheet" href="https://ifetch-chatbot.github.io/plugins/slick/slick.css">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://ifetch-chatbot.github.io/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://ifetch-chatbot.github.io/images/favicon.png" type="image/x-icon">
+  <link rel="icon" href="https://ifetch-chatbot.github.io/images/favicon.png" type="image/x-icon">
+
+  
+    
+<link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.13.2/dist/katex.min.css"
+    integrity="sha384-Cqd8ihRLum0CCg8rz0hYKPoLZ3uw+gES2rXQXycqnL5pgVQIflxAUDS7ZSjITLb5"
+    crossorigin="anonymous">
+
+<script defer
+    src="https://cdn.jsdelivr.net/npm/katex@0.13.2/dist/katex.min.js"
+    integrity="sha384-1Or6BdeNQb0ezrmtGeqQHFpppNd7a/gw29xeiSikBbsb44xu3uAo8c7FwbF5jhbd"
+    crossorigin="anonymous"></script>
+
+<script defer
+    src="https://cdn.jsdelivr.net/npm/katex@0.13.2/dist/contrib/auto-render.min.js"
+    integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl"
+    crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        renderMathInElement(document.body, {
+            delimiters: [
+                { left: "$$", right: "$$", display: true },
+                { left: "$", right: "$", display: false },
+            ],
+            throwOnError : false
+        });
+    });
+</script>
+  
+
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+
+<header class="navigation">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        
+        <nav class="navbar">
+          
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">
+              <img src="https://ifetch-chatbot.github.io/images/logo.png" alt="iFetch | MultiModal Conversational Agents" class="img-responsive">
+            </a>
+          </div>
+          
+          <div class="collapse navbar-collapse" id="navigation">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="https://ifetch-chatbot.github.io/">Home</a></li>
+
+              
+              
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                  aria-expanded="false">Project <span class="ion-ios-arrow-down"></span></a>
+                <ul class="dropdown-menu">
+                  
+                  <li><a href="https://ifetch-chatbot.github.io/overview">Overview</a></li>
+                  
+                  <li><a href="https://ifetch-chatbot.github.io/project">Project Portfolio</a></li>
+                  
+                  <li><a href="https://ifetch-chatbot.github.io/usecases">Use Cases</a></li>
+                  
+                  <li><a href="https://ifetch-chatbot.github.io/about">Vision</a></li>
+                  
+                </ul>
+              </li>
+              
+              
+              
+              <li><a href="https://ifetch-chatbot.github.io/blog">Blog</a></li>
+              
+              
+              
+              <li><a href="https://ifetch-chatbot.github.io/contact">PARTNERS</a></li>
+              
+              
+              
+              <li><a href="https://ifetch-chatbot.github.io/activities">Activities</a></li>
+              
+              
+              
+              <li><a href="https://ifetch-chatbot.github.io/opportunities">Opportunities</a></li>
+              
+              
+              
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                  aria-expanded="false">Pages <span class="ion-ios-arrow-down"></span></a>
+                <ul class="dropdown-menu">
+                  
+                  <li><a href="https://ifetch-chatbot.github.io/faq">FAQ</a></li>
+                  
+                </ul>
+              </li>
+              
+              
+              
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                  aria-expanded="false">Downloads <span class="ion-ios-arrow-down"></span></a>
+                <ul class="dropdown-menu">
+                  
+                  <li><a href="https://ifetch-chatbot.github.io/data">DATA</a></li>
+                  
+                  <li><a href="https://ifetch-chatbot.github.io/papers">PAPERS</a></li>
+                  
+                  <li><a href="https://ifetch-chatbot.github.io/software">SOFTWARE</a></li>
+                  
+                </ul>
+              </li>
+              
+              
+
+              
+
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+<section class="page-title bg-2" style="background-image: url('https://ifetch-chatbot.github.io/images/featue-bg.jpg');">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>Natural Language Understanding for Conversational AI </h1>
+          <p></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="page-wrapper">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<div class="post post-single">
+					<h2 class="post-title">Natural Language Understanding for Conversational AI </h2>
+					<div class="post-meta">
+						<ul>
+              <li><i class="ion-calendar"></i> July 19, 2022</li>
+              <li><i class="ion-android-people"></i>
+                Posted By
+                
+                <a class="text-primary" href="/author/pedro-m.-ferreira">Pedro M. Ferreira</a>
+                
+              </li>
+              <li><i class="ion-pricetags"></i>
+                
+                <a href="/tags/nlu">nlu</a>
+								
+                , <a href="/tags/nlp">nlp</a>
+								
+                , <a href="/tags/conversational%20ai">conversational ai</a>
+								
+                , <a href="/tags/conversational%20commerce">conversational commerce</a>
+								
+                , <a href="/tags/chatbot">chatbot</a>
+								
+              </li>
+            </ul>
+					</div>
+					<div class="post-thumb">
+						<img class="img-responsive" src="/images/blog/NLU2022/NLU.jpg" alt="Natural Language Understanding for Conversational AI ">
+					</div>
+					<div class="post-content post-excerpt">
+						<h2 id="summary">Summary</h2>
+<p>Natural Language Understanding (NLU) is an important field of Natural Language Processing, which enables several
+applications ranging from question answering to fully automated conversational agents. In practice, the NLU is the first
+step of a conversational agent that processes the user’s raw utterance. It typically comprises both Slot Filling
+and Intent Classification tasks in order to create a structured representation of the utterance.
+Intent classification aims to predict the intent of the utterance, while slot filling focuses on the extraction of its semantic concepts.</p>
+<p>This blog provides a deep-dive analysis of state-of-the-art NLU models, by including two main groups of NLU models, namely:</p>
+<ul>
+<li>
+<p><strong>Joint Intent Prediction &amp; Slot filling NLU</strong>, where intent classification and slot filling are jointly optimized and learned. Here, we have analyzed both the JointBERT and Stack-propagation NLU models.</p>
+</li>
+<li>
+<p><strong>Context-aware NLU</strong> that, differently from JointBERT and Stack-propagation, take as input not only the current user utterance but also the previous utterances as context. Here, we have analyzed both BERT-DST and SimpleTOD models. Although the original implementation of both BERT-DST and SimpleTOD models do not perform intent prediction, they can be easily extended for joint intent classification and slot filling.</p>
+</li>
+</ul>
+<p>As the vast majority of the analyzed NLU models rely on the BERT architecture, this blog post starts by introducing the BERT model.
+Then, after describing all the considered NLU models, this blog ends with a comparative analysis between them.</p>
+<h2 id="bert-background">BERT background</h2>
+<p><a href="https://arxiv.org/pdf/1810.04805.pdf">BERT</a>’s model architecture is a multi-layer bidirectional Transformer encoder based on the original <a href="https://proceedings.neurips.cc/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html">Transformer model</a>. Accordingly, it consists of a stack of multiple identical blocks each containing a multi-head self-attention and a fully connected sub-layer with residual connections.</p>
+<h3 id="input--output-representations-a-nameinput-output-berta">Input &amp; Output Representations <a name="input-output-bert"></a></h3>
+<p>The input to BERT is a sequence of tokens (words), and the output is a sequence of vectors, one for each input token. To make BERT handle a variety of downstream tasks, the input representation of BERT is able to unambiguously represent both a single sentence and a pair of sentences in one token sequence (see  <strong>Figure 1)</strong> .</p>
+<figure>
+<p align="center">
+<img src="/images/blog/NLU2022/BERT_input_format.png"  alt="BERT input format" width="650"/>
+</p>
+<figcaption align = "center"><b>Figure 1: BERT input format (image from [1]).</b></figcaption>
+</figure>
+<p>The first token of every sequence is always a special classification token <code>[CLS]</code>, whose final hidden state is used as the aggregate sequence representation. The final hidden states of the other tokens are used as token-level representations.</p>
+<p>For sentence pairs tasks (e.g., Q&amp;A), sentence pairs are packed together into a single sequence, where tokens from the two input sentences are separated by another special token - <code>[SEP]</code>. Additionally, BERT’s input layer adds an additional segment embedding to differentiate tokens from the pair of sentences. For single text sentence tasks (e.g., sentiment classification), the input sequence also ends with the special <code>[SEP]</code> token.</p>
+<p>Therefore, the input representation of a given token is constructed by summing the corresponding token, segment, and position embeddings (see  <strong>Figure 2</strong>). [1]</p>
+<figure>
+<p align="center">
+<img src="/images/blog/NLU2022/BERT_input_representation.png"  alt="BERT input representation" width="550"/>
+</p>
+<figcaption align = "center"><b>Figure 2: BERT input representation. The input embeddings are the sum of the token embeddings, the segmentation embeddings, and the position embeddings (image from [1]).</b></figcaption>
+</figure>
+<h3 id="pre-training-bert-a-namepre-training-berta">Pre-training BERT <a name="pre-training-bert"></a></h3>
+<p>To learn bidirectional contextualized representations and inter-sentence relationships, the BERT model is pre-trained
+on two unsupervised language modeling tasks, using the BooksCorpus and the English Wikipedia corpora, namely:</p>
+<ol>
+<li>
+<p><strong>Masked Language Modeling (masked LM)</strong>: where the objective is to predict randomly masked tokens,
+by using the special <code>[MASK]</code> token, in the input sequence;</p>
+</li>
+<li>
+<p><strong>Next Sentence Prediction (NSP)</strong>: where the objective is to predict whether two input segments follow each other in
+the original text. Positive examples are created by taking consecutive sentences from the text corpus,
+whereas negative examples are created by picking segments from different documents.</p>
+</li>
+</ol>
+<p>The pre-trained BERT model provides powerful context-dependent sentence-level and token-level representations,
+which can be used for a wide range of target-specific tasks (e.g., NER, Q&amp;A, etc - see <strong>Figure 3</strong>), without substantial
+task-specific architecture modifications (i.e. with just extra projection layers and simple fine-tuning procedures). [1]</p>
+<figure>
+<p align="center">
+<img src="/images/blog/NLU2022/BERT_finetuning.png"  alt="BERT pre-training and fine-tuning procedures" width="650"/>
+</p>
+<figcaption align = "center"><b>Figure 3: Overall pre-training and fine-tuning procedures for BERT (image from [1]).</b></figcaption>
+</figure>
+<p>As described next, BERT can be easily extended to joint intent classification and slot filling (e.g., JointBERT) or
+dialogue state tracking (e.g., BERT-DST).</p>
+<h2 id="joint-intent-prediction--slot-filling-nlu-a-namejoint-nlua">Joint Intent prediction &amp; Slot filling NLU <a name="joint-nlu"></a></h2>
+<p>This section describes both JointBERT and Stack-propagation NLU models. These models follow the principle of jointly
+learn intent prediction and slot filling tasks, in order to explicitly explore the correlations between intent and slots.</p>
+<p>Nevertheless, as described in the following subsections, while JointBERT follows a muti-task learning approach,
+Stack-propagation NLU follows a stack-propagation framework. The former learns correlations between the two tasks
+(i.e., intent prediction and slot filling) by a shared encoder. The latter directly uses the intent as input for slot filling.</p>
+<h3 id="jointberthttpsarxivorgpdf190210909pdf-bert-for-joint-intent-classification-and-slot-filling-a-namejoint-berta"><a href="https://arxiv.org/pdf/1902.10909.pdf">JointBERT</a>: BERT for Joint Intent Classification and Slot Filling <a name="joint-bert"></a></h3>
+<p>As illustrated in  <strong>Figure 4</strong> , JointBERT extends the conventional BERT architecture to a joint intent classification
+and slot filling.</p>
+<figure>
+<p align="center">
+<img src="/images/blog/NLU2022/joint_bert.png"  alt="BERT input format" width="550"/>
+</p>
+<figcaption align = "center"><b>Figure 4: JointBERT overview (image from [2]).</b></figcaption>
+</figure>
+<h4 id="encoding-module-a-namejoint-bert-encodinga">Encoding module <a name="joint-bert-encoding"></a></h4>
+<p>The ultimate goal of JointBERT is to map from a single user utterance to the intent and slots. Therefore, the input user utterance is represented as a sequence of tokens in the BERT&rsquo;s input format:</p>
+<p><code>[CLS]</code> → User utterance tokens → <code>[SEP]</code></p>
+<p>So, given an input token sequence $[x_0, x_1, &hellip;, x_N]$, it outputs a sequence of latent representations
+$[h_0, h_1, &hellip;, h_N]$ for each token. [2]</p>
+<h4 id="joint-intent-classification-and-slot-filling-a-namejoint-bert-lossa">Joint Intent Classification and Slot Filling <a name="joint-bert-loss"></a></h4>
+<p>JointBERT simultaneously performs intent classification and slot filling.</p>
+<p><strong>For intent prediction</strong> , it simply uses the latent representation of the <code>[CLS]</code> token as input ($h_0$) to a softmax classifier:
+$y^{i}=\text{softmax}(W^ih_0+b^i)$.</p>
+<p><strong>For slot filling</strong>, the latent representations of the other tokens $[h_1, &hellip;, h_N]$ are fed to a softmax classifier
+to classify over the slot filling labels: $y^{s}_n=\text{softmax}(W^sh_n+b^s), n\in 1, &hellip;, N$.</p>
+<p>The <strong>learning objective</strong> is to maximize the conditional probability $p(y^i, y^s|x)$, which can be achieved by
+minimizing the cross-entropy loss. [2]</p>
+<h4 id="conditional-random-field-a-namejoint-bert-crfa">Conditional Random Field <a name="joint-bert-crf"></a></h4>
+<p>Since slot label predictions are dependent on predictions for surrounding words, the authors investigated the impact of adding CRF for modeling slot label dependencies (on top of the joint BERT model). In practice, this is achieved by replacing the softmax classifier with a CRF.</p>
+<p>Experimental results suggest that JointBERT with CRF performs comparably to JointBERT, probably due to the self-attention mechanism in Transformer, which may have sufficiently modeled the label structures.</p>
+<h4 id="additional-notes-a-namejoint-bert-notesa">Additional notes <a name="joint-bert-notes"></a></h4>
+<p>As expected, experimental results suggest that without joint intent and slot filling learning there is a drop in both intent classification and slot filling $F_1$. [2]</p>
+<h3 id="stack-propagationhttpsarxivorgpdf190902188v1pdf-a-stack-propagation-framework-with-token-level-intent-detection-for-spoken-language-understanding-a-namestacka"><a href="https://arxiv.org/pdf/1909.02188v1.pdf">Stack-Propagation</a>: A Stack-Propagation Framework with Token-Level Intent Detection for Spoken Language Understanding <a name="stack"></a></h3>
+<p>Similar to JointBERT, the Stack-Propagation NLU model also performs a joint intent
+classification and slot filling. However, while JointBERT follows a multi-task learning framework,
+in which correlations between these two tasks are learned by a shared encoder, Stack-Propagation SLU follows a
+stack-propagation framework (see  <strong>Figure 5</strong>). The idea is to directly use the intent as input for slot filling as
+a way to capture the intent semantic knowledge. [3]</p>
+<figure>
+<p align="center">
+<img src="/images/blog/NLU2022/stack_diagrams.png"  alt="Multi-task framework vs. Stack-Propagation" width="450"/>
+</p>
+<figcaption align = "center"><b>Figure 5: Multi-task framework vs. Stack-Propagation (image from [3]).</b></figcaption>
+</figure>
+<h4 id="stack-propagation-framework">Stack-Propagation framework</h4>
+<p>As illustrated in  <strong>Figure 6</strong>, the architecture of the stack-propagation model comprises an encoder and two decoders.</p>
+<figure>
+<p align="center">
+<img src="/images/blog/NLU2022/stack_diagrams_b.png"  alt="Stack-Propagation framework" width="550"/>
+</p>
+<figcaption align = "center"><b>Figure 6: Stack-Propagation framework for joint intent detection and slot filling (image from [3]).</b></figcaption>
+</figure>
+<ul>
+<li>
+<p><strong>Self-Attentive Encoder</strong>: it maps from the tokenized user utterance $[x_1, x_2, &hellip;, x_N]$ to contextual hidden
+presentations $[e_1, e_2, &hellip;, e_N]$. To do so, it comprises a BiLSTM with a self-attention mechanism to leverage both
+advantages of temporal features and contextual information. Note that the authors assessed the effect of BERT,
+by replacing their self-attentive encoder with a BERT-base model. Experimental results demonstrated the benefits of
+using a strong pre-trained model like BERT for NLU tasks.</p>
+</li>
+<li>
+<p><strong>Token-Level Intent Detection Decoder</strong>: it consists of a unidirectional LSTM that performs a token-level intent
+detection. They argue that token-level intent detection may reduce error propagation when compared to sentence-level
+intent detection. At each decoding step $i$, the decoder state $h_i^I$ is calculated from the
+previous decoder state $h_{i-1}^I$, the previous emitted intent label distribution $y_{i-1}^I$ and
+the aligned encoder hidden state $e_i$: $h_i^I=f(h_{i-1}^I, y_{i-1}^I, e_i)$.</p>
+</li>
+<li>
+<p><strong>Stack-propagation for Slot Filling (Decoder)</strong>: the input for slot filling consists of a concatenation of the intent
+output distribution $y_{i}^I$ and the aligned encoder hidden state $e_i$. Similar to the intent decoder,
+the slot filling decoder also consists of a unidirectional LSTM.</p>
+</li>
+</ul>
+<p>Note that both intent detection and slot filling are optimized simultaneously via a joint learning scheme. [3]</p>
+<h2 id="context-aware-nlu-a-namecontext-aware-nlua">Context-aware NLU <a name="context-aware-nlu"></a></h2>
+<p>This section describes both BERT-DST and SimpleTOD models that consider the dialogue context for NLU purposes.
+However, while BERT-DST takes the current user utterance and the previous system utterance as input,
+SimpleTOD considers all the previous user and system utterances as input context.</p>
+<p>Additionally, BERT-DST makes use of softmax classifiers on top of BERT for slot filling,
+whereas SimpleTOD uses a unidirectional Transformer decoder architecture (i.e., GPT-2) and
+recasts slot filling and state tracking in a generative fashion.</p>
+<h3 id="bert-dsthttpsarxivorgpdf190703040pdf-scalable-end-to-end-dialogue-state-tracking-with-bidirectional-encoder-representations-from-transformer-a-namebert-dsta"><a href="https://arxiv.org/pdf/1907.03040.pdf">BERT-DST</a>: Scalable End-to-End Dialogue State Tracking with Bidirectional Encoder Representations from Transformer <a name="bert-dst"></a></h3>
+<p>The architecture of the BERT-DST framework is illustrated in <strong>Figure 7</strong>.
+For each user turn, BERT-DST takes as input the recent dialogue context,
+which comprises the system utterance in the previous turn and the current user utterance,
+and outputs a turn-level level dialogue state (i.e. per-slot span values).
+This is accomplished with the following major components:</p>
+<ol>
+<li>
+<p><strong>Dialogue Context Encoding Module</strong> : first, the dialogue context input (previous system utterance + current user utterance) is encoded by the BERT-based encoding module to produce contextualized sentence-level and token-level representations.</p>
+</li>
+<li>
+<p><strong>Classification Module</strong> : then, the sentence-level hidden representation (i.e. the hidden representation of the <code>[CLS]</code> token) is used to generate a categorical distribution over three types of slot values:  <em>none</em> , <em>don&rsquo;t care,</em> or a  <em>span</em>.</p>
+</li>
+<li>
+<p><strong>Per-slot Span Prediction Module</strong> : it gathers the token-level representations and outputs the slot value’s start and end positions.</p>
+</li>
+<li>
+<p><strong>Dialogue State Update Mechanism</strong> : finally, a rule-based update mechanism is used to track dialogue states across turns. [4]</p>
+</li>
+</ol>
+<figure>
+<p align="center">
+<img src="/images/blog/NLU2022/bert_dst.png"  alt="BERT-DST framework" width="650"/>
+</p>
+<figcaption align = "center"><b>Figure 7: Architecture of the BERT-DST framework (image from [4]).</b></figcaption>
+</figure>
+<h4 id="dialogue-context-encoding-module">Dialogue Context Encoding Module</h4>
+<p>Since the dialogue encoding module is based on BERT, the dialogue context input is represented as a token sequence in
+the BERT&rsquo;s input format:</p>
+<p><code>[CLS]</code> → System utterance tokens → <code>[SEP]</code> → User utterance tokens → <code>[SEP]</code></p>
+<p>Considering $[x_0, x_1, &hellip;, x_n]$ as the tokenized input sequence, BERT’s input layer embeds each token $x_{0}$ into
+an embedding $e_{i}$ - which is the sum of the token, segment, and position embeddings.</p>
+<p>Then, the embedded input sequence $[e_0, e_1, &hellip;, e_n]$ is passed through the BERT’s encoder in order to output the hidden representations
+of each input token $[t_0, t_1, &hellip;, t_n]$. As described in the following subsections, the sentence-level representation
+(i.e. <code>[CLS]</code> token hidden state) is then used by the classification module, whereas the token-level representations $[t_1, &hellip;, t_n]$
+are used by the per-slot span precision module.</p>
+<p><strong>It is important to note</strong> that the parameters of this module are initialized from a pre-trained BERT checkpoint and then
+fine-tuned to the target-specific DST dataset. [4]</p>
+<h4 id="classification-module">Classification Module</h4>
+<p>The classification module takes as input the sentence-level representation $t_{0}$ and aims to classify each slot $s\in S$ into one
+of the following three classes {<em>none</em>, <em>don&rsquo;t care</em>, <em>span</em>}. It simply consists of the fully connected layer with a softmax
+activation function:</p>
+<p align="center">
+<img src="/images/blog/NLU2022/bert_dst_eq1.png" width="450"/>
+</p>
+<p><strong>It is important to note</strong> that the parameters of this module (i.e. $W^{s}_{cls}$, $b^{s}_{cls}$) are trained
+from scratch with the target-specific DST dataset. [4]</p>
+<h4 id="per-slot-span-prediction-module">Per-slot Span Prediction Module</h4>
+<p>The span prediction module takes as input the token-level representations $[t_1, &hellip;, t_n]$ and aims to predict the
+span (start and end positions) of each $s\in S$.</p>
+<p>More specifically, each token representation $t_i$ is linearly projected through a common layer,
+whose output values correspond to start $\alpha_{i}^{s}$ and end $\beta_{i}^{s}$ positions.
+Then, a softmax is applied to the position values to produce a probability distribution over all tokens, by which the slot value span can be determined.</p>
+<p align="center">
+<img src="/images/blog/NLU2022/bert_dst_eq2.png" width="400"/>
+</p>
+<p><strong>It is important to note</strong> that the parameters of this module (i.e. $W^{s}_{span}$, $b^{s}_{span}$) are trained from scratch with the target-specific DST dataset. [4]</p>
+<h4 id="dialogue-state-update-mechanism">Dialogue State Update Mechanism</h4>
+<p>Dialogue state tracking is based on a rule-based update mechanism. In each turn, if the model’s turn prediction for
+a slot is don&rsquo;t care or a span (i.e., any value other than none), it will be used to update the dialogue state.
+Otherwise, the dialogue state of the slot remains the same as the previous turn.</p>
+<h3 id="additional-notes">Additional notes</h3>
+<ul>
+<li>
+<p><em><strong>Parameter Sharing</strong></em>: Although both classification and span prediction modules are slot-specific, the authors noticed that BERT (i.e., the dialogue context encoding module) parameters can be shared across all slots. This reduces the model parameters and transfers knowledge among slots.</p>
+</li>
+<li>
+<p><em><strong>Slot Value Dropout</strong></em>: applied to address the under-training problem of contextual features in slot filling. That is, models tend to overfit frequent slot values in training data instead of learning contextual patterns, which reduces the performance on Out-Of-Vocabulary (OOV) slot values. To improve the performance on unseen slot values, during training, target slot values are replaced by a special [UNK] token at a certain probability.</p>
+</li>
+<li>
+<p><em><strong>Span prediction loss</strong></em>: a weighted summation of $0.8\times\zeta_{\text{cls}}^{\text{xent}} + 0.1\times\zeta_{\text{span start}}^{\text{xent}} + 0.1\times\zeta_{\text{span end}}^{\text{xent}}$,
+where $\zeta^{\text{xent}}$ corresponds to the categorical cross-entropy for the corresponding prediction target. [4]</p>
+</li>
+</ul>
+<h3 id="simpletodhttpsarxivorgpdf200500796pdf-a-simple-language-model-for-task-oriented-dialogue-a-namesimple-toda"><a href="https://arxiv.org/pdf/2005.00796.pdf">SimpleTOD</a>: A Simple Language Model for Task-Oriented Dialogue <a name="simple-tod"></a></h3>
+<p>Typically, each component of Task-Oriented Dialogue (TOD) systems is trained independently with specific supervision.
+The conventional pipeline of TOD systems usually comprises (i) Natural Language Understanding (NLU) for belief state tracking; (ii) Dialogue Policy (DP), for deciding which actions to take based on the belief state; and (iii) natural language generation (NLG) for generating responses.</p>
+<p>SimpleTOD is a simple approach that recasts all TOD sub-tasks/components as a single sequence prediction problem by using a unidirectional (causal) pre-trained language model, i.e. the GPT-2. GPT-2 resembles the decoder from the original Transformer architecture to learn a distribution for next-word prediction.</p>
+<p>This way, SimpleTOD can be used as a generative model for dialogue state tracking. Experiment results suggest that SimpleTOD is a robust dialogue state tracker in the presence of noisy labeled annotations. [5]</p>
+<h4 id="simpletod-overview">SimpleTOD overview</h4>
+<p>As illustrated in <strong>Figure 8</strong>, SimpleTOD considers all previous dialogue turns as context $C_t=[U_0, S_0, &hellip;, U_t]$,
+where $U$ and $S$ denote User and System utterances, respectively; in order to generate the output sequence token by token as follows:</p>
+<ul>
+<li>
+<p>It first generates the belief state $B_t=\text{SimpleTOD}(C_t)$. The belief state is a list of triplets for slots in a particular domain: (<em>domain</em>, <em>slot_name</em>, <em>value</em>).</p>
+</li>
+<li>
+<p>Then, the belief state is used to query a database for information. The returned rows/outputs of the database $D_t$ are then concatenated with $C_t$ and $B_t$, at the end of the output sequence, to generate the actions $A_t$ to take: $A_t=\text{SimpleTOD}(C_t, B_t, D_t)$. Actions are also generated as a list of triplets: (<em>domain</em>, <em>action_type</em>, <em>slot_name</em>).</p>
+</li>
+<li>
+<p>Finally, a delexicalized response $S_t$ is generated conditioned on all prior information concatenated as a single sequence: $S_t=\text{SimpleTOD}(C_t, B_t, D_t, A_t)$. The response can then be lexicalized by replacing slots and values with information from the belief state and database search results. [5]</p>
+</li>
+</ul>
+<figure>
+<p align="center">
+<img src="/images/blog/NLU2022/tod_1.png"  alt="SimpleTOD inference step" width="500"/>
+</p>
+<figcaption align = "center"><b>Figure 8: SimpleTOD inference step (image from [5]).</b></figcaption>
+</figure>
+<p><strong>Figure 9</strong> provides a schematic representation of the different components of inputs/outputs in task-oriented dialogue.</p>
+<figure>
+<p align="center">
+<img src="/images/blog/NLU2022/tod_2.png"  alt="Inputs/outputs representation" width="500"/>
+</p>
+<figcaption align = "center"><b>Figure 9: Inputs/outputs representation (image from [5]).</b></figcaption>
+</figure>
+<h4 id="training">Training</h4>
+<p>A single training sequence $x^t$ consists of the concatenation of context $C_t$, belief states $B_t$,
+database search results $D_t$, action decisions $A_t$, and system response $S_t$, such that $x^{t}=[C_t; B_t; D_t; A_t; S_t]$.</p>
+<p>SimpleTOD is optimized by minimizing the negative log-likelihood over the joint sequence $x^{t}$.
+The output state associated with each input token is used to predict the next token - see <strong>Figure 10</strong>.</p>
+<figure>
+<p align="center">
+<img src="/images/blog/NLU2022/tod_3.png"  alt="SimpleTOD training process." width="550"/>
+</p>
+<figcaption align = "center"><b>Figure 10: SimpleTOD training process (image from [5]).</b></figcaption>
+</figure>
+<h2 id="models-comparison-a-namecomparisona">Model&rsquo;s comparison <a name="comparison"></a></h2>
+
+
+
+
+
+<table class="table table-striped table-bordered text-left">
+<thead>
+<tr>
+<th><strong>Model</strong></th>
+<th><strong>Input</strong></th>
+<th><strong>Joint intent &amp; slot filling</strong></th>
+<th><strong>DST mechanism</strong></th>
+<th><strong>Architecture</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>JointBERT</strong> [2]</td>
+<td>Current User Utterance</td>
+<td>Yes</td>
+<td>N/A**</td>
+<td>BERT + Softmax classifiers</td>
+</tr>
+<tr>
+<td><strong>Stack-propagation</strong> [3]</td>
+<td>Current User Utterance</td>
+<td>Yes</td>
+<td>N/A**</td>
+<td>Self-attentive encoder +  2 decoders (LSTM)</td>
+</tr>
+<tr>
+<td><strong>BERT-DST</strong> [4]</td>
+<td>Current User Utterance +  Previous System Uttrance</td>
+<td>No*</td>
+<td>Rule-based</td>
+<td>BERT +  Softmax classifiers</td>
+</tr>
+<tr>
+<td><strong>SimpleTOD</strong> [5]</td>
+<td>All User and System uterrances</td>
+<td>No*</td>
+<td>Directly predicts the belief state (updated slots)</td>
+<td>Unidrectional Transformer decoder (i.e. GPT-2) +  Generative decoding</td>
+</tr>
+</tbody>
+</table>
+<p>* Nevertheless, the architecture BERT-DST and SimpleTOD can be easily extended for joint intent prediction and slot filling.</p>
+<p>** Although DST is not addressed in both JointBERT and Stack-propagation, a rule-based approach could be easily employed based on the extracted slots and intents.</p>
+<h2 id="references">References</h2>
+<p>[1] Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova, <a href="https://arxiv.org/pdf/1810.04805.pdf">BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding</a>. NAACL-HLT (1) 2019: 4171-4186</p>
+<p>[2] Chen, Qian &amp; Zhuo, Zhu &amp; Wang, Wen. (2019). <a href="https://arxiv.org/pdf/1902.10909.pdf">BERT for Joint Intent Classification and Slot Filling</a>.</p>
+<p>[3] Qin, Libo &amp; Che, Wanxiang &amp; Li, Yangming &amp; Wen, Haoyang &amp; Liu, Ting. (2019). <a href="https://arxiv.org/pdf/1909.02188v1.pdf">A Stack-Propagation Framework with Token-Level Intent Detection for Spoken Language Understanding</a>. 2078-2087. 10.18653/v1/D19-1214.</p>
+<p>[4] Chao, Guan-Lin &amp; Lane, Ian. (2019). <a href="https://arxiv.org/pdf/1907.03040.pdf">BERT-DST: Scalable End-to-End Dialogue State Tracking with Bidirectional Encoder Representations from Transformer</a>. 1468-1472. 10.21437/Interspeech.2019-1355.</p>
+<p>[5] Hosseini asl, Ehsan &amp; McCann, Bryan &amp; Wu, Chien-Sheng &amp; Yavuz, Semih &amp; Socher, Richard. (2020). <a href="https://arxiv.org/pdf/2005.00796.pdf">A Simple Language Model for Task-Oriented Dialogue</a>.</p>
+<p>Blog photo by <a href="https://www.omni-chatbot.pl/czym-jest-chatbot-i-jak-dziala/">omni-chatbot</a>.</p>
+
+
+					</div>
+					<div class="post-comments">
+						
+					</div>
+				</div>
+			</div>
+      <div class="col-md-4">
+        <aside class="sidebar">
+  
+  <div class="widget widget-latest-post">
+    <h4 class="widget-title">Latest Posts</h4>
+    
+    <div class="media">
+      <a class="pull-left" href="https://ifetch-chatbot.github.io/blog/blog-post-20220719/">
+        <img class="media-object" src="/images/blog/NLU2022/NLU.jpg" alt="Natural Language Understanding for Conversational AI ">
+      </a>
+      <div class="media-body">
+        <h4 class="media-heading"><a href="https://ifetch-chatbot.github.io/blog/blog-post-20220719/">Natural Language Understanding for Conversational AI </a></h4>
+        <p>Summary Natural Language Understanding (NLU) is an …</p>
+      </div>
+    </div>
+    
+    <div class="media">
+      <a class="pull-left" href="https://ifetch-chatbot.github.io/blog/blog-post-20220422/">
+        <img class="media-object" src="/images/blog/timeseries2022/timeseries.jpg" alt="Why are time-series databases relevant for a Conversational AI platform? ">
+      </a>
+      <div class="media-body">
+        <h4 class="media-heading"><a href="https://ifetch-chatbot.github.io/blog/blog-post-20220422/">Why are time-series databases relevant for a Conversational AI platform? </a></h4>
+        <p>What is time-series data? Time-series data is …</p>
+      </div>
+    </div>
+    
+    <div class="media">
+      <a class="pull-left" href="https://ifetch-chatbot.github.io/blog/blog-post-20220402/">
+        <img class="media-object" src="/images/blog/blog-post-8-mailing-list.jpg" alt="Conversational AI Mailing List">
+      </a>
+      <div class="media-body">
+        <h4 class="media-heading"><a href="https://ifetch-chatbot.github.io/blog/blog-post-20220402/">Conversational AI Mailing List</a></h4>
+        <p>We&rsquo;ve launched a Conversational AI mailing …</p>
+      </div>
+    </div>
+    
+    <div class="media">
+      <a class="pull-left" href="https://ifetch-chatbot.github.io/blog/blog-post-20220323/">
+        <img class="media-object" src="/images/blog/blog-conference-3.jpg" alt="iFetch Talking Series">
+      </a>
+      <div class="media-body">
+        <h4 class="media-heading"><a href="https://ifetch-chatbot.github.io/blog/blog-post-20220323/">iFetch Talking Series</a></h4>
+        <p>This week marks the start of a series of talks …</p>
+      </div>
+    </div>
+    
+  </div>
+  
+
+  
+  <div class="widget widget-category">
+    <h4 class="widget-title">Categories</h4>
+    <ul class="widget-category-list">
+      <li><a href="/categories/artificial-intelligence">artificial-intelligence</a></li>
+      <li><a href="/categories/complementary-retrieval">complementary-retrieval</a></li>
+      <li><a href="/categories/conference">conference</a></li>
+      <li><a href="/categories/conversational-search">conversational-search</a></li>
+      <li><a href="/categories/data-science">data-science</a></li>
+      <li><a href="/categories/dissemination">dissemination</a></li>
+      <li><a href="/categories/machine-learning">machine-learning</a></li>
+      <li><a href="/categories/mentorship">mentorship</a></li>
+      <li><a href="/categories/project-news">project-news</a></li>
+      <li><a href="/categories/report">report</a></li>
+      <li><a href="/categories/talks">talks</a></li>
+      <li><a href="/categories/technology">technology</a></li>
+    </ul>
+  </div> 
+
+  
+  <div class="widget widget-tag">
+    <h4 class="widget-title">Tags</h4>
+    <ul class="widget-tag-list">
+      <li><a href="/tags/answer-generation">answer-generation</a></li>
+      <li><a href="/tags/applied-scientist">applied-scientist</a></li>
+      <li><a href="/tags/blog">blog</a></li>
+      <li><a href="/tags/chatbot">chatbot</a></li>
+      <li><a href="/tags/communication">communication</a></li>
+      <li><a href="/tags/computer-vision">computer-vision</a></li>
+      <li><a href="/tags/conference">conference</a></li>
+      <li><a href="/tags/conversational-ai">conversational-ai</a></li>
+      <li><a href="/tags/conversational-commerce">conversational-commerce</a></li>
+      <li><a href="/tags/conversational-search">conversational-search</a></li>
+      <li><a href="/tags/database">database</a></li>
+      <li><a href="/tags/ecir">ecir</a></li>
+      <li><a href="/tags/job">job</a></li>
+      <li><a href="/tags/mailing-list">mailing-list</a></li>
+      <li><a href="/tags/mentorship">mentorship</a></li>
+      <li><a href="/tags/nlp">nlp</a></li>
+      <li><a href="/tags/nlu">nlu</a></li>
+      <li><a href="/tags/project-update">project-update</a></li>
+      <li><a href="/tags/publications">publications</a></li>
+      <li><a href="/tags/query-rewriting">query-rewriting</a></li>
+      <li><a href="/tags/re-ranking">re-ranking</a></li>
+      <li><a href="/tags/scholarships">scholarships</a></li>
+      <li><a href="/tags/seminars">seminars</a></li>
+      <li><a href="/tags/share">share</a></li>
+      <li><a href="/tags/summer-school">summer-school</a></li>
+      <li><a href="/tags/talent">talent</a></li>
+      <li><a href="/tags/technology">technology</a></li>
+      <li><a href="/tags/time-series">time-series</a></li>
+      <li><a href="/tags/transformers">transformers</a></li>
+      <li><a href="/tags/workshop">workshop</a></li>
+    </ul>
+  </div> 
+</aside>
+
+      </div>
+		</div>
+	</div>
+</section>
+
+<footer class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="footer-manu">
+					<ul>
+            
+					</ul>
+				</div>
+				<img src="https://ifetch-chatbot.github.io/images/sponsor/sponsor.png" width="100%" />
+				<p class="copyright">Copyright © 2019 <a href="https://themefisher.com">Themefisher</a> All Rights Reserved</p>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+
+
+
+
+<script src="https://ifetch-chatbot.github.io/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://ifetch-chatbot.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://ifetch-chatbot.github.io/plugins/slick/slick.min.js"></script>
+
+<script src="https://ifetch-chatbot.github.io/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+<script src="https://ifetch-chatbot.github.io/plugins/shuffle/shuffle.min.js"></script>
+
+<script src="https://ifetch-chatbot.github.io/plugins/google-map/gmap.js"></script>
+
+
+
+
+<script src="https://ifetch-chatbot.github.io/js/script.min.js"></script>
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-162948195-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+</body>
+
+</html>

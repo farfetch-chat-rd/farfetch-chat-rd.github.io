@@ -7,7 +7,34 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; 2019 [Themefisher](https://themefisher.com) All Rights Reserved</copyright>
-    <lastBuildDate>Fri, 22 Apr 2022 16:45:01 +0100</lastBuildDate><atom:link href="https://ifetch-chatbot.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 Jul 2022 10:00:01 +0100</lastBuildDate><atom:link href="https://ifetch-chatbot.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Artificial Intelligence</title>
+      <link>https://ifetch-chatbot.github.io/categories/artificial-intelligence/</link>
+      <pubDate>Tue, 19 Jul 2022 10:00:01 +0100</pubDate>
+      
+      <guid>https://ifetch-chatbot.github.io/categories/artificial-intelligence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Science</title>
+      <link>https://ifetch-chatbot.github.io/categories/data-science/</link>
+      <pubDate>Tue, 19 Jul 2022 10:00:01 +0100</pubDate>
+      
+      <guid>https://ifetch-chatbot.github.io/categories/data-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning</title>
+      <link>https://ifetch-chatbot.github.io/categories/machine-learning/</link>
+      <pubDate>Tue, 19 Jul 2022 10:00:01 +0100</pubDate>
+      
+      <guid>https://ifetch-chatbot.github.io/categories/machine-learning/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Technology</title>
       <link>https://ifetch-chatbot.github.io/categories/technology/</link>
