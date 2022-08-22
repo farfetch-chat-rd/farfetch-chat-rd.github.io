@@ -21,6 +21,7 @@ rm -rf public/*
 echo "Generating site"
 hugo
 
-echo "Updating gh-pages branch"
-cd public && git add --all && git commit -m "feat: Publishing to master"
+# echo "Updating gh-pages branch"
+# publish to master has to have a PR so @rjgsousa can track website project updates
+# cd public && git add --all && git commit -m "feat: Publishing to master"
 
