@@ -21,6 +21,8 @@ rm -rf public/*
 echo "Generating site"
 hugo
 
+cp -v themes/airspace/layouts/papers/literature* public/papers/
+
 # echo "Updating gh-pages branch"
 cd public && git add --all && git commit -m "feat: Publishing to master"
 
