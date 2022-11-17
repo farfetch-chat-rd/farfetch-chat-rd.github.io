@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://ifetch-chatbot.github.io/activities/</loc>
+    <lastmod>2022-11-16T12:30:29+06:00</lastmod>
+  </url><url>
+    <loc>https://ifetch-chatbot.github.io/</loc>
+    <lastmod>2022-11-16T12:30:29+06:00</lastmod>
+  </url><url>
+    <loc>https://ifetch-chatbot.github.io/software/</loc>
+    <lastmod>2022-11-16T12:05:29+06:00</lastmod>
+  </url><url>
     <loc>https://ifetch-chatbot.github.io/categories/</loc>
     <lastmod>2022-11-07T21:00:01+01:00</lastmod>
   </url><url>
@@ -23,17 +32,11 @@
     <loc>https://ifetch-chatbot.github.io/blog/blog-post-20221107/</loc>
     <lastmod>2022-11-07T21:00:01+01:00</lastmod>
   </url><url>
-    <loc>https://ifetch-chatbot.github.io/</loc>
-    <lastmod>2022-11-07T21:00:01+01:00</lastmod>
-  </url><url>
     <loc>https://ifetch-chatbot.github.io/blog/</loc>
     <lastmod>2022-11-07T21:00:01+01:00</lastmod>
   </url><url>
     <loc>https://ifetch-chatbot.github.io/tags/</loc>
     <lastmod>2022-11-07T21:00:01+01:00</lastmod>
-  </url><url>
-    <loc>https://ifetch-chatbot.github.io/activities/</loc>
-    <lastmod>2022-11-07T21:00:29+06:00</lastmod>
   </url><url>
     <loc>https://ifetch-chatbot.github.io/categories/artificial-intelligence/</loc>
     <lastmod>2022-07-19T10:00:01+01:00</lastmod>
@@ -189,9 +192,6 @@
     <lastmod>2020-10-22T10:45:05+01:00</lastmod>
   </url><url>
     <loc>https://ifetch-chatbot.github.io/data/</loc>
-    <lastmod>2020-10-07T13:05:29+06:00</lastmod>
-  </url><url>
-    <loc>https://ifetch-chatbot.github.io/software/</loc>
     <lastmod>2020-10-07T13:05:29+06:00</lastmod>
   </url><url>
     <loc>https://ifetch-chatbot.github.io/blog/blog-post-20201002/</loc>
