@@ -11,7 +11,6 @@ disqusShortname = "" # get your shortname form here : https://disqus.com
 # disable language
 disableLanguages = []
 
-
 categories = ["Research"]
 project_url = "https://ifetch-chatbot.github.io/"
 # series = ["Go Web Dev"]
@@ -47,12 +46,6 @@ link = "plugins/google-map/gmap.js"
 
 ############################## navigation ###############################
 
-# main menu
-# [[menu.main]]
-# name = "VISION"
-# URL = "about"
-# weight = 1
-
 [[menu.main]]
 name = "Project"
 URL = "project"
@@ -80,6 +73,11 @@ parent="Project"
 name = "Vision"
 URL = "about"
 
+[[menu.main]]
+parent="Project"
+name = "Team"
+URL = "team"
+
 ##################################################################
 
 [[menu.main]]
@@ -91,7 +89,6 @@ weight = 3
 name = "Activities"
 URL = "activities"
 weight = 4
-
 
 [[menu.main]]
 name = "Opportunities"
@@ -109,29 +106,28 @@ hasChildren = true
  name = "FAQ"
  URL = "faq"
 
- ##################################################################
- [[menu.main]]
+##################################################################
+[[menu.main]]
  weight = 7
  name = "Downloads"
  hasChildren = true
 
- [[menu.main]]
+[[menu.main]]
  parent = "Downloads"
  name = "DATA"
  URL = "data"
 
- [[menu.main]]
+[[menu.main]]
  parent = "Downloads"
  name = "PAPERS"
  URL = "papers"
 
- [[menu.main]]
+[[menu.main]]
  parent = "Downloads"
  name = "SOFTWARE"
  URL = "software"
 
- ##################################################################
-
+##################################################################
 [[menu.main]]
 name = "PARTNERS"
 URL = "contact"
