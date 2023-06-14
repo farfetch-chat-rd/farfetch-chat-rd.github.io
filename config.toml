@@ -1,6 +1,6 @@
 ################################# Default configuration ###################
-baseURL = "https://ifetch-chatbot.github.io/"
-title = "iFetch | MultiModal Conversational Agents"
+baseURL = "https://farfetch-chat.github.io/"
+title = "FARFETCH Chat | MultiModal Conversational Agents"
 theme = "airspace"
 # post pagination
 paginate = "4"
@@ -12,10 +12,10 @@ disqusShortname = "" # get your shortname form here : https://disqus.com
 disableLanguages = []
 
 categories = ["Research"]
-project_url = "https://ifetch-chatbot.github.io/"
+project_url = "https://farfetch-chat.github.io/"
 # series = ["Go Web Dev"]
-slug = "iFetch"
-tags = ["Research", "Development", "conversational agents", "computer vision", "nlp"]
+slug = "Farfetch Chat R&D"
+tags = ["Conversational AI", "Conversational Agents", "natural language processing", "computer vision", "machine learning"]
 
 #################################### Plugins ##############################
 
@@ -137,7 +137,7 @@ weight = 3
 [params]
 logo = "images/logo.png"
 # Meta data
-description = "iFetch | iFetch is a multimodal conversational agents for the online fashion marketplace. Co-promotion initiative with CMU, UNL and IST."
+description = "FARFETCH Chat | FARFETCH Chat is a multimodal conversational agents for the online fashion marketplace. Co-promotion initiative with CMU, UNL and IST."
 author = "FARFETCH"
 # Contact Information
 mobile = ""
