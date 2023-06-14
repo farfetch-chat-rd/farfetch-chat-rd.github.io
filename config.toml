@@ -1,5 +1,5 @@
 ################################# Default configuration ###################
-baseURL = "https://farfetch-chat.github.io/"
+baseURL = "https://farfetch-chat-rd.github.io/"
 title = "FARFETCH Chat | MultiModal Conversational Agents"
 theme = "airspace"
 # post pagination
