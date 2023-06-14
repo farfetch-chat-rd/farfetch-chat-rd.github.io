@@ -1,3 +1,3 @@
-# farfetch-chat.farfetch.io
+# farfetch-chat-rd.farfetch.io
 
-FARFETCH Chat is a multimodal conversational agents for the online fashion marketplace. Co-promotion initiative with CMU, UNL and IST.
+FARFETCH Chat R&D is a multimodal conversational agents for the online fashion marketplace. Co-promotion initiative with CMU, UNL and IST.

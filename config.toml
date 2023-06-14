@@ -12,7 +12,7 @@ disqusShortname = "" # get your shortname form here : https://disqus.com
 disableLanguages = []
 
 categories = ["Research"]
-project_url = "https://farfetch-chat.github.io/"
+project_url = "https://farfetch-chat-rd.github.io/"
 # series = ["Go Web Dev"]
 slug = "Farfetch Chat R&D"
 tags = ["Conversational AI", "Conversational Agents", "natural language processing", "computer vision", "machine learning"]

@@ -8,4 +8,4 @@ bg_image: "images/featue-bg.jpg"
 
 ## Team Composition 
 
-![iFetch Team](/images/ifetch_team.png)
+![Farfetch Chat R&D Team](/images/ifetch_team.png)

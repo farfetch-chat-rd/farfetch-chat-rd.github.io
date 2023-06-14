@@ -9,7 +9,7 @@ information:
   - label : "Portfolio"
     info : "Website"
   - label: "Project designation" 
-    info: "iFetch - Multimodal conversational agents for the online fashion marketplace"
+    info: "Farfetch Chat R&D - Multimodal conversational agents for the online fashion marketplace"
   - label : "Project Code"
     info: "POCI-01-0247-FEDER-045920"
   - label : "Intervention region"
@@ -28,9 +28,9 @@ information:
 
 ## Objectives 
 
-[iFetch](images/portfolio/ifetch_info.pdf) proposes to research and deliver a new generation of task-oriented conversational agents that
+[Farfetch Chat R&D](images/portfolio/ifetch_info.pdf) proposes to research and deliver a new generation of task-oriented conversational agents that
 interact with users using verbal and visual information in a seamless manner. Through the conversation,
-iFetch must provide targeted advice and "physical store-like" experience while maintaining user
+Farfetch Chat must provide targeted advice and "physical store-like" experience while maintaining user
 engagement.
 
 This entails the following key components:

@@ -8,12 +8,12 @@ bg_image: "images/featue-bg.jpg"
 
 ### Empowering our Customers
 
-The positioning of **FARFETCH**’s brand will be empowered through the iFetch that will allow it to have closer and faster interactions on the point of purchase and, therefore, elevate the service level on an increasingly on-demand market where the customer requires immediate answers to their needs.
+The positioning of **FARFETCH**’s brand will be empowered through the FARFETCH Chat R&D that will allow it to have closer and faster interactions on the point of purchase and, therefore, elevate the service level on an increasingly on-demand market where the customer requires immediate answers to their needs.
 
 **FARFETCH** aims to: (1) customize the service to each client, tailoring it to its needs; (2) increase the CR of all the potential clients that visit the platform bringing more revenue to all the parties involved in the sale, **FARFETCH** and its partners; (3) increase online penetration in the high-end market, by decreasing some of the barriers that characterize the online purchase, therefore convincing the more conservative audience; (4) enter new geographical markets and increase the penetration in markets in high demand such as the emerging markets; and finally (5) improve the efficiency and the quality of the company in terms of its customer service (CS) response rate and backlog rate.
 
 
-With iFetch, we will empower the brand by providing advice and acting as an influencer shaping the purchase journey by narrating to the customer the brand’s origins (*storytelling: how to style this piece, who the designer is, what the values of the brand are*), product relationships and providing an intersection of conversational apps with shopping that is so keen for younger generations.
+With FARFETCH Chat R&D, we will empower the brand by providing advice and acting as an influencer shaping the purchase journey by narrating to the customer the brand’s origins (*storytelling: how to style this piece, who the designer is, what the values of the brand are*), product relationships and providing an intersection of conversational apps with shopping that is so keen for younger generations.
 
 
 ### Purchase Journey for Luxury Commerce
@@ -160,7 +160,7 @@ To support our customers throughout their journey and allow them to access a rel
 
 ### Store of the Future
 
-iFetch has the vision to empower the staff in the store. As new products are added to the inventory on a weekly basis it is a daunting task for the staff to be up to date with current trends. As described next, a couple of challenges are faced daily by the boutique staff:
+FARFETCH Chat R&D has the vision to empower the staff in the store. As new products are added to the inventory on a weekly basis it is a daunting task for the staff to be up to date with current trends. As described next, a couple of challenges are faced daily by the boutique staff:
 
 * *What are the new garments and from which brands?*
 * *Which details are more relevant for the products, which brands/designers are emerging and for which seasons?*
