@@ -2,7 +2,7 @@
 banner:
   enable : true
   bg_image : "images/slider-bg.jpg"
-  title : "MultiModal Conversational Agents for the online fashion marketplace"
+  title : "Multimodal Conversational Agents for the online fashion marketplace"
   content : ""
   enable : true
   button:
@@ -13,9 +13,9 @@ banner:
 about:
   enable : true
   title : "Project"
-  description : "iFetch puts together a multidisciplinary team with strong competence in key areas such as multimedia,
+  description : "FARFETCH Chat puts together a multidisciplinary team with strong competence in key areas such as multimedia,
                   computer vision and language understanding both from universities and from a leading ICT company.
-                  iFetch will leverage FARFETCH’s unique and rich product knowledge base, massive (multimodal)
+                  FARFETCH CHAT will leverage FARFETCH’s unique and rich product knowledge base, massive (multimodal)
                   training data and experience in deploying and maintaining large AI systems ensuring a successful research program."
   content : ""
   image : "images/project-600px.png"
@@ -27,18 +27,13 @@ portfolio:
   bg_image : "images/vision.jpeg"
   title : "OUR AMBITION"
   content : "
-  **iFetch** ambition is to research conversational technology and algorithms that will make an impact. We are addressing two critical challenges with high-impact:
+  **FARFETCH Chat** ambition is to research conversational technology and algorithms that will make an impact. We are addressing two critical challenges with high-impact:
 
 * Tracking the evolution of the shopping needs throughout conversation;
 
 
 * Relate product categories and characteristics to the conversation which thus leads to a better user engagement.
   "
-  # button:
-  #   enable : true
-  #   label : "View Works"
-  #   link : "project"
-
 
 ################################ feature #####################################
 features:
@@ -70,69 +65,3 @@ features:
     - image : "images/farfetch.png"
       name : ""
       content : ""
-
-# ############################# Service ############################
-# service:
-#   enable : true
-#   # service content comes from "data/*/service.yml" file
-
-
-############################ call to action ###########################
-# cta:
-#   enable : true
-#   bg_image : "images/call-to-action-bg.jpg"
-#   title : "We design delightful digital experiences."
-#   content : "Read more about what we do and our philosophy of design. Judge for yourself The work and results <br> we’ve achieved for other clients, and meet our highly experienced Team who just love to design."
-#   button:
-#     enable : true
-#     label : "Tell Us Your Story"
-#     link : "contact"
-
-# ############################# Funfacts ###############################
-# funfacts:
-#   enable : true
-#   title : "Fun Facts About Us"
-#   description : "'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, <br> there live the
-#           blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics'"
-#   funfact_item:
-#     # funfacts item loop
-#     - icon : "ion-ios-chatboxes-outline" #ionicon pack v2 : https://ionicons.com/v2/
-#       name : "Cups Of Coffee"
-#       count : "99"
-#
-#     # funfacts item loop
-#     - icon : "ion-ios-glasses-outline" #ionicon pack v2 : https://ionicons.com/v2/
-#       name : "Article Written"
-#       count : "45"
-#
-#     # funfacts item loop
-#     - icon : "ion-ios-compose-outline" #ionicon pack v2 : https://ionicons.com/v2/
-#       name : "Projects Completed"
-#       count : "125"
-#
-#     # funfacts item loop
-#     - icon : "ion-ios-timer-outline" #ionicon pack v2 : https://ionicons.com/v2/
-#       name : "Combined Projects"
-#       count : "200"
-#
-#   testimonial_slider:
-#     # testimonial item loop
-#     - name : "Raymond Roy"
-#       image : "images/clients/avater-1.jpg"
-#       designation : "CEO-Themefisher"
-#       content : "This Company created an e-commerce site with the tools to make our business a success, with innovative
-#                 ideas we feel that our site has unique elements that make us stand out from the crowd."
-#
-#     # testimonial item loop
-#     - name : "Randi Renin"
-#       image : "images/clients/avater-1.jpg"
-#       designation : "CEO-Themefisher"
-#       content : "This Company created an e-commerce site with the tools to make our business a success, with innovative
-#                 ideas we feel that our site has unique elements that make us stand out from the crowd."
-#
-#     # testimonial item loop
-#     - name : "Rose Rio"
-#       image : "images/clients/avater-3.jpg"
-#       designation : "CEO-Themefisher"
-#       content : "This Company created an e-commerce site with the tools to make our business a success, with innovative
-#                 ideas we feel that our site has unique elements that make us stand out from the crowd."

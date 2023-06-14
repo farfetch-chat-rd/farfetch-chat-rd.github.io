@@ -39,8 +39,7 @@ features:
       name : ""
       content : ""
 
-#
-# #################################### testimonial & mission vision #######################################
+#################################### testimonial & mission vision #######################################
 # testimonial:
 #   enable : true
 #   # testimonial content comes from "data/*/homepage.yml" file
@@ -82,7 +81,3 @@ features:
 #       temporibus eos sequi alias hic nemo."
 
 
-############################# call to action #################################
-# cta:
-#   enable : true
-  # call to action content comes from "data/*/homepage.yml"
