@@ -1,76 +1,76 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Conference on iFetch | MultiModal Conversational Agents</title>
-    <link>https://ifetch-chatbot.github.io/tags/conference/</link>
-    <description>Recent content in Conference on iFetch | MultiModal Conversational Agents</description>
+    <title>Conference on FARFETCH Chat | MultiModal Conversational Agents</title>
+    <link>https://farfetch-chat.github.io/tags/conference/</link>
+    <description>Recent content in Conference on FARFETCH Chat | MultiModal Conversational Agents</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; 2019 [Themefisher](https://themefisher.com) All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 24 Mar 2022 08:55:00 +0100</lastBuildDate><atom:link href="https://ifetch-chatbot.github.io/tags/conference/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 24 Mar 2022 08:55:00 +0100</lastBuildDate><atom:link href="https://farfetch-chat.github.io/tags/conference/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>iFetch Talking Series</title>
-      <link>https://ifetch-chatbot.github.io/blog/blog-post-20220323/</link>
+      <link>https://farfetch-chat.github.io/blog/blog-post-20220323/</link>
       <pubDate>Thu, 24 Mar 2022 08:55:00 +0100</pubDate>
       
-      <guid>https://ifetch-chatbot.github.io/blog/blog-post-20220323/</guid>
+      <guid>https://farfetch-chat.github.io/blog/blog-post-20220323/</guid>
       <description>This week marks the start of a series of talks about the iFetch project that I’ll be giving. Our goal with iFetch is to create a trustworthy multimodal conversational agent for the online fashion marketplace.</description>
     </item>
     
     <item>
       <title>Call for Mentees - Mentorship Program on Conversational Agents @ VISUM 2022</title>
-      <link>https://ifetch-chatbot.github.io/blog/blog-post-20220127/</link>
+      <link>https://farfetch-chat.github.io/blog/blog-post-20220127/</link>
       <pubDate>Thu, 27 Jan 2022 18:20:00 +0100</pubDate>
       
-      <guid>https://ifetch-chatbot.github.io/blog/blog-post-20220127/</guid>
+      <guid>https://farfetch-chat.github.io/blog/blog-post-20220127/</guid>
       <description>Earlier this month, we have announced the collaboration with VISUM Summer School in a new Mentorship Program initiative (see our post here).
 Today we bring you more updates on this initiative.</description>
     </item>
     
     <item>
       <title>VISUM 2022 - Mentorship Program (Opportunity to learn how to build multimodal conversational agents)</title>
-      <link>https://ifetch-chatbot.github.io/blog/blog-post-20220106/</link>
+      <link>https://farfetch-chat.github.io/blog/blog-post-20220106/</link>
       <pubDate>Thu, 06 Jan 2022 11:00:00 +0100</pubDate>
       
-      <guid>https://ifetch-chatbot.github.io/blog/blog-post-20220106/</guid>
+      <guid>https://farfetch-chat.github.io/blog/blog-post-20220106/</guid>
       <description>We are thrilled to announce that we will work with VISUM 2022 on a new Mentorship Program initiative.
 It will be an inspiring opportunity for young researchers to get feedback from senior scholars and industrial researchers in Machine Learning and Computer Vision.</description>
     </item>
     
     <item>
       <title>MuCAI Workshop Update - Keynote Speaker: Professor Eugene Agichtein</title>
-      <link>https://ifetch-chatbot.github.io/blog/blog-post-20210723/</link>
+      <link>https://farfetch-chat.github.io/blog/blog-post-20210723/</link>
       <pubDate>Fri, 23 Jul 2021 11:30:00 +0100</pubDate>
       
-      <guid>https://ifetch-chatbot.github.io/blog/blog-post-20210723/</guid>
+      <guid>https://farfetch-chat.github.io/blog/blog-post-20210723/</guid>
       <description>As previously announced, we are organizing a Workshop On Multimedia Conversational AI at ACM Multimedia 2021 ( original blog post).
 In this blog post, we announce the Keynote Speaker: Professor Eugene Agichtein.</description>
     </item>
     
     <item>
       <title>iFetch at &#34;Encontro Ciencia 2021&#34; </title>
-      <link>https://ifetch-chatbot.github.io/blog/blog-post-20210715/</link>
+      <link>https://farfetch-chat.github.io/blog/blog-post-20210715/</link>
       <pubDate>Thu, 15 Jul 2021 15:15:00 +0100</pubDate>
       
-      <guid>https://ifetch-chatbot.github.io/blog/blog-post-20210715/</guid>
+      <guid>https://farfetch-chat.github.io/blog/blog-post-20210715/</guid>
       <description>On the 28th of June at Centro de Congressos Lisbon, FARFETCH participated in &amp;ldquo;The contribution of the CMU Portugal international partnership for the high-tech Unicorn ecosystem in Portugal&amp;rdquo; within the &amp;ldquo;Encontro Ciência 2021&amp;rdquo; event.</description>
     </item>
     
     <item>
       <title>iFetch at CVPR</title>
-      <link>https://ifetch-chatbot.github.io/blog/blog-post-20210518/</link>
+      <link>https://farfetch-chat.github.io/blog/blog-post-20210518/</link>
       <pubDate>Tue, 18 May 2021 08:19:05 +0100</pubDate>
       
-      <guid>https://ifetch-chatbot.github.io/blog/blog-post-20210518/</guid>
+      <guid>https://farfetch-chat.github.io/blog/blog-post-20210518/</guid>
       <description>In online shopping applications, the daily insertion of new products requires an overwhelming annotation effort. Usually done by humans, it comes at a huge cost and yet generates high rates of noisy/missing labels that seriously hinder the effectiveness of CNNs in multi-label classification.</description>
     </item>
     
     <item>
       <title>Workshop on Multimodal Conversational AI (MuCAI) @ ACM Multimedia 2021</title>
-      <link>https://ifetch-chatbot.github.io/blog/blog-post-20210504/</link>
+      <link>https://farfetch-chat.github.io/blog/blog-post-20210504/</link>
       <pubDate>Tue, 04 May 2021 08:00:05 +0100</pubDate>
       
-      <guid>https://ifetch-chatbot.github.io/blog/blog-post-20210504/</guid>
+      <guid>https://farfetch-chat.github.io/blog/blog-post-20210504/</guid>
       <description>iFetch team is organizing a workshop on Multimodal Conversational Agents to be held this year at ACM Multimedia. More details will be shared soon.
 Important Dates
 Submission deadline: August 10th 2021</description>
@@ -78,19 +78,19 @@ Submission deadline: August 10th 2021</description>
     
     <item>
       <title>iFetch with a publication accepted at ECIR 2021</title>
-      <link>https://ifetch-chatbot.github.io/blog/blog-post-20210427/</link>
+      <link>https://farfetch-chat.github.io/blog/blog-post-20210427/</link>
       <pubDate>Tue, 27 Apr 2021 14:00:05 +0100</pubDate>
       
-      <guid>https://ifetch-chatbot.github.io/blog/blog-post-20210427/</guid>
+      <guid>https://farfetch-chat.github.io/blog/blog-post-20210427/</guid>
       <description>We are pleased to inform that we have a new publication in the 43rd European Conference on Information Retrieval (ECIR 2021). The publication presents a complete conversational search pipeline that includes various state-of-the-art approaches to rewrite queries, re-rank results, and summarize retrieved answers.</description>
     </item>
     
     <item>
       <title>New Publication at ACM MM 2020</title>
-      <link>https://ifetch-chatbot.github.io/blog/blog-post-20201022/</link>
+      <link>https://farfetch-chat.github.io/blog/blog-post-20201022/</link>
       <pubDate>Thu, 22 Oct 2020 10:45:05 +0100</pubDate>
       
-      <guid>https://ifetch-chatbot.github.io/blog/blog-post-20201022/</guid>
+      <guid>https://farfetch-chat.github.io/blog/blog-post-20201022/</guid>
       <description>We are happy to announce that our recent publication is now available at ACM digital library.
 Title: Adaptive temporal triplet-loss for cross-modal embedding learning.
 Abstract: &amp;ldquo;There are many domains where the temporal dimension is critical to unveil how different modalities, such as images and texts, are correlated.</description>
@@ -98,20 +98,20 @@ Abstract: &amp;ldquo;There are many domains where the temporal dimension is crit
     
     <item>
       <title>Multimodal Conversational AI - ACM Multimedia 2020 workshop</title>
-      <link>https://ifetch-chatbot.github.io/blog/blog-post-20201002/</link>
+      <link>https://farfetch-chat.github.io/blog/blog-post-20201002/</link>
       <pubDate>Fri, 02 Oct 2020 11:23:05 +0100</pubDate>
       
-      <guid>https://ifetch-chatbot.github.io/blog/blog-post-20201002/</guid>
+      <guid>https://farfetch-chat.github.io/blog/blog-post-20201002/</guid>
       <description>We are organizing a workshop at ACM Multimedia 2020 - Multimodal Conversational AI (MuCAI).
 Conversational agents are now becoming a commodity as a number of companies push for this technology. The wide use of these conversational agents exposes the many challenges in achieving more natural, human-like, and engaging conversational agents.</description>
     </item>
     
     <item>
       <title>Participation in the Conversational Search Panel @ ECIR 2020</title>
-      <link>https://ifetch-chatbot.github.io/blog/blog-post-20200420/</link>
+      <link>https://farfetch-chat.github.io/blog/blog-post-20200420/</link>
       <pubDate>Mon, 20 Apr 2020 16:10:10 +0600</pubDate>
       
-      <guid>https://ifetch-chatbot.github.io/blog/blog-post-20200420/</guid>
+      <guid>https://farfetch-chat.github.io/blog/blog-post-20200420/</guid>
       <description>Last week we were part of the conversational search panel at the European Conference on Information Retrieval #ECIR2020!
 This was a remarkable experience! We have covered topics from the landscape of Information Retrieval (IR), how it can impact the user experience to user modelling.</description>
     </item>

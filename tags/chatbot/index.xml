@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Chatbot on iFetch | MultiModal Conversational Agents</title>
-    <link>https://ifetch-chatbot.github.io/tags/chatbot/</link>
-    <description>Recent content in Chatbot on iFetch | MultiModal Conversational Agents</description>
+    <title>Chatbot on FARFETCH Chat | MultiModal Conversational Agents</title>
+    <link>https://farfetch-chat.github.io/tags/chatbot/</link>
+    <description>Recent content in Chatbot on FARFETCH Chat | MultiModal Conversational Agents</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; 2019 [Themefisher](https://themefisher.com) All Rights Reserved</copyright>
-    <lastBuildDate>Mon, 21 Nov 2022 11:59:01 +0100</lastBuildDate><atom:link href="https://ifetch-chatbot.github.io/tags/chatbot/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Nov 2022 11:59:01 +0100</lastBuildDate><atom:link href="https://farfetch-chat.github.io/tags/chatbot/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>iFetch @ 2022 CMU Portugal Summit - A review</title>
-      <link>https://ifetch-chatbot.github.io/blog/blog-post-20221121/</link>
+      <link>https://farfetch-chat.github.io/blog/blog-post-20221121/</link>
       <pubDate>Mon, 21 Nov 2022 11:59:01 +0100</pubDate>
       
-      <guid>https://ifetch-chatbot.github.io/blog/blog-post-20221121/</guid>
+      <guid>https://farfetch-chat.github.io/blog/blog-post-20221121/</guid>
       <description>We were delighted to be invited by CMU Portugal to participate in the Program&amp;rsquo;s conference meeting on November 9-10th at the Hub Criativo do Beato, Lisboa. The conference was followed by a meeting of the Program Board and External Review Committee.</description>
     </item>
     
     <item>
       <title>iFetch @ 2022 CMU Portugal Summit and an introduction to iFetch</title>
-      <link>https://ifetch-chatbot.github.io/blog/blog-post-20221107/</link>
+      <link>https://farfetch-chat.github.io/blog/blog-post-20221107/</link>
       <pubDate>Mon, 07 Nov 2022 21:00:01 +0100</pubDate>
       
-      <guid>https://ifetch-chatbot.github.io/blog/blog-post-20221107/</guid>
+      <guid>https://farfetch-chat.github.io/blog/blog-post-20221107/</guid>
       <description>Our teams will be present at the upcoming Carnegie Mellon Portugal Program (CMU) Summit 2022 - New Frontiers in Tech to speak more about the iFetch project. The CMU Portugal Summit 2022 brings together experts from Portuguese universities, Carnegie Mellon University, and companies to present ICT research progress in areas as diverse as Health, Forests, Security, Artificial Intelligence, Language Technologies, Machine learning, among others.</description>
     </item>
     
     <item>
       <title>Natural Language Understanding for Conversational AI </title>
-      <link>https://ifetch-chatbot.github.io/blog/blog-post-20220719/</link>
+      <link>https://farfetch-chat.github.io/blog/blog-post-20220719/</link>
       <pubDate>Tue, 19 Jul 2022 10:00:01 +0100</pubDate>
       
-      <guid>https://ifetch-chatbot.github.io/blog/blog-post-20220719/</guid>
+      <guid>https://farfetch-chat.github.io/blog/blog-post-20220719/</guid>
       <description>Summary Natural Language Understanding (NLU) is an important field of Natural Language Processing, which enables several applications ranging from question answering to fully automated conversational agents. In practice, the NLU is the first step of a conversational agent that processes the user’s raw utterance.</description>
     </item>
     

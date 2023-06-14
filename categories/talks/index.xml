@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Talks on iFetch | MultiModal Conversational Agents</title>
-    <link>https://ifetch-chatbot.github.io/categories/talks/</link>
-    <description>Recent content in Talks on iFetch | MultiModal Conversational Agents</description>
+    <title>Talks on FARFETCH Chat | MultiModal Conversational Agents</title>
+    <link>https://farfetch-chat.github.io/categories/talks/</link>
+    <description>Recent content in Talks on FARFETCH Chat | MultiModal Conversational Agents</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; 2019 [Themefisher](https://themefisher.com) All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 24 Mar 2022 08:55:00 +0100</lastBuildDate><atom:link href="https://ifetch-chatbot.github.io/categories/talks/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 24 Mar 2022 08:55:00 +0100</lastBuildDate><atom:link href="https://farfetch-chat.github.io/categories/talks/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>iFetch Talking Series</title>
-      <link>https://ifetch-chatbot.github.io/blog/blog-post-20220323/</link>
+      <link>https://farfetch-chat.github.io/blog/blog-post-20220323/</link>
       <pubDate>Thu, 24 Mar 2022 08:55:00 +0100</pubDate>
       
-      <guid>https://ifetch-chatbot.github.io/blog/blog-post-20220323/</guid>
+      <guid>https://farfetch-chat.github.io/blog/blog-post-20220323/</guid>
       <description>This week marks the start of a series of talks about the iFetch project that I’ll be giving. Our goal with iFetch is to create a trustworthy multimodal conversational agent for the online fashion marketplace.</description>
     </item>
     
