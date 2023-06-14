@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>time-series on FARFETCH Chat | MultiModal Conversational Agents</title>
-    <link>https://farfetch-chat.github.io/tags/time-series/</link>
+    <link>https://farfetch-chat-rd.github.io/tags/time-series/</link>
     <description>Recent content in time-series on FARFETCH Chat | MultiModal Conversational Agents</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; 2019 [Themefisher](https://themefisher.com) All Rights Reserved</copyright>
-    <lastBuildDate>Fri, 22 Apr 2022 16:45:01 +0100</lastBuildDate><atom:link href="https://farfetch-chat.github.io/tags/time-series/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Apr 2022 16:45:01 +0100</lastBuildDate><atom:link href="https://farfetch-chat-rd.github.io/tags/time-series/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Why are time-series databases relevant for a Conversational AI platform? </title>
-      <link>https://farfetch-chat.github.io/blog/blog-post-20220422/</link>
+      <link>https://farfetch-chat-rd.github.io/blog/blog-post-20220422/</link>
       <pubDate>Fri, 22 Apr 2022 16:45:01 +0100</pubDate>
       
-      <guid>https://farfetch-chat.github.io/blog/blog-post-20220422/</guid>
+      <guid>https://farfetch-chat-rd.github.io/blog/blog-post-20220422/</guid>
       <description>What is time-series data? Time-series data is present everywhere, and typically, we are talking about significant amounts of data. Time-series data typically consists of data points that may represent instances of events that are tracked and aggregated continuously over a period of time.</description>
     </item>
     

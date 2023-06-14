@@ -2,149 +2,149 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Latest News on FARFETCH Chat | MultiModal Conversational Agents</title>
-    <link>https://farfetch-chat.github.io/blog/</link>
+    <link>https://farfetch-chat-rd.github.io/blog/</link>
     <description>Recent content in Latest News on FARFETCH Chat | MultiModal Conversational Agents</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; 2019 [Themefisher](https://themefisher.com) All Rights Reserved</copyright>
-    <lastBuildDate>Mon, 21 Nov 2022 11:59:01 +0100</lastBuildDate><atom:link href="https://farfetch-chat.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Nov 2022 11:59:01 +0100</lastBuildDate><atom:link href="https://farfetch-chat-rd.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>iFetch @ 2022 CMU Portugal Summit - A review</title>
-      <link>https://farfetch-chat.github.io/blog/blog-post-20221121/</link>
+      <link>https://farfetch-chat-rd.github.io/blog/blog-post-20221121/</link>
       <pubDate>Mon, 21 Nov 2022 11:59:01 +0100</pubDate>
       
-      <guid>https://farfetch-chat.github.io/blog/blog-post-20221121/</guid>
+      <guid>https://farfetch-chat-rd.github.io/blog/blog-post-20221121/</guid>
       <description>We were delighted to be invited by CMU Portugal to participate in the Program&amp;rsquo;s conference meeting on November 9-10th at the Hub Criativo do Beato, Lisboa. The conference was followed by a meeting of the Program Board and External Review Committee.</description>
     </item>
     
     <item>
       <title>iFetch @ 2022 CMU Portugal Summit and an introduction to iFetch</title>
-      <link>https://farfetch-chat.github.io/blog/blog-post-20221107/</link>
+      <link>https://farfetch-chat-rd.github.io/blog/blog-post-20221107/</link>
       <pubDate>Mon, 07 Nov 2022 21:00:01 +0100</pubDate>
       
-      <guid>https://farfetch-chat.github.io/blog/blog-post-20221107/</guid>
+      <guid>https://farfetch-chat-rd.github.io/blog/blog-post-20221107/</guid>
       <description>Our teams will be present at the upcoming Carnegie Mellon Portugal Program (CMU) Summit 2022 - New Frontiers in Tech to speak more about the iFetch project. The CMU Portugal Summit 2022 brings together experts from Portuguese universities, Carnegie Mellon University, and companies to present ICT research progress in areas as diverse as Health, Forests, Security, Artificial Intelligence, Language Technologies, Machine learning, among others.</description>
     </item>
     
     <item>
       <title>Natural Language Understanding for Conversational AI </title>
-      <link>https://farfetch-chat.github.io/blog/blog-post-20220719/</link>
+      <link>https://farfetch-chat-rd.github.io/blog/blog-post-20220719/</link>
       <pubDate>Tue, 19 Jul 2022 10:00:01 +0100</pubDate>
       
-      <guid>https://farfetch-chat.github.io/blog/blog-post-20220719/</guid>
+      <guid>https://farfetch-chat-rd.github.io/blog/blog-post-20220719/</guid>
       <description>Summary Natural Language Understanding (NLU) is an important field of Natural Language Processing, which enables several applications ranging from question answering to fully automated conversational agents. In practice, the NLU is the first step of a conversational agent that processes the user’s raw utterance.</description>
     </item>
     
     <item>
       <title>Why are time-series databases relevant for a Conversational AI platform? </title>
-      <link>https://farfetch-chat.github.io/blog/blog-post-20220422/</link>
+      <link>https://farfetch-chat-rd.github.io/blog/blog-post-20220422/</link>
       <pubDate>Fri, 22 Apr 2022 16:45:01 +0100</pubDate>
       
-      <guid>https://farfetch-chat.github.io/blog/blog-post-20220422/</guid>
+      <guid>https://farfetch-chat-rd.github.io/blog/blog-post-20220422/</guid>
       <description>What is time-series data? Time-series data is present everywhere, and typically, we are talking about significant amounts of data. Time-series data typically consists of data points that may represent instances of events that are tracked and aggregated continuously over a period of time.</description>
     </item>
     
     <item>
       <title>Conversational AI Mailing List</title>
-      <link>https://farfetch-chat.github.io/blog/blog-post-20220402/</link>
+      <link>https://farfetch-chat-rd.github.io/blog/blog-post-20220402/</link>
       <pubDate>Sat, 02 Apr 2022 21:45:01 +0100</pubDate>
       
-      <guid>https://farfetch-chat.github.io/blog/blog-post-20220402/</guid>
+      <guid>https://farfetch-chat-rd.github.io/blog/blog-post-20220402/</guid>
       <description>We&amp;rsquo;ve launched a Conversational AI mailing list as part of our commitment to allow for more accessible communication on a crucial topic: Conversational AI Agents.
 The lack of mailings that share, discuss, and brainstorm the development, business, and research problems when designing and implementing conversational agents has been identified as a massive gap.</description>
     </item>
     
     <item>
       <title>iFetch Talking Series</title>
-      <link>https://farfetch-chat.github.io/blog/blog-post-20220323/</link>
+      <link>https://farfetch-chat-rd.github.io/blog/blog-post-20220323/</link>
       <pubDate>Thu, 24 Mar 2022 08:55:00 +0100</pubDate>
       
-      <guid>https://farfetch-chat.github.io/blog/blog-post-20220323/</guid>
+      <guid>https://farfetch-chat-rd.github.io/blog/blog-post-20220323/</guid>
       <description>This week marks the start of a series of talks about the iFetch project that I’ll be giving. Our goal with iFetch is to create a trustworthy multimodal conversational agent for the online fashion marketplace.</description>
     </item>
     
     <item>
       <title>Weekly coffee conversations with Ricardo G. Sousa</title>
-      <link>https://farfetch-chat.github.io/blog/blog-post-20220202/</link>
+      <link>https://farfetch-chat-rd.github.io/blog/blog-post-20220202/</link>
       <pubDate>Wed, 02 Feb 2022 13:05:00 +0100</pubDate>
       
-      <guid>https://farfetch-chat.github.io/blog/blog-post-20220202/</guid>
+      <guid>https://farfetch-chat-rd.github.io/blog/blog-post-20220202/</guid>
       <description>Our team is committed to contributing to the discussion and sharing updates related to our national AI ecosystem. Our objective is to smooth the pathways between fundamental research, applications, and business.</description>
     </item>
     
     <item>
       <title>Call for Mentees - Mentorship Program on Conversational Agents @ VISUM 2022</title>
-      <link>https://farfetch-chat.github.io/blog/blog-post-20220127/</link>
+      <link>https://farfetch-chat-rd.github.io/blog/blog-post-20220127/</link>
       <pubDate>Thu, 27 Jan 2022 18:20:00 +0100</pubDate>
       
-      <guid>https://farfetch-chat.github.io/blog/blog-post-20220127/</guid>
+      <guid>https://farfetch-chat-rd.github.io/blog/blog-post-20220127/</guid>
       <description>Earlier this month, we have announced the collaboration with VISUM Summer School in a new Mentorship Program initiative (see our post here).
 Today we bring you more updates on this initiative.</description>
     </item>
     
     <item>
       <title>VISUM 2022 - Mentorship Program (Opportunity to learn how to build multimodal conversational agents)</title>
-      <link>https://farfetch-chat.github.io/blog/blog-post-20220106/</link>
+      <link>https://farfetch-chat-rd.github.io/blog/blog-post-20220106/</link>
       <pubDate>Thu, 06 Jan 2022 11:00:00 +0100</pubDate>
       
-      <guid>https://farfetch-chat.github.io/blog/blog-post-20220106/</guid>
+      <guid>https://farfetch-chat-rd.github.io/blog/blog-post-20220106/</guid>
       <description>We are thrilled to announce that we will work with VISUM 2022 on a new Mentorship Program initiative.
 It will be an inspiring opportunity for young researchers to get feedback from senior scholars and industrial researchers in Machine Learning and Computer Vision.</description>
     </item>
     
     <item>
       <title>Project Update &amp; Season Greetings</title>
-      <link>https://farfetch-chat.github.io/blog/blog-post-20211217/</link>
+      <link>https://farfetch-chat-rd.github.io/blog/blog-post-20211217/</link>
       <pubDate>Fri, 17 Dec 2021 16:00:00 +0100</pubDate>
       
-      <guid>https://farfetch-chat.github.io/blog/blog-post-20211217/</guid>
+      <guid>https://farfetch-chat-rd.github.io/blog/blog-post-20211217/</guid>
       <description>iFetch team is a multidisciplinary project that aims to research conversational technology and algorithms that will impact FARFETCH high-end fashion business.
 After 15 months of research and development, we are thrilled to accomplish pivotal milestones aligned with our ambitions.</description>
     </item>
     
     <item>
       <title>Graph Communities in High-End Fashion Outfit Complementary Retrieval</title>
-      <link>https://farfetch-chat.github.io/blog/blog-post-20211214/</link>
+      <link>https://farfetch-chat-rd.github.io/blog/blog-post-20211214/</link>
       <pubDate>Tue, 14 Dec 2021 12:00:00 +0100</pubDate>
       
-      <guid>https://farfetch-chat.github.io/blog/blog-post-20211214/</guid>
+      <guid>https://farfetch-chat-rd.github.io/blog/blog-post-20211214/</guid>
       <description>Earlier this year, we announced our participation in the VISUM 2021 edition. This challenge will act as a starting point for exploring the recommendation of complementary products, allowing the integration of a baseline in the iFetch project, which our partners are investigating at Instituto Superior Tecnico.</description>
     </item>
     
     <item>
       <title>MuCAI Workshop Update - Keynote Speaker: Professor Eugene Agichtein</title>
-      <link>https://farfetch-chat.github.io/blog/blog-post-20210723/</link>
+      <link>https://farfetch-chat-rd.github.io/blog/blog-post-20210723/</link>
       <pubDate>Fri, 23 Jul 2021 11:30:00 +0100</pubDate>
       
-      <guid>https://farfetch-chat.github.io/blog/blog-post-20210723/</guid>
+      <guid>https://farfetch-chat-rd.github.io/blog/blog-post-20210723/</guid>
       <description>As previously announced, we are organizing a Workshop On Multimedia Conversational AI at ACM Multimedia 2021 ( original blog post).
 In this blog post, we announce the Keynote Speaker: Professor Eugene Agichtein.</description>
     </item>
     
     <item>
       <title>iFetch at &#34;Encontro Ciencia 2021&#34; </title>
-      <link>https://farfetch-chat.github.io/blog/blog-post-20210715/</link>
+      <link>https://farfetch-chat-rd.github.io/blog/blog-post-20210715/</link>
       <pubDate>Thu, 15 Jul 2021 15:15:00 +0100</pubDate>
       
-      <guid>https://farfetch-chat.github.io/blog/blog-post-20210715/</guid>
+      <guid>https://farfetch-chat-rd.github.io/blog/blog-post-20210715/</guid>
       <description>On the 28th of June at Centro de Congressos Lisbon, FARFETCH participated in &amp;ldquo;The contribution of the CMU Portugal international partnership for the high-tech Unicorn ecosystem in Portugal&amp;rdquo; within the &amp;ldquo;Encontro Ciência 2021&amp;rdquo; event.</description>
     </item>
     
     <item>
       <title>iFetch at CVPR</title>
-      <link>https://farfetch-chat.github.io/blog/blog-post-20210518/</link>
+      <link>https://farfetch-chat-rd.github.io/blog/blog-post-20210518/</link>
       <pubDate>Tue, 18 May 2021 08:19:05 +0100</pubDate>
       
-      <guid>https://farfetch-chat.github.io/blog/blog-post-20210518/</guid>
+      <guid>https://farfetch-chat-rd.github.io/blog/blog-post-20210518/</guid>
       <description>In online shopping applications, the daily insertion of new products requires an overwhelming annotation effort. Usually done by humans, it comes at a huge cost and yet generates high rates of noisy/missing labels that seriously hinder the effectiveness of CNNs in multi-label classification.</description>
     </item>
     
     <item>
       <title>Workshop on Multimodal Conversational AI (MuCAI) @ ACM Multimedia 2021</title>
-      <link>https://farfetch-chat.github.io/blog/blog-post-20210504/</link>
+      <link>https://farfetch-chat-rd.github.io/blog/blog-post-20210504/</link>
       <pubDate>Tue, 04 May 2021 08:00:05 +0100</pubDate>
       
-      <guid>https://farfetch-chat.github.io/blog/blog-post-20210504/</guid>
+      <guid>https://farfetch-chat-rd.github.io/blog/blog-post-20210504/</guid>
       <description>iFetch team is organizing a workshop on Multimodal Conversational Agents to be held this year at ACM Multimedia. More details will be shared soon.
 Important Dates
 Submission deadline: August 10th 2021</description>
@@ -152,28 +152,28 @@ Submission deadline: August 10th 2021</description>
     
     <item>
       <title>iFetch with a publication accepted at ECIR 2021</title>
-      <link>https://farfetch-chat.github.io/blog/blog-post-20210427/</link>
+      <link>https://farfetch-chat-rd.github.io/blog/blog-post-20210427/</link>
       <pubDate>Tue, 27 Apr 2021 14:00:05 +0100</pubDate>
       
-      <guid>https://farfetch-chat.github.io/blog/blog-post-20210427/</guid>
+      <guid>https://farfetch-chat-rd.github.io/blog/blog-post-20210427/</guid>
       <description>We are pleased to inform that we have a new publication in the 43rd European Conference on Information Retrieval (ECIR 2021). The publication presents a complete conversational search pipeline that includes various state-of-the-art approaches to rewrite queries, re-rank results, and summarize retrieved answers.</description>
     </item>
     
     <item>
       <title>FARFETCH is a Sponsor of VISUM 2021 Summer School</title>
-      <link>https://farfetch-chat.github.io/blog/blog-post-20210401/</link>
+      <link>https://farfetch-chat-rd.github.io/blog/blog-post-20210401/</link>
       <pubDate>Thu, 01 Apr 2021 10:45:05 +0100</pubDate>
       
-      <guid>https://farfetch-chat.github.io/blog/blog-post-20210401/</guid>
+      <guid>https://farfetch-chat-rd.github.io/blog/blog-post-20210401/</guid>
       <description>FARFETCH is sponsoring VISUM summer school. iFetch team is happy to take part in this initiate by proposing a new project under the umbrella of information retrieval (with application on conversational agents) that VISUM applicants will need to address throughout the summer school.</description>
     </item>
     
     <item>
       <title>New Publication at ACM MM 2020</title>
-      <link>https://farfetch-chat.github.io/blog/blog-post-20201022/</link>
+      <link>https://farfetch-chat-rd.github.io/blog/blog-post-20201022/</link>
       <pubDate>Thu, 22 Oct 2020 10:45:05 +0100</pubDate>
       
-      <guid>https://farfetch-chat.github.io/blog/blog-post-20201022/</guid>
+      <guid>https://farfetch-chat-rd.github.io/blog/blog-post-20201022/</guid>
       <description>We are happy to announce that our recent publication is now available at ACM digital library.
 Title: Adaptive temporal triplet-loss for cross-modal embedding learning.
 Abstract: &amp;ldquo;There are many domains where the temporal dimension is critical to unveil how different modalities, such as images and texts, are correlated.</description>
@@ -181,30 +181,30 @@ Abstract: &amp;ldquo;There are many domains where the temporal dimension is crit
     
     <item>
       <title>Multimodal Conversational AI - ACM Multimedia 2020 workshop</title>
-      <link>https://farfetch-chat.github.io/blog/blog-post-20201002/</link>
+      <link>https://farfetch-chat-rd.github.io/blog/blog-post-20201002/</link>
       <pubDate>Fri, 02 Oct 2020 11:23:05 +0100</pubDate>
       
-      <guid>https://farfetch-chat.github.io/blog/blog-post-20201002/</guid>
+      <guid>https://farfetch-chat-rd.github.io/blog/blog-post-20201002/</guid>
       <description>We are organizing a workshop at ACM Multimedia 2020 - Multimodal Conversational AI (MuCAI).
 Conversational agents are now becoming a commodity as a number of companies push for this technology. The wide use of these conversational agents exposes the many challenges in achieving more natural, human-like, and engaging conversational agents.</description>
     </item>
     
     <item>
       <title>New Job Offer @ Senior Applied Scientist</title>
-      <link>https://farfetch-chat.github.io/blog/blog-post-20200713/</link>
+      <link>https://farfetch-chat-rd.github.io/blog/blog-post-20200713/</link>
       <pubDate>Mon, 13 Jul 2020 22:20:10 +0600</pubDate>
       
-      <guid>https://farfetch-chat.github.io/blog/blog-post-20200713/</guid>
+      <guid>https://farfetch-chat-rd.github.io/blog/blog-post-20200713/</guid>
       <description>Announcement!
 iFetch has a new opening! If you&amp;rsquo;re someone eager to learn more, to contribute to the evolution of systems based on theoretical explanation and able to applying their knowledge and implementing solutions at scale, this job is for you.</description>
     </item>
     
     <item>
       <title>Scholarships will soon be available</title>
-      <link>https://farfetch-chat.github.io/blog/blog-post-20200710/</link>
+      <link>https://farfetch-chat-rd.github.io/blog/blog-post-20200710/</link>
       <pubDate>Fri, 10 Jul 2020 21:15:00 +0100</pubDate>
       
-      <guid>https://farfetch-chat.github.io/blog/blog-post-20200710/</guid>
+      <guid>https://farfetch-chat-rd.github.io/blog/blog-post-20200710/</guid>
       <description>Scholarships will soon be available!
 Following the stepping stones for iFetch, we would like to announce that scholarships from UNL and IST will soon be available.
 Stay on top of the announcements that will be made available on our blog!</description>
@@ -212,30 +212,30 @@ Stay on top of the announcements that will be made available on our blog!</descr
     
     <item>
       <title>New Job Offer @ Senior Data Scientist - Computer Vision</title>
-      <link>https://farfetch-chat.github.io/blog/blog-post-20200702/</link>
+      <link>https://farfetch-chat-rd.github.io/blog/blog-post-20200702/</link>
       <pubDate>Thu, 02 Jul 2020 07:20:10 +0600</pubDate>
       
-      <guid>https://farfetch-chat.github.io/blog/blog-post-20200702/</guid>
+      <guid>https://farfetch-chat-rd.github.io/blog/blog-post-20200702/</guid>
       <description>Announcement!
 We would like to announce that the iFetch is hiring! If you&amp;rsquo;re an expert in Computer Vision with experience in conversational agents, and keen to learn more, send your resume through our recruitment platform.</description>
     </item>
     
     <item>
       <title>Participation in the Conversational Search Panel @ ECIR 2020</title>
-      <link>https://farfetch-chat.github.io/blog/blog-post-20200420/</link>
+      <link>https://farfetch-chat-rd.github.io/blog/blog-post-20200420/</link>
       <pubDate>Mon, 20 Apr 2020 16:10:10 +0600</pubDate>
       
-      <guid>https://farfetch-chat.github.io/blog/blog-post-20200420/</guid>
+      <guid>https://farfetch-chat-rd.github.io/blog/blog-post-20200420/</guid>
       <description>Last week we were part of the conversational search panel at the European Conference on Information Retrieval #ECIR2020!
 This was a remarkable experience! We have covered topics from the landscape of Information Retrieval (IR), how it can impact the user experience to user modelling.</description>
     </item>
     
     <item>
       <title>iFetch Project Website</title>
-      <link>https://farfetch-chat.github.io/blog/blog-post-20200406/</link>
+      <link>https://farfetch-chat-rd.github.io/blog/blog-post-20200406/</link>
       <pubDate>Mon, 06 Apr 2020 12:07:10 +0600</pubDate>
       
-      <guid>https://farfetch-chat.github.io/blog/blog-post-20200406/</guid>
+      <guid>https://farfetch-chat-rd.github.io/blog/blog-post-20200406/</guid>
       <description>iFetch proposes to research and deliver a new generation of task-oriented conversational agents that interact with users using verbal and visual information in a seamless manner. Through the conversation, iFetch must provide targeted advice and &amp;ldquo;physical store-like&amp;rdquo; experience while maintaining user engagement.</description>
     </item>
     

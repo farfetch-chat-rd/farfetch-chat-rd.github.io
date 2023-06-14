@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Conversational Search on FARFETCH Chat | MultiModal Conversational Agents</title>
-    <link>https://farfetch-chat.github.io/tags/conversational-search/</link>
+    <link>https://farfetch-chat-rd.github.io/tags/conversational-search/</link>
     <description>Recent content in Conversational Search on FARFETCH Chat | MultiModal Conversational Agents</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; 2019 [Themefisher](https://themefisher.com) All Rights Reserved</copyright>
-    <lastBuildDate>Tue, 27 Apr 2021 14:00:05 +0100</lastBuildDate><atom:link href="https://farfetch-chat.github.io/tags/conversational-search/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Apr 2021 14:00:05 +0100</lastBuildDate><atom:link href="https://farfetch-chat-rd.github.io/tags/conversational-search/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>iFetch with a publication accepted at ECIR 2021</title>
-      <link>https://farfetch-chat.github.io/blog/blog-post-20210427/</link>
+      <link>https://farfetch-chat-rd.github.io/blog/blog-post-20210427/</link>
       <pubDate>Tue, 27 Apr 2021 14:00:05 +0100</pubDate>
       
-      <guid>https://farfetch-chat.github.io/blog/blog-post-20210427/</guid>
+      <guid>https://farfetch-chat-rd.github.io/blog/blog-post-20210427/</guid>
       <description>We are pleased to inform that we have a new publication in the 43rd European Conference on Information Retrieval (ECIR 2021). The publication presents a complete conversational search pipeline that includes various state-of-the-art approaches to rewrite queries, re-rank results, and summarize retrieved answers.</description>
     </item>
     
     <item>
       <title>New Job Offer @ Senior Applied Scientist</title>
-      <link>https://farfetch-chat.github.io/blog/blog-post-20200713/</link>
+      <link>https://farfetch-chat-rd.github.io/blog/blog-post-20200713/</link>
       <pubDate>Mon, 13 Jul 2020 22:20:10 +0600</pubDate>
       
-      <guid>https://farfetch-chat.github.io/blog/blog-post-20200713/</guid>
+      <guid>https://farfetch-chat-rd.github.io/blog/blog-post-20200713/</guid>
       <description>Announcement!
 iFetch has a new opening! If you&amp;rsquo;re someone eager to learn more, to contribute to the evolution of systems based on theoretical explanation and able to applying their knowledge and implementing solutions at scale, this job is for you.</description>
     </item>
     
     <item>
       <title>Scholarships will soon be available</title>
-      <link>https://farfetch-chat.github.io/blog/blog-post-20200710/</link>
+      <link>https://farfetch-chat-rd.github.io/blog/blog-post-20200710/</link>
       <pubDate>Fri, 10 Jul 2020 21:15:00 +0100</pubDate>
       
-      <guid>https://farfetch-chat.github.io/blog/blog-post-20200710/</guid>
+      <guid>https://farfetch-chat-rd.github.io/blog/blog-post-20200710/</guid>
       <description>Scholarships will soon be available!
 Following the stepping stones for iFetch, we would like to announce that scholarships from UNL and IST will soon be available.
 Stay on top of the announcements that will be made available on our blog!</description>
@@ -40,20 +40,20 @@ Stay on top of the announcements that will be made available on our blog!</descr
     
     <item>
       <title>New Job Offer @ Senior Data Scientist - Computer Vision</title>
-      <link>https://farfetch-chat.github.io/blog/blog-post-20200702/</link>
+      <link>https://farfetch-chat-rd.github.io/blog/blog-post-20200702/</link>
       <pubDate>Thu, 02 Jul 2020 07:20:10 +0600</pubDate>
       
-      <guid>https://farfetch-chat.github.io/blog/blog-post-20200702/</guid>
+      <guid>https://farfetch-chat-rd.github.io/blog/blog-post-20200702/</guid>
       <description>Announcement!
 We would like to announce that the iFetch is hiring! If you&amp;rsquo;re an expert in Computer Vision with experience in conversational agents, and keen to learn more, send your resume through our recruitment platform.</description>
     </item>
     
     <item>
       <title>Participation in the Conversational Search Panel @ ECIR 2020</title>
-      <link>https://farfetch-chat.github.io/blog/blog-post-20200420/</link>
+      <link>https://farfetch-chat-rd.github.io/blog/blog-post-20200420/</link>
       <pubDate>Mon, 20 Apr 2020 16:10:10 +0600</pubDate>
       
-      <guid>https://farfetch-chat.github.io/blog/blog-post-20200420/</guid>
+      <guid>https://farfetch-chat-rd.github.io/blog/blog-post-20200420/</guid>
       <description>Last week we were part of the conversational search panel at the European Conference on Information Retrieval #ECIR2020!
 This was a remarkable experience! We have covered topics from the landscape of Information Retrieval (IR), how it can impact the user experience to user modelling.</description>
     </item>

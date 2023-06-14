@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Transformers on FARFETCH Chat | MultiModal Conversational Agents</title>
-    <link>https://farfetch-chat.github.io/tags/transformers/</link>
+    <link>https://farfetch-chat-rd.github.io/tags/transformers/</link>
     <description>Recent content in Transformers on FARFETCH Chat | MultiModal Conversational Agents</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; 2019 [Themefisher](https://themefisher.com) All Rights Reserved</copyright>
-    <lastBuildDate>Tue, 27 Apr 2021 14:00:05 +0100</lastBuildDate><atom:link href="https://farfetch-chat.github.io/tags/transformers/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Apr 2021 14:00:05 +0100</lastBuildDate><atom:link href="https://farfetch-chat-rd.github.io/tags/transformers/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>iFetch with a publication accepted at ECIR 2021</title>
-      <link>https://farfetch-chat.github.io/blog/blog-post-20210427/</link>
+      <link>https://farfetch-chat-rd.github.io/blog/blog-post-20210427/</link>
       <pubDate>Tue, 27 Apr 2021 14:00:05 +0100</pubDate>
       
-      <guid>https://farfetch-chat.github.io/blog/blog-post-20210427/</guid>
+      <guid>https://farfetch-chat-rd.github.io/blog/blog-post-20210427/</guid>
       <description>We are pleased to inform that we have a new publication in the 43rd European Conference on Information Retrieval (ECIR 2021). The publication presents a complete conversational search pipeline that includes various state-of-the-art approaches to rewrite queries, re-rank results, and summarize retrieved answers.</description>
     </item>
     
