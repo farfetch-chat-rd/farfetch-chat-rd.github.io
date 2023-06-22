@@ -24,6 +24,7 @@ bg_image: "images/featue-bg.jpg"
 - Carolina Afonso
 - Melissa Lim
 - Pedro Azevedo
+- Marcelo Fernandes
 
 ### CMU
 
