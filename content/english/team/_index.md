@@ -1,7 +1,7 @@
 ---
 title: "Team"
 description: "The best is yet to come!"
-date: 2022-11-25T17:05:29+06:00
+date: 2023-06-22T15:05:29+01:00
 draft: false
 bg_image: "images/featue-bg.jpg"
 ---
