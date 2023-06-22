@@ -28,7 +28,7 @@ information:
 
 ## Objectives 
 
-[Farfetch Chat R&D](images/portfolio/ifetch_info.pdf) proposes to research and deliver a new generation of task-oriented conversational agents that
+[Farfetch Chat R&D](images/portfolio/farfetch_chat_rd_info.pdf) proposes to research and deliver a new generation of task-oriented conversational agents that
 interact with users using verbal and visual information in a seamless manner. Through the conversation,
 Farfetch Chat must provide targeted advice and "physical store-like" experience while maintaining user
 engagement.
