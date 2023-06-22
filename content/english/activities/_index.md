@@ -18,6 +18,7 @@ bg_image: "images/featue-bg.jpg"
 - [ACM ICMI Tutorial Open-Task Multimodal Conversational Assistants](https://icmi.acm.org/2022/tutorials/)
 - September 2022, [ACM IVA Tutorial in Open-Task Multimodal Conversational Assistants](https://ivaconference2022.ualg.pt/program/workshops/)
 - July 2022, VISUM 2022: Mentorship Programme 
+- February 2022, AAAI Workshop AI2ASE 2022, Presentation of the paper “Say Yes To The Fetch: Product Retrieval on a Structured Multimodal Catalog”
 - Talk @ Deep Learning Sessions
 - Talk @ Priberam Labs 
 - Talk @ APRP Spring Meeting

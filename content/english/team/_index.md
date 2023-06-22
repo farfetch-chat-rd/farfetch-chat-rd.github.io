@@ -36,7 +36,7 @@ bg_image: "images/featue-bg.jpg"
 ### IST
 
 - [João Paulo Costeira](https://welcome.isr.tecnico.ulisboa.pt/author/joaopaulosalgadoarriscado/), Associate Professor
-- [João P. Gomes](https://welcome.isr.tecnico.ulisboa.pt/author/joaopedrocastilhopereirasantos/), Assistant Professor
+- [João P. Gomes](https://welcome.isr.tecnico.ulisboa.pt/author/joaopedrocastilhopereirasantos/), Associate Professor
 - [Carlos Santiago](https://welcome.isr.tecnico.ulisboa.pt/author/carlosjorgemariz/), PostDoc Researcher
 - João Santos, MSc Student
 - Dora Lourenço, MSc Student
@@ -46,7 +46,8 @@ bg_image: "images/featue-bg.jpg"
 - Antonio Lilaia
 - Rostislav Andreev
 - Beatriz Quintino Ferreira
-- Joao Bernardo Morais
+- João Bernardo Morais
+- Raúl Vaqueiro
 
 ### UNL
 
@@ -58,4 +59,5 @@ bg_image: "images/featue-bg.jpg"
 
 #### Former Members
 
-- 
+- Alexandre Correia
+
