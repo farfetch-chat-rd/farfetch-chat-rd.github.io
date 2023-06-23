@@ -38,6 +38,8 @@ bg_image: "images/featue-bg.jpg"
 
 - [João Paulo Costeira](https://welcome.isr.tecnico.ulisboa.pt/author/joaopaulosalgadoarriscado/), Associate Professor
 - [João P. Gomes](https://welcome.isr.tecnico.ulisboa.pt/author/joaopedrocastilhopereirasantos/), Associate Professor
+- [Jacinto C. Nascimento](https://welcome.isr.tecnico.ulisboa.pt/author/jacintocarlosmarquespeixotodo/), Associate Professor
+- [João Xavier](https://welcome.isr.tecnico.ulisboa.pt/author/joaomanueldefreitas/), Associate Professo
 - [Carlos Santiago](https://welcome.isr.tecnico.ulisboa.pt/author/carlosjorgemariz/), PostDoc Researcher
 - João Santos, MSc Student
 - Dora Lourenço, MSc Student
