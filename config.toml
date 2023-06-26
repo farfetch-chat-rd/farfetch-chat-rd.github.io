@@ -65,6 +65,11 @@ URL = "overview"
 
 [[menu.main]]
 parent="Project"
+name = "Demonstrations"
+URL = "demonstrations"
+
+[[menu.main]]
+parent="Project"
 name = "Use Cases"
 URL = "usecases"
 
