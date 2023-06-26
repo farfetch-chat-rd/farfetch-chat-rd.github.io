@@ -216,10 +216,10 @@
 					</div>
 					<div class="post-content post-excerpt">
 						<h2 id="summary">Summary</h2>
-<p>Natural Language Understanding (NLU) is an important field of Natural Language Processing, which enables several
-applications ranging from question answering to fully automated conversational agents. In practice, the NLU is the first
-step of a conversational agent that processes the user’s raw utterance. It typically comprises both Slot Filling
-and Intent Classification tasks in order to create a structured representation of the utterance.
+<p>Natural Language Understanding (NLU) is an important field of Natural Language Processing, which enables several<br>
+applications ranging from question answering to fully automated conversational agents. In practice, the NLU is the first<br>
+step of a conversational agent that processes the user’s raw utterance. It typically comprises both Slot Filling<br>
+and Intent Classification tasks in order to create a structured representation of the utterance.<br>
 Intent classification aims to predict the intent of the utterance, while slot filling focuses on the extraction of its semantic concepts.</p>
 <p>This blog provides a deep-dive analysis of state-of-the-art NLU models, by including two main groups of NLU models, namely:</p>
 <ul>
@@ -230,7 +230,7 @@ Intent classification aims to predict the intent of the utterance, while slot fi
 <p><strong>Context-aware NLU</strong> that, differently from JointBERT and Stack-propagation, take as input not only the current user utterance but also the previous utterances as context. Here, we have analyzed both BERT-DST and SimpleTOD models. Although the original implementation of both BERT-DST and SimpleTOD models do not perform intent prediction, they can be easily extended for joint intent classification and slot filling.</p>
 </li>
 </ul>
-<p>As the vast majority of the analyzed NLU models rely on the BERT architecture, this blog post starts by introducing the BERT model.
+<p>As the vast majority of the analyzed NLU models rely on the BERT architecture, this blog post starts by introducing the BERT model.<br>
 Then, after describing all the considered NLU models, this blog ends with a comparative analysis between them.</p>
 <h2 id="bert-background">BERT background</h2>
 <p><a href="https://arxiv.org/pdf/1810.04805.pdf">BERT</a>’s model architecture is a multi-layer bidirectional Transformer encoder based on the original <a href="https://proceedings.neurips.cc/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html">Transformer model</a>. Accordingly, it consists of a stack of multiple identical blocks each containing a multi-head self-attention and a fully connected sub-layer with residual connections.</p>
@@ -252,21 +252,21 @@ Then, after describing all the considered NLU models, this blog ends with a comp
 <figcaption align = "center"><b>Figure 2: BERT input representation. The input embeddings are the sum of the token embeddings, the segmentation embeddings, and the position embeddings (image from [1]).</b></figcaption>
 </figure>
 <h3 id="pre-training-bert-a-namepre-training-berta">Pre-training BERT <a name="pre-training-bert"></a></h3>
-<p>To learn bidirectional contextualized representations and inter-sentence relationships, the BERT model is pre-trained
+<p>To learn bidirectional contextualized representations and inter-sentence relationships, the BERT model is pre-trained<br>
 on two unsupervised language modeling tasks, using the BooksCorpus and the English Wikipedia corpora, namely:</p>
 <ol>
 <li>
-<p><strong>Masked Language Modeling (masked LM)</strong>: where the objective is to predict randomly masked tokens,
+<p><strong>Masked Language Modeling (masked LM)</strong>: where the objective is to predict randomly masked tokens,<br>
 by using the special <code>[MASK]</code> token, in the input sequence;</p>
 </li>
 <li>
-<p><strong>Next Sentence Prediction (NSP)</strong>: where the objective is to predict whether two input segments follow each other in
-the original text. Positive examples are created by taking consecutive sentences from the text corpus,
+<p><strong>Next Sentence Prediction (NSP)</strong>: where the objective is to predict whether two input segments follow each other in<br>
+the original text. Positive examples are created by taking consecutive sentences from the text corpus,<br>
 whereas negative examples are created by picking segments from different documents.</p>
 </li>
 </ol>
-<p>The pre-trained BERT model provides powerful context-dependent sentence-level and token-level representations,
-which can be used for a wide range of target-specific tasks (e.g., NER, Q&amp;A, etc - see <strong>Figure 3</strong>), without substantial
+<p>The pre-trained BERT model provides powerful context-dependent sentence-level and token-level representations,<br>
+which can be used for a wide range of target-specific tasks (e.g., NER, Q&amp;A, etc - see <strong>Figure 3</strong>), without substantial<br>
 task-specific architecture modifications (i.e. with just extra projection layers and simple fine-tuning procedures). [1]</p>
 <figure>
 <p align="center">
@@ -274,16 +274,16 @@ task-specific architecture modifications (i.e. with just extra projection layers
 </p>
 <figcaption align = "center"><b>Figure 3: Overall pre-training and fine-tuning procedures for BERT (image from [1]).</b></figcaption>
 </figure>
-<p>As described next, BERT can be easily extended to joint intent classification and slot filling (e.g., JointBERT) or
+<p>As described next, BERT can be easily extended to joint intent classification and slot filling (e.g., JointBERT) or<br>
 dialogue state tracking (e.g., BERT-DST).</p>
 <h2 id="joint-intent-prediction--slot-filling-nlu-a-namejoint-nlua">Joint Intent prediction &amp; Slot filling NLU <a name="joint-nlu"></a></h2>
-<p>This section describes both JointBERT and Stack-propagation NLU models. These models follow the principle of jointly
+<p>This section describes both JointBERT and Stack-propagation NLU models. These models follow the principle of jointly<br>
 learn intent prediction and slot filling tasks, in order to explicitly explore the correlations between intent and slots.</p>
-<p>Nevertheless, as described in the following subsections, while JointBERT follows a muti-task learning approach,
-Stack-propagation NLU follows a stack-propagation framework. The former learns correlations between the two tasks
+<p>Nevertheless, as described in the following subsections, while JointBERT follows a muti-task learning approach,<br>
+Stack-propagation NLU follows a stack-propagation framework. The former learns correlations between the two tasks<br>
 (i.e., intent prediction and slot filling) by a shared encoder. The latter directly uses the intent as input for slot filling.</p>
 <h3 id="jointberthttpsarxivorgpdf190210909pdf-bert-for-joint-intent-classification-and-slot-filling-a-namejoint-berta"><a href="https://arxiv.org/pdf/1902.10909.pdf">JointBERT</a>: BERT for Joint Intent Classification and Slot Filling <a name="joint-bert"></a></h3>
-<p>As illustrated in  <strong>Figure 4</strong> , JointBERT extends the conventional BERT architecture to a joint intent classification
+<p>As illustrated in  <strong>Figure 4</strong> , JointBERT extends the conventional BERT architecture to a joint intent classification<br>
 and slot filling.</p>
 <figure>
 <p align="center">
@@ -294,15 +294,15 @@ and slot filling.</p>
 <h4 id="encoding-module-a-namejoint-bert-encodinga">Encoding module <a name="joint-bert-encoding"></a></h4>
 <p>The ultimate goal of JointBERT is to map from a single user utterance to the intent and slots. Therefore, the input user utterance is represented as a sequence of tokens in the BERT&rsquo;s input format:</p>
 <p><code>[CLS]</code> → User utterance tokens → <code>[SEP]</code></p>
-<p>So, given an input token sequence $[x_0, x_1, &hellip;, x_N]$, it outputs a sequence of latent representations
+<p>So, given an input token sequence $[x_0, x_1, &hellip;, x_N]$, it outputs a sequence of latent representations<br>
 $[h_0, h_1, &hellip;, h_N]$ for each token. [2]</p>
 <h4 id="joint-intent-classification-and-slot-filling-a-namejoint-bert-lossa">Joint Intent Classification and Slot Filling <a name="joint-bert-loss"></a></h4>
 <p>JointBERT simultaneously performs intent classification and slot filling.</p>
-<p><strong>For intent prediction</strong> , it simply uses the latent representation of the <code>[CLS]</code> token as input ($h_0$) to a softmax classifier:
+<p><strong>For intent prediction</strong> , it simply uses the latent representation of the <code>[CLS]</code> token as input ($h_0$) to a softmax classifier:<br>
 $y^{i}=\text{softmax}(W^ih_0+b^i)$.</p>
-<p><strong>For slot filling</strong>, the latent representations of the other tokens $[h_1, &hellip;, h_N]$ are fed to a softmax classifier
+<p><strong>For slot filling</strong>, the latent representations of the other tokens $[h_1, &hellip;, h_N]$ are fed to a softmax classifier<br>
 to classify over the slot filling labels: $y^{s}_n=\text{softmax}(W^sh_n+b^s), n\in 1, &hellip;, N$.</p>
-<p>The <strong>learning objective</strong> is to maximize the conditional probability $p(y^i, y^s|x)$, which can be achieved by
+<p>The <strong>learning objective</strong> is to maximize the conditional probability $p(y^i, y^s|x)$, which can be achieved by<br>
 minimizing the cross-entropy loss. [2]</p>
 <h4 id="conditional-random-field-a-namejoint-bert-crfa">Conditional Random Field <a name="joint-bert-crf"></a></h4>
 <p>Since slot label predictions are dependent on predictions for surrounding words, the authors investigated the impact of adding CRF for modeling slot label dependencies (on top of the joint BERT model). In practice, this is achieved by replacing the softmax classifier with a CRF.</p>
@@ -310,10 +310,10 @@ minimizing the cross-entropy loss. [2]</p>
 <h4 id="additional-notes-a-namejoint-bert-notesa">Additional notes <a name="joint-bert-notes"></a></h4>
 <p>As expected, experimental results suggest that without joint intent and slot filling learning there is a drop in both intent classification and slot filling $F_1$. [2]</p>
 <h3 id="stack-propagationhttpsarxivorgpdf190902188v1pdf-a-stack-propagation-framework-with-token-level-intent-detection-for-spoken-language-understanding-a-namestacka"><a href="https://arxiv.org/pdf/1909.02188v1.pdf">Stack-Propagation</a>: A Stack-Propagation Framework with Token-Level Intent Detection for Spoken Language Understanding <a name="stack"></a></h3>
-<p>Similar to JointBERT, the Stack-Propagation NLU model also performs a joint intent
-classification and slot filling. However, while JointBERT follows a multi-task learning framework,
-in which correlations between these two tasks are learned by a shared encoder, Stack-Propagation SLU follows a
-stack-propagation framework (see  <strong>Figure 5</strong>). The idea is to directly use the intent as input for slot filling as
+<p>Similar to JointBERT, the Stack-Propagation NLU model also performs a joint intent<br>
+classification and slot filling. However, while JointBERT follows a multi-task learning framework,<br>
+in which correlations between these two tasks are learned by a shared encoder, Stack-Propagation SLU follows a<br>
+stack-propagation framework (see  <strong>Figure 5</strong>). The idea is to directly use the intent as input for slot filling as<br>
 a way to capture the intent semantic knowledge. [3]</p>
 <figure>
 <p align="center">
@@ -331,38 +331,38 @@ a way to capture the intent semantic knowledge. [3]</p>
 </figure>
 <ul>
 <li>
-<p><strong>Self-Attentive Encoder</strong>: it maps from the tokenized user utterance $[x_1, x_2, &hellip;, x_N]$ to contextual hidden
-presentations $[e_1, e_2, &hellip;, e_N]$. To do so, it comprises a BiLSTM with a self-attention mechanism to leverage both
-advantages of temporal features and contextual information. Note that the authors assessed the effect of BERT,
-by replacing their self-attentive encoder with a BERT-base model. Experimental results demonstrated the benefits of
+<p><strong>Self-Attentive Encoder</strong>: it maps from the tokenized user utterance $[x_1, x_2, &hellip;, x_N]$ to contextual hidden<br>
+presentations $[e_1, e_2, &hellip;, e_N]$. To do so, it comprises a BiLSTM with a self-attention mechanism to leverage both<br>
+advantages of temporal features and contextual information. Note that the authors assessed the effect of BERT,<br>
+by replacing their self-attentive encoder with a BERT-base model. Experimental results demonstrated the benefits of<br>
 using a strong pre-trained model like BERT for NLU tasks.</p>
 </li>
 <li>
-<p><strong>Token-Level Intent Detection Decoder</strong>: it consists of a unidirectional LSTM that performs a token-level intent
-detection. They argue that token-level intent detection may reduce error propagation when compared to sentence-level
-intent detection. At each decoding step $i$, the decoder state $h_i^I$ is calculated from the
-previous decoder state $h_{i-1}^I$, the previous emitted intent label distribution $y_{i-1}^I$ and
+<p><strong>Token-Level Intent Detection Decoder</strong>: it consists of a unidirectional LSTM that performs a token-level intent<br>
+detection. They argue that token-level intent detection may reduce error propagation when compared to sentence-level<br>
+intent detection. At each decoding step $i$, the decoder state $h_i^I$ is calculated from the<br>
+previous decoder state $h_{i-1}^I$, the previous emitted intent label distribution $y_{i-1}^I$ and<br>
 the aligned encoder hidden state $e_i$: $h_i^I=f(h_{i-1}^I, y_{i-1}^I, e_i)$.</p>
 </li>
 <li>
-<p><strong>Stack-propagation for Slot Filling (Decoder)</strong>: the input for slot filling consists of a concatenation of the intent
-output distribution $y_{i}^I$ and the aligned encoder hidden state $e_i$. Similar to the intent decoder,
+<p><strong>Stack-propagation for Slot Filling (Decoder)</strong>: the input for slot filling consists of a concatenation of the intent<br>
+output distribution $y_{i}^I$ and the aligned encoder hidden state $e_i$. Similar to the intent decoder,<br>
 the slot filling decoder also consists of a unidirectional LSTM.</p>
 </li>
 </ul>
 <p>Note that both intent detection and slot filling are optimized simultaneously via a joint learning scheme. [3]</p>
 <h2 id="context-aware-nlu-a-namecontext-aware-nlua">Context-aware NLU <a name="context-aware-nlu"></a></h2>
-<p>This section describes both BERT-DST and SimpleTOD models that consider the dialogue context for NLU purposes.
-However, while BERT-DST takes the current user utterance and the previous system utterance as input,
+<p>This section describes both BERT-DST and SimpleTOD models that consider the dialogue context for NLU purposes.<br>
+However, while BERT-DST takes the current user utterance and the previous system utterance as input,<br>
 SimpleTOD considers all the previous user and system utterances as input context.</p>
-<p>Additionally, BERT-DST makes use of softmax classifiers on top of BERT for slot filling,
-whereas SimpleTOD uses a unidirectional Transformer decoder architecture (i.e., GPT-2) and
+<p>Additionally, BERT-DST makes use of softmax classifiers on top of BERT for slot filling,<br>
+whereas SimpleTOD uses a unidirectional Transformer decoder architecture (i.e., GPT-2) and<br>
 recasts slot filling and state tracking in a generative fashion.</p>
 <h3 id="bert-dsthttpsarxivorgpdf190703040pdf-scalable-end-to-end-dialogue-state-tracking-with-bidirectional-encoder-representations-from-transformer-a-namebert-dsta"><a href="https://arxiv.org/pdf/1907.03040.pdf">BERT-DST</a>: Scalable End-to-End Dialogue State Tracking with Bidirectional Encoder Representations from Transformer <a name="bert-dst"></a></h3>
-<p>The architecture of the BERT-DST framework is illustrated in <strong>Figure 7</strong>.
-For each user turn, BERT-DST takes as input the recent dialogue context,
-which comprises the system utterance in the previous turn and the current user utterance,
-and outputs a turn-level level dialogue state (i.e. per-slot span values).
+<p>The architecture of the BERT-DST framework is illustrated in <strong>Figure 7</strong>.<br>
+For each user turn, BERT-DST takes as input the recent dialogue context,<br>
+which comprises the system utterance in the previous turn and the current user utterance,<br>
+and outputs a turn-level level dialogue state (i.e. per-slot span values).<br>
 This is accomplished with the following major components:</p>
 <ol>
 <li>
@@ -385,39 +385,39 @@ This is accomplished with the following major components:</p>
 <figcaption align = "center"><b>Figure 7: Architecture of the BERT-DST framework (image from [4]).</b></figcaption>
 </figure>
 <h4 id="dialogue-context-encoding-module">Dialogue Context Encoding Module</h4>
-<p>Since the dialogue encoding module is based on BERT, the dialogue context input is represented as a token sequence in
+<p>Since the dialogue encoding module is based on BERT, the dialogue context input is represented as a token sequence in<br>
 the BERT&rsquo;s input format:</p>
 <p><code>[CLS]</code> → System utterance tokens → <code>[SEP]</code> → User utterance tokens → <code>[SEP]</code></p>
-<p>Considering $[x_0, x_1, &hellip;, x_n]$ as the tokenized input sequence, BERT’s input layer embeds each token $x_{0}$ into
+<p>Considering $[x_0, x_1, &hellip;, x_n]$ as the tokenized input sequence, BERT’s input layer embeds each token $x_{0}$ into<br>
 an embedding $e_{i}$ - which is the sum of the token, segment, and position embeddings.</p>
-<p>Then, the embedded input sequence $[e_0, e_1, &hellip;, e_n]$ is passed through the BERT’s encoder in order to output the hidden representations
-of each input token $[t_0, t_1, &hellip;, t_n]$. As described in the following subsections, the sentence-level representation
-(i.e. <code>[CLS]</code> token hidden state) is then used by the classification module, whereas the token-level representations $[t_1, &hellip;, t_n]$
+<p>Then, the embedded input sequence $[e_0, e_1, &hellip;, e_n]$ is passed through the BERT’s encoder in order to output the hidden representations<br>
+of each input token $[t_0, t_1, &hellip;, t_n]$. As described in the following subsections, the sentence-level representation<br>
+(i.e. <code>[CLS]</code> token hidden state) is then used by the classification module, whereas the token-level representations $[t_1, &hellip;, t_n]$<br>
 are used by the per-slot span precision module.</p>
-<p><strong>It is important to note</strong> that the parameters of this module are initialized from a pre-trained BERT checkpoint and then
+<p><strong>It is important to note</strong> that the parameters of this module are initialized from a pre-trained BERT checkpoint and then<br>
 fine-tuned to the target-specific DST dataset. [4]</p>
 <h4 id="classification-module">Classification Module</h4>
-<p>The classification module takes as input the sentence-level representation $t_{0}$ and aims to classify each slot $s\in S$ into one
-of the following three classes {<em>none</em>, <em>don&rsquo;t care</em>, <em>span</em>}. It simply consists of the fully connected layer with a softmax
+<p>The classification module takes as input the sentence-level representation $t_{0}$ and aims to classify each slot $s\in S$ into one<br>
+of the following three classes {<em>none</em>, <em>don&rsquo;t care</em>, <em>span</em>}. It simply consists of the fully connected layer with a softmax<br>
 activation function:</p>
 <p align="center">
 <img src="/images/blog/NLU2022/bert_dst_eq1.png" width="450"/>
 </p>
-<p><strong>It is important to note</strong> that the parameters of this module (i.e. $W^{s}_{cls}$, $b^{s}_{cls}$) are trained
+<p><strong>It is important to note</strong> that the parameters of this module (i.e. $W^{s}_{cls}$, $b^{s}_{cls}$) are trained<br>
 from scratch with the target-specific DST dataset. [4]</p>
 <h4 id="per-slot-span-prediction-module">Per-slot Span Prediction Module</h4>
-<p>The span prediction module takes as input the token-level representations $[t_1, &hellip;, t_n]$ and aims to predict the
+<p>The span prediction module takes as input the token-level representations $[t_1, &hellip;, t_n]$ and aims to predict the<br>
 span (start and end positions) of each $s\in S$.</p>
-<p>More specifically, each token representation $t_i$ is linearly projected through a common layer,
-whose output values correspond to start $\alpha_{i}^{s}$ and end $\beta_{i}^{s}$ positions.
+<p>More specifically, each token representation $t_i$ is linearly projected through a common layer,<br>
+whose output values correspond to start $\alpha_{i}^{s}$ and end $\beta_{i}^{s}$ positions.<br>
 Then, a softmax is applied to the position values to produce a probability distribution over all tokens, by which the slot value span can be determined.</p>
 <p align="center">
 <img src="/images/blog/NLU2022/bert_dst_eq2.png" width="400"/>
 </p>
 <p><strong>It is important to note</strong> that the parameters of this module (i.e. $W^{s}_{span}$, $b^{s}_{span}$) are trained from scratch with the target-specific DST dataset. [4]</p>
 <h4 id="dialogue-state-update-mechanism">Dialogue State Update Mechanism</h4>
-<p>Dialogue state tracking is based on a rule-based update mechanism. In each turn, if the model’s turn prediction for
-a slot is don&rsquo;t care or a span (i.e., any value other than none), it will be used to update the dialogue state.
+<p>Dialogue state tracking is based on a rule-based update mechanism. In each turn, if the model’s turn prediction for<br>
+a slot is don&rsquo;t care or a span (i.e., any value other than none), it will be used to update the dialogue state.<br>
 Otherwise, the dialogue state of the slot remains the same as the previous turn.</p>
 <h3 id="additional-notes">Additional notes</h3>
 <ul>
@@ -428,17 +428,17 @@ Otherwise, the dialogue state of the slot remains the same as the previous turn.
 <p><em><strong>Slot Value Dropout</strong></em>: applied to address the under-training problem of contextual features in slot filling. That is, models tend to overfit frequent slot values in training data instead of learning contextual patterns, which reduces the performance on Out-Of-Vocabulary (OOV) slot values. To improve the performance on unseen slot values, during training, target slot values are replaced by a special [UNK] token at a certain probability.</p>
 </li>
 <li>
-<p><em><strong>Span prediction loss</strong></em>: a weighted summation of $0.8\times\zeta_{\text{cls}}^{\text{xent}} + 0.1\times\zeta_{\text{span start}}^{\text{xent}} + 0.1\times\zeta_{\text{span end}}^{\text{xent}}$,
+<p><em><strong>Span prediction loss</strong></em>: a weighted summation of $0.8\times\zeta_{\text{cls}}^{\text{xent}} + 0.1\times\zeta_{\text{span start}}^{\text{xent}} + 0.1\times\zeta_{\text{span end}}^{\text{xent}}$,<br>
 where $\zeta^{\text{xent}}$ corresponds to the categorical cross-entropy for the corresponding prediction target. [4]</p>
 </li>
 </ul>
 <h3 id="simpletodhttpsarxivorgpdf200500796pdf-a-simple-language-model-for-task-oriented-dialogue-a-namesimple-toda"><a href="https://arxiv.org/pdf/2005.00796.pdf">SimpleTOD</a>: A Simple Language Model for Task-Oriented Dialogue <a name="simple-tod"></a></h3>
-<p>Typically, each component of Task-Oriented Dialogue (TOD) systems is trained independently with specific supervision.
+<p>Typically, each component of Task-Oriented Dialogue (TOD) systems is trained independently with specific supervision.<br>
 The conventional pipeline of TOD systems usually comprises (i) Natural Language Understanding (NLU) for belief state tracking; (ii) Dialogue Policy (DP), for deciding which actions to take based on the belief state; and (iii) natural language generation (NLG) for generating responses.</p>
 <p>SimpleTOD is a simple approach that recasts all TOD sub-tasks/components as a single sequence prediction problem by using a unidirectional (causal) pre-trained language model, i.e. the GPT-2. GPT-2 resembles the decoder from the original Transformer architecture to learn a distribution for next-word prediction.</p>
 <p>This way, SimpleTOD can be used as a generative model for dialogue state tracking. Experiment results suggest that SimpleTOD is a robust dialogue state tracker in the presence of noisy labeled annotations. [5]</p>
 <h4 id="simpletod-overview">SimpleTOD overview</h4>
-<p>As illustrated in <strong>Figure 8</strong>, SimpleTOD considers all previous dialogue turns as context $C_t=[U_0, S_0, &hellip;, U_t]$,
+<p>As illustrated in <strong>Figure 8</strong>, SimpleTOD considers all previous dialogue turns as context $C_t=[U_0, S_0, &hellip;, U_t]$,<br>
 where $U$ and $S$ denote User and System utterances, respectively; in order to generate the output sequence token by token as follows:</p>
 <ul>
 <li>
@@ -465,9 +465,9 @@ where $U$ and $S$ denote User and System utterances, respectively; in order to g
 <figcaption align = "center"><b>Figure 9: Inputs/outputs representation (image from [5]).</b></figcaption>
 </figure>
 <h4 id="training">Training</h4>
-<p>A single training sequence $x^t$ consists of the concatenation of context $C_t$, belief states $B_t$,
+<p>A single training sequence $x^t$ consists of the concatenation of context $C_t$, belief states $B_t$,<br>
 database search results $D_t$, action decisions $A_t$, and system response $S_t$, such that $x^{t}=[C_t; B_t; D_t; A_t; S_t]$.</p>
-<p>SimpleTOD is optimized by minimizing the negative log-likelihood over the joint sequence $x^{t}$.
+<p>SimpleTOD is optimized by minimizing the negative log-likelihood over the joint sequence $x^{t}$.<br>
 The output state associated with each input token is used to predict the next token - see <strong>Figure 10</strong>.</p>
 <figure>
 <p align="center">

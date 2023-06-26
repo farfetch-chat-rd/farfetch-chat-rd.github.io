@@ -2,8 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://farfetch-chat-rd.github.io/demonstrations/</loc>
+    <lastmod>2023-06-26T10:05:29+01:00</lastmod>
+  </url><url>
     <loc>https://farfetch-chat-rd.github.io/</loc>
-    <lastmod>2023-06-22T15:05:29+01:00</lastmod>
+    <lastmod>2023-06-26T10:05:29+01:00</lastmod>
   </url><url>
     <loc>https://farfetch-chat-rd.github.io/team/</loc>
     <lastmod>2023-06-22T15:05:29+01:00</lastmod>
@@ -187,9 +190,6 @@
   </url><url>
     <loc>https://farfetch-chat-rd.github.io/papers/</loc>
     <lastmod>2021-04-01T15:05:29+06:00</lastmod>
-  </url><url>
-    <loc>https://farfetch-chat-rd.github.io/demonstrations/</loc>
-    <lastmod>2021-03-30T10:05:29+06:00</lastmod>
   </url><url>
     <loc>https://farfetch-chat-rd.github.io/overview/</loc>
     <lastmod>2021-03-30T10:05:29+06:00</lastmod>

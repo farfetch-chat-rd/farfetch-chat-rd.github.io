@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; 2019 [Themefisher](https://themefisher.com) All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 22 Jun 2023 15:05:29 +0100</lastBuildDate><atom:link href="https://farfetch-chat-rd.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 26 Jun 2023 10:05:29 +0100</lastBuildDate><atom:link href="https://farfetch-chat-rd.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>iFetch @ 2022 CMU Portugal Summit - A review</title>
       <link>https://farfetch-chat-rd.github.io/blog/blog-post-20221121/</link>
@@ -32,7 +32,8 @@
       <pubDate>Tue, 19 Jul 2022 10:00:01 +0100</pubDate>
       
       <guid>https://farfetch-chat-rd.github.io/blog/blog-post-20220719/</guid>
-      <description>Summary Natural Language Understanding (NLU) is an important field of Natural Language Processing, which enables several applications ranging from question answering to fully automated conversational agents. In practice, the NLU is the first step of a conversational agent that processes the user’s raw utterance.</description>
+      <description>Summary Natural Language Understanding (NLU) is an important field of Natural Language Processing, which enables several
+applications ranging from question answering to fully automated conversational agents. In practice, the NLU is the first</description>
     </item>
     
     <item>
@@ -236,7 +237,9 @@ This was a remarkable experience! We have covered topics from the landscape of I
       <pubDate>Mon, 06 Apr 2020 12:07:10 +0600</pubDate>
       
       <guid>https://farfetch-chat-rd.github.io/blog/blog-post-20200406/</guid>
-      <description>iFetch proposes to research and deliver a new generation of task-oriented conversational agents that interact with users using verbal and visual information in a seamless manner. Through the conversation, iFetch must provide targeted advice and &amp;ldquo;physical store-like&amp;rdquo; experience while maintaining user engagement.</description>
+      <description>iFetch proposes to research and deliver a new generation of task-oriented conversational agents that
+interact with users using verbal and visual information in a seamless manner. Through the conversation,
+iFetch must provide targeted advice and &amp;ldquo;physical store-like&amp;rdquo; experience while maintaining user</description>
     </item>
     
     <item>
@@ -245,7 +248,8 @@ This was a remarkable experience! We have covered topics from the landscape of I
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://farfetch-chat-rd.github.io/author/john-doe/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet vulputate augue. Duis auctor lacus id vehicula gravida. Nam suscipit vitae purus et laoreet. Donec nisi dolor, consequat vel pretium id, auctor in dui.</description>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet vulputate augue. Duis auctor lacus id vehicula gravida. Nam suscipit vitae purus et laoreet.
+Donec nisi dolor, consequat vel pretium id, auctor in dui.</description>
     </item>
     
     <item>
@@ -254,7 +258,8 @@ This was a remarkable experience! We have covered topics from the landscape of I
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://farfetch-chat-rd.github.io/author/mark-dinn/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet vulputate augue. Duis auctor lacus id vehicula gravida. Nam suscipit vitae purus et laoreet. Donec nisi dolor, consequat vel pretium id, auctor in dui.</description>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet vulputate augue. Duis auctor lacus id vehicula gravida. Nam suscipit vitae purus et laoreet.
+Donec nisi dolor, consequat vel pretium id, auctor in dui.</description>
     </item>
     
     <item>
@@ -263,7 +268,8 @@ This was a remarkable experience! We have covered topics from the landscape of I
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://farfetch-chat-rd.github.io/project/info/</guid>
-      <description>Objectives Farfetch Chat R&amp;amp;D proposes to research and deliver a new generation of task-oriented conversational agents that interact with users using verbal and visual information in a seamless manner. Through the conversation, Farfetch Chat must provide targeted advice and &amp;ldquo;physical store-like&amp;rdquo; experience while maintaining user engagement.</description>
+      <description>Objectives Farfetch Chat R&amp;amp;D proposes to research and deliver a new generation of task-oriented conversational agents that
+interact with users using verbal and visual information in a seamless manner. Through the conversation,</description>
     </item>
     
   </channel>
