@@ -263,7 +263,7 @@ copyright = "Copyright &copy; 2019 [Themefisher](https://themefisher.com) All Ri
         block = false
         title = true
     [markup.goldmark.renderer]
-      hardWraps = false
+      hardWraps = true
       unsafe = true
       xhtml = false
   [markup.highlight]
