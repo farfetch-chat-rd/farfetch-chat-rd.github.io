@@ -30,7 +30,7 @@ One of the more general features driving this conversational recommender is the 
 [![Watch the video](https://img.youtube.com/vi/3oIAQ4DbEQM/maxresdefault.jpg)](https://youtu.be/3oIAQ4DbEQM)
 
 #### Product search with attribute manipulation
-Of course, the conversational agent wouldn't be a recommender system with recommendations. It is capable of performing product search on the FARFETCH catalogue and parse user requests as they further refine the search process. Finding the best suited products for each and every customer demand is a top priority in FARFETCH Chat R&D. 
+Of course, the conversational agent wouldn't be a recommender system without recommendations. It is capable of performing product search on the FARFETCH catalogue and parse user requests as they further refine the search process. Finding the best suited products for each and every customer demand is a top priority in FARFETCH Chat R&D. 
 [![Watch the video](https://img.youtube.com/vi/Tox9LYoGxwM/maxresdefault.jpg)](https://youtu.be/Tox9LYoGxwM)
 
 #### Visual search
