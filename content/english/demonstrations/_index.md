@@ -1,7 +1,7 @@
 ---
 title: "Demonstrations"
 description: ""
-date: 2021-03-30T10:05:29+06:00
+date: 2023-06-26T10:05:29+01:00
 draft: false
 bg_image: "images/featue-bg.jpg"
 ---
