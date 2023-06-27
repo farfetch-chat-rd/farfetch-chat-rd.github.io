@@ -19,7 +19,7 @@ FARFETCH Chat R&D aims to support the user journey as if they were physically vi
 
 #### Product disambiguation
 We are aware of how natural conversation is when purchasing fashionable apparel. There may be a few inquiries pertaining to a variety of aspects of the clothing under consideration or regarding the store visit. It only makes sense the chatbot employs counter measures to guide its users towards the products they are interested in. This video shows an example where disambiguation is triggered in the presence of a product information specific question.
-{{< youtube id="AWTepjzMBNA" >}}
+{{< youtube id="pGjfKNlMSGk" >}}
 
 #### Product information for measurements and materials
 One of the more general features driving this conversational recommender is the capability to answer questions regarding a product's attributes. This video presents such user questions, regarding a product's material composition and measurements for a given size.
