@@ -10,6 +10,7 @@ bg_image: "images/featue-bg.jpg"
 # Activities
 
 ## Future Events
+- [SIGIR 2023](https://sigir.org/sigir2023/)
 - [EPIA 2023](https://epia2023.inesctec.pt/)
 
 ## Past Events
