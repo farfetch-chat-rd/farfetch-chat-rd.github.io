@@ -57,10 +57,12 @@ bg_image: "images/featue-bg.jpg"
 - [João Magalhães](http://ctp.di.fct.unl.pt/~jmag/), Associate Professor
 - [David Semedo](https://davidsemedo.com/), Assistant Professor
 - Rafael Ferreira, PhD Student
-- Diogo Tavares
-- Diogo Silva
+- Diogo Silva, PhD Student
+- Diogo Tavares, PhD Student
+- Pedro Valente, PhD Student
 
 #### Former Members
 
-- Alexandre Correia
+- Tiago Fornelos, MSc Student
+- Alexandre Correia, MSc Student
 
